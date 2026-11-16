@@ -1,0 +1,29 @@
+{
+  "upstream": "2e20836f9c9787bad82c84b5ba704223f06c8890",
+  "imem_bytes": 8192,
+  "dmem_bus_bytes": 16384,
+  "dmem_scratch_bytes": 16384,
+  "expected_macros": 49,
+  "changes": [
+    {
+      "path": "data/otbn.hjson",
+      "sha256": "dfebbda1441d42509bcd59c7d5734199d0c65be0c1eb724336d4a6d845c8ceee"
+    },
+    {
+      "path": "data/otbn_regs.h",
+      "sha256": "98bf9a5dbdba4eebc11483b0886072c2e831df8fa132f13133f7455a06b7f24d"
+    },
+    {
+      "path": "dv/verilator/otbn_top_sim.core",
+      "sha256": "a85ab6537d1441d3fcf24c0bf8458c4ac66d5190183727b467e2c65d8e7b481f"
+    },
+    {
+      "path": "rtl/otbn_reg_pkg.sv",
+      "sha256": "efc487ebc1ccbb6b6fbcf6c6c2da4c1546a93bab939fa2234cbbf5554dd10580"
+    },
+    {
+      "path": "rtl/otbn_reg_top.sv",
+      "sha256": "ebb6d29fbce6a07b47369e77cac37d256b53249ac844aae8a4afa5a240e5fb68"
+    }
+  ]
+}

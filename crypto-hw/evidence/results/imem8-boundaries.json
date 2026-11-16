@@ -1,0 +1,28 @@
+{
+  "layer": "ISA and linker only; no hardware wipe/ECC fault proof",
+  "tests": [
+    {
+      "test": "exact_8192",
+      "link_success": true
+    },
+    {
+      "test": "overflow_8196",
+      "link_success": false
+    },
+    {
+      "test": "fetch_beyond_8192",
+      "link_success": true,
+      "err_bits": 2
+    },
+    {
+      "test": "bad_dmem_addr",
+      "link_success": true,
+      "err_bits": 1
+    },
+    {
+      "test": "illegal_insn",
+      "link_success": true,
+      "err_bits": 8
+    }
+  ]
+}

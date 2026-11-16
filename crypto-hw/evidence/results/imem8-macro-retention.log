@@ -1,0 +1,12 @@
+
+-- Running command `read_verilog -lib crypto-hw/evidence/sram/gf180mcu_ocd_ip_sram__sram1024x8m8wm1.blackbox.v; read_verilog crypto-hw/build/otbn8/mapped.v; select -assert-count 49 t:gf180mcu_ocd_ip_sram__sram1024x8m8wm1' --
+
+1. Executing Verilog-2005 frontend: crypto-hw/evidence/sram/gf180mcu_ocd_ip_sram__sram1024x8m8wm1.blackbox.v
+Parsing Verilog input from `crypto-hw/evidence/sram/gf180mcu_ocd_ip_sram__sram1024x8m8wm1.blackbox.v' to AST representation.
+Generating RTLIL representation for module `\gf180mcu_ocd_ip_sram__sram1024x8m8wm1'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: crypto-hw/build/otbn8/mapped.v
+Parsing Verilog input from `crypto-hw/build/otbn8/mapped.v' to AST representation.
+Generating RTLIL representation for module `\otbn'.
+Successfully finished Verilog frontend.

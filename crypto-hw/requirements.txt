@@ -1,0 +1,9 @@
+fusesoc==2.4.7
+hjson==3.1.0
+PyYAML==6.0.3
+pyelftools==0.33
+mako==1.4.3
+tabulate==0.10.0
+intervaltree==3.2.1
+mistletoe==1.6.0
+cryptography

@@ -1,0 +1,118 @@
+{
+  "sections": {
+    ".text": {
+      "address": 0,
+      "size": 6260
+    },
+    ".data": {
+      "address": 0,
+      "size": 352
+    },
+    ".bss": {
+      "address": 352,
+      "size": 1760
+    },
+    ".scratchpad": {
+      "address": 16384,
+      "size": 256
+    }
+  },
+  "imem_bytes": 8192,
+  "results": [
+    {
+      "test": "base_mult",
+      "cycles": 595790,
+      "err_bits": 0,
+      "source": "ISA model; synthetic entropy; initial wipe bypassed by upstream standalone harness"
+    },
+    {
+      "test": "sign",
+      "cycles": 630738,
+      "err_bits": 0,
+      "source": "ISA model; synthetic entropy; initial wipe bypassed by upstream standalone harness"
+    },
+    {
+      "test": "verify",
+      "cycles": 418579,
+      "err_bits": 0,
+      "source": "ISA model; synthetic entropy; initial wipe bypassed by upstream standalone harness"
+    },
+    {
+      "test": "verify_changed_digest",
+      "cycles": 362442,
+      "err_bits": 0,
+      "source": "ISA model; synthetic entropy; initial wipe bypassed by upstream standalone harness"
+    },
+    {
+      "test": "invalid_mode",
+      "cycles": 323,
+      "err_bits": 8,
+      "source": "ISA model; synthetic entropy; initial wipe bypassed by upstream standalone harness"
+    },
+    {
+      "test": "keygen",
+      "cycles": 595969,
+      "err_bits": 0,
+      "source": "ISA model; synthetic entropy; initial wipe bypassed by upstream standalone harness"
+    },
+    {
+      "test": "sideload_keygen",
+      "cycles": 595846,
+      "err_bits": 0,
+      "source": "ISA model; synthetic entropy; initial wipe bypassed by upstream standalone harness"
+    },
+    {
+      "test": "sideload_sign",
+      "cycles": 630803,
+      "err_bits": 0,
+      "source": "ISA model; synthetic entropy; initial wipe bypassed by upstream standalone harness"
+    },
+    {
+      "test": "sideload_ecdh",
+      "cycles": 611127,
+      "err_bits": 0,
+      "source": "ISA model; synthetic entropy; initial wipe bypassed by upstream standalone harness"
+    },
+    {
+      "test": "ecdh",
+      "cycles": 611060,
+      "err_bits": 0,
+      "source": "ISA model; synthetic entropy; initial wipe bypassed by upstream standalone harness"
+    },
+    {
+      "test": "point_on_curve",
+      "cycles": 484,
+      "err_bits": 0,
+      "source": "ISA model; synthetic entropy; initial wipe bypassed by upstream standalone harness"
+    },
+    {
+      "test": "arith_share",
+      "cycles": 399,
+      "err_bits": 0,
+      "source": "ISA model; synthetic entropy; initial wipe bypassed by upstream standalone harness"
+    },
+    {
+      "test": "sign_config_k",
+      "cycles": 630583,
+      "err_bits": 0,
+      "source": "ISA model; synthetic entropy; initial wipe bypassed by upstream standalone harness"
+    }
+  ],
+  "complete": true,
+  "independent_oracles": [
+    "base_mult",
+    "keygen",
+    "sign",
+    "sideload_sign",
+    "verify",
+    "verify_changed_digest",
+    "ecdh",
+    "arith_share",
+    "sign_config_k"
+  ],
+  "execution_only_modes": [
+    "sideload_keygen (point used by independent sideload_sign check)",
+    "sideload_ecdh"
+  ],
+  "elf_sha256": "50ea881c3196baa7d6a5c29a2c96b1882dcffeac21734a568f7c3014279910f5"
+}

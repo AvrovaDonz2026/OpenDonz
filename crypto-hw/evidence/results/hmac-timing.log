@@ -1,0 +1,224 @@
+OpenSTA 2.7.0 GITDIR-NOT Copyright (c) 2025, Parallax Software, Inc.
+License GPLv3: GNU GPL version 3 <http://gnu.org/licenses/gpl.html>
+
+This is free software, and you are free to change and redistribute it
+under certain conditions; type `show_copying' for details. 
+This program comes with ABSOLUTELY NO WARRANTY; for details type `show_warranty'.
+Warning: timing.tcl line 1, set_input_delay relative to a clock defined on the same port/pin not allowed.
+Startpoint: rst_ni (input port clocked by core)
+Endpoint: _108470_ (recovery check against rising-edge clock core)
+Path Group: asynchronous
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   2.00    2.00 ^ input external delay
+   0.00    2.00 ^ rst_ni (in)
+   0.00    2.00 ^ _108470_/SETN (gf180mcu_fd_sc_mcu7t5v0__dffsnq_1)
+           2.00   data arrival time
+
+  41.67   41.67   clock core (rise edge)
+   0.00   41.67   clock network delay (ideal)
+   0.00   41.67   clock reconvergence pessimism
+          41.67 ^ _108470_/CLK (gf180mcu_fd_sc_mcu7t5v0__dffsnq_1)
+   0.08   41.74   library recovery time
+          41.74   data required time
+---------------------------------------------------------
+          41.74   data required time
+          -2.00   data arrival time
+---------------------------------------------------------
+          39.74   slack (MET)
+
+
+Startpoint: rst_ni (input port clocked by core)
+Endpoint: _108817_ (recovery check against rising-edge clock core)
+Path Group: asynchronous
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   2.00    2.00 ^ input external delay
+   0.00    2.00 ^ rst_ni (in)
+   0.00    2.00 ^ _108817_/SETN (gf180mcu_fd_sc_mcu7t5v0__dffsnq_1)
+           2.00   data arrival time
+
+  41.67   41.67   clock core (rise edge)
+   0.00   41.67   clock network delay (ideal)
+   0.00   41.67   clock reconvergence pessimism
+          41.67 ^ _108817_/CLK (gf180mcu_fd_sc_mcu7t5v0__dffsnq_1)
+   0.08   41.74   library recovery time
+          41.74   data required time
+---------------------------------------------------------
+          41.74   data required time
+          -2.00   data arrival time
+---------------------------------------------------------
+          39.74   slack (MET)
+
+
+Startpoint: rst_ni (input port clocked by core)
+Endpoint: _108823_ (recovery check against rising-edge clock core)
+Path Group: asynchronous
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   2.00    2.00 ^ input external delay
+   0.00    2.00 ^ rst_ni (in)
+   0.00    2.00 ^ _108823_/SETN (gf180mcu_fd_sc_mcu7t5v0__dffsnq_1)
+           2.00   data arrival time
+
+  41.67   41.67   clock core (rise edge)
+   0.00   41.67   clock network delay (ideal)
+   0.00   41.67   clock reconvergence pessimism
+          41.67 ^ _108823_/CLK (gf180mcu_fd_sc_mcu7t5v0__dffsnq_1)
+   0.08   41.74   library recovery time
+          41.74   data required time
+---------------------------------------------------------
+          41.74   data required time
+          -2.00   data arrival time
+---------------------------------------------------------
+          39.74   slack (MET)
+
+
+Startpoint: _108795_ (rising edge-triggered flip-flop clocked by core)
+Endpoint: _107457_ (rising edge-triggered flip-flop clocked by core)
+Path Group: core
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ _108795_/CLK (gf180mcu_fd_sc_mcu7t5v0__dffrnq_1)
+   1.35    1.35 v _108795_/Q (gf180mcu_fd_sc_mcu7t5v0__dffrnq_1)
+  17.38   18.73 ^ _075204_/ZN (gf180mcu_fd_sc_mcu7t5v0__clkinv_1)
+  42.30   61.02 v _075990_/ZN (gf180mcu_fd_sc_mcu7t5v0__nor2_1)
+  11.46   72.48 ^ _081713_/ZN (gf180mcu_fd_sc_mcu7t5v0__aoi222_1)
+   0.52   73.01 v _081734_/ZN (gf180mcu_fd_sc_mcu7t5v0__aoi221_1)
+   0.97   73.97 ^ _081736_/ZN (gf180mcu_fd_sc_mcu7t5v0__nor3_1)
+   0.25   74.22 v _081737_/ZN (gf180mcu_fd_sc_mcu7t5v0__nor2_1)
+   1.01   75.24 ^ _081738_/ZN (gf180mcu_fd_sc_mcu7t5v0__aoi221_1)
+   0.48   75.72 ^ _081952_/Z (gf180mcu_fd_sc_mcu7t5v0__or4_1)
+   0.26   75.98 v _081953_/ZN (gf180mcu_fd_sc_mcu7t5v0__aoi22_1)
+   0.65   76.62 ^ _081954_/ZN (gf180mcu_fd_sc_mcu7t5v0__aoi21_1)
+   0.40   77.02 v _081955_/ZN (gf180mcu_fd_sc_mcu7t5v0__aoi22_1)
+   0.88   77.91 ^ _082072_/ZN (gf180mcu_fd_sc_mcu7t5v0__oai211_1)
+   0.49   78.39 v _082078_/ZN (gf180mcu_fd_sc_mcu7t5v0__oai21_1)
+   0.51   78.90 ^ _082080_/ZN (gf180mcu_fd_sc_mcu7t5v0__nand2_1)
+   0.64   79.54 v _082084_/ZN (gf180mcu_fd_sc_mcu7t5v0__nor2_1)
+ 338.07  417.61 ^ _093969_/ZN (gf180mcu_fd_sc_mcu7t5v0__nor3_1)
+ -33.19  384.43 ^ _102511_/Z (gf180mcu_fd_sc_mcu7t5v0__and2_1)
+   0.14  384.57 ^ _102512_/Z (gf180mcu_fd_sc_mcu7t5v0__or3_1)
+   0.00  384.57 ^ _107457_/D (gf180mcu_fd_sc_mcu7t5v0__dffrnq_1)
+         384.57   data arrival time
+
+  41.67   41.67   clock core (rise edge)
+   0.00   41.67   clock network delay (ideal)
+   0.00   41.67   clock reconvergence pessimism
+          41.67 ^ _107457_/CLK (gf180mcu_fd_sc_mcu7t5v0__dffrnq_1)
+  -0.52   41.14   library setup time
+          41.14   data required time
+---------------------------------------------------------
+          41.14   data required time
+        -384.57   data arrival time
+---------------------------------------------------------
+        -343.42   slack (VIOLATED)
+
+
+Startpoint: _108795_ (rising edge-triggered flip-flop clocked by core)
+Endpoint: _107510_ (rising edge-triggered flip-flop clocked by core)
+Path Group: core
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ _108795_/CLK (gf180mcu_fd_sc_mcu7t5v0__dffrnq_1)
+   1.35    1.35 v _108795_/Q (gf180mcu_fd_sc_mcu7t5v0__dffrnq_1)
+  17.38   18.73 ^ _075204_/ZN (gf180mcu_fd_sc_mcu7t5v0__clkinv_1)
+  42.30   61.02 v _075990_/ZN (gf180mcu_fd_sc_mcu7t5v0__nor2_1)
+  11.46   72.48 ^ _081713_/ZN (gf180mcu_fd_sc_mcu7t5v0__aoi222_1)
+   0.52   73.01 v _081734_/ZN (gf180mcu_fd_sc_mcu7t5v0__aoi221_1)
+   0.97   73.97 ^ _081736_/ZN (gf180mcu_fd_sc_mcu7t5v0__nor3_1)
+   0.25   74.22 v _081737_/ZN (gf180mcu_fd_sc_mcu7t5v0__nor2_1)
+   1.01   75.24 ^ _081738_/ZN (gf180mcu_fd_sc_mcu7t5v0__aoi221_1)
+   0.48   75.72 ^ _081952_/Z (gf180mcu_fd_sc_mcu7t5v0__or4_1)
+   0.26   75.98 v _081953_/ZN (gf180mcu_fd_sc_mcu7t5v0__aoi22_1)
+   0.65   76.62 ^ _081954_/ZN (gf180mcu_fd_sc_mcu7t5v0__aoi21_1)
+   0.40   77.02 v _081955_/ZN (gf180mcu_fd_sc_mcu7t5v0__aoi22_1)
+   0.88   77.91 ^ _082072_/ZN (gf180mcu_fd_sc_mcu7t5v0__oai211_1)
+   0.49   78.39 v _082078_/ZN (gf180mcu_fd_sc_mcu7t5v0__oai21_1)
+   0.51   78.90 ^ _082080_/ZN (gf180mcu_fd_sc_mcu7t5v0__nand2_1)
+   0.64   79.54 v _082084_/ZN (gf180mcu_fd_sc_mcu7t5v0__nor2_1)
+ 338.07  417.61 ^ _093969_/ZN (gf180mcu_fd_sc_mcu7t5v0__nor3_1)
+ -43.21  374.41 v _101541_/ZN (gf180mcu_fd_sc_mcu7t5v0__nand2_1)
+   8.40  382.81 ^ _101542_/ZN (gf180mcu_fd_sc_mcu7t5v0__oai21_1)
+   0.00  382.81 ^ _107510_/D (gf180mcu_fd_sc_mcu7t5v0__dffrnq_1)
+         382.81   data arrival time
+
+  41.67   41.67   clock core (rise edge)
+   0.00   41.67   clock network delay (ideal)
+   0.00   41.67   clock reconvergence pessimism
+          41.67 ^ _107510_/CLK (gf180mcu_fd_sc_mcu7t5v0__dffrnq_1)
+  -0.55   41.12   library setup time
+          41.12   data required time
+---------------------------------------------------------
+          41.12   data required time
+        -382.81   data arrival time
+---------------------------------------------------------
+        -341.69   slack (VIOLATED)
+
+
+Startpoint: _108795_ (rising edge-triggered flip-flop clocked by core)
+Endpoint: _107511_ (rising edge-triggered flip-flop clocked by core)
+Path Group: core
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ _108795_/CLK (gf180mcu_fd_sc_mcu7t5v0__dffrnq_1)
+   1.35    1.35 v _108795_/Q (gf180mcu_fd_sc_mcu7t5v0__dffrnq_1)
+  17.38   18.73 ^ _075204_/ZN (gf180mcu_fd_sc_mcu7t5v0__clkinv_1)
+  42.30   61.02 v _075990_/ZN (gf180mcu_fd_sc_mcu7t5v0__nor2_1)
+  11.46   72.48 ^ _081713_/ZN (gf180mcu_fd_sc_mcu7t5v0__aoi222_1)
+   0.52   73.01 v _081734_/ZN (gf180mcu_fd_sc_mcu7t5v0__aoi221_1)
+   0.97   73.97 ^ _081736_/ZN (gf180mcu_fd_sc_mcu7t5v0__nor3_1)
+   0.25   74.22 v _081737_/ZN (gf180mcu_fd_sc_mcu7t5v0__nor2_1)
+   1.01   75.24 ^ _081738_/ZN (gf180mcu_fd_sc_mcu7t5v0__aoi221_1)
+   0.48   75.72 ^ _081952_/Z (gf180mcu_fd_sc_mcu7t5v0__or4_1)
+   0.26   75.98 v _081953_/ZN (gf180mcu_fd_sc_mcu7t5v0__aoi22_1)
+   0.65   76.62 ^ _081954_/ZN (gf180mcu_fd_sc_mcu7t5v0__aoi21_1)
+   0.40   77.02 v _081955_/ZN (gf180mcu_fd_sc_mcu7t5v0__aoi22_1)
+   0.88   77.91 ^ _082072_/ZN (gf180mcu_fd_sc_mcu7t5v0__oai211_1)
+   0.49   78.39 v _082078_/ZN (gf180mcu_fd_sc_mcu7t5v0__oai21_1)
+   0.51   78.90 ^ _082080_/ZN (gf180mcu_fd_sc_mcu7t5v0__nand2_1)
+   0.64   79.54 v _082084_/ZN (gf180mcu_fd_sc_mcu7t5v0__nor2_1)
+ 338.07  417.61 ^ _093969_/ZN (gf180mcu_fd_sc_mcu7t5v0__nor3_1)
+ -43.21  374.41 v _101538_/ZN (gf180mcu_fd_sc_mcu7t5v0__nand2_1)
+   8.40  382.81 ^ _101539_/ZN (gf180mcu_fd_sc_mcu7t5v0__oai21_1)
+   0.00  382.81 ^ _107511_/D (gf180mcu_fd_sc_mcu7t5v0__dffrnq_1)
+         382.81   data arrival time
+
+  41.67   41.67   clock core (rise edge)
+   0.00   41.67   clock network delay (ideal)
+   0.00   41.67   clock reconvergence pessimism
+          41.67 ^ _107511_/CLK (gf180mcu_fd_sc_mcu7t5v0__dffrnq_1)
+  -0.55   41.12   library setup time
+          41.12   data required time
+---------------------------------------------------------
+          41.12   data required time
+        -382.81   data arrival time
+---------------------------------------------------------
+        -341.69   slack (VIOLATED)
+
+
+core period_min = 385.09 fmax = 2.60

@@ -1,0 +1,161 @@
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[0].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[1].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[2].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[3].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[4].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[5].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[6].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[7].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[8].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[9].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[10].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[11].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[12].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[13].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[14].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[15].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[16].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[17].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[18].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[19].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[20].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[21].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[22].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[23].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[24].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[25].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[26].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[27].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[28].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[29].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[30].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[31].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[32].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[33].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[34].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[35].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[36].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[37].u_macro ---------
+-------- WARNING: CEN is not reset, memory is not operational ---------
+-------- @Time 225000: scope = macro_tb.dut.g_bank[0].g_lane[38].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[0].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[1].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[2].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[3].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[4].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[5].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[6].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[7].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[8].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[9].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[10].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[11].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[12].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[13].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[14].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[15].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[16].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[17].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[18].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[19].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[20].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[21].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[22].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[23].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[24].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[25].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[26].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[27].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[28].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[29].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[30].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[31].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[32].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[33].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[34].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[35].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[36].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[37].u_macro ---------
+-------- MESSAGE: CEN is just reset, memory is operational ---------
+-------- @Time 300000: scope = macro_tb.dut.g_bank[0].g_lane[38].u_macro ---------
+PASS macro synchronous read, bank selection, masked writes, non-clobber
+- /Users/zxy/OpenDonz/crypto-hw/rtl/macro_tb.sv:26: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.046 2026-02-28
+- Verilator: $finish at 650ns; walltime 0.006 s; speed 243.355 us/s
+- Verilator: cpu 0.003 s on 1 threads; allocated 3 MB

@@ -1,0 +1,1367 @@
+{
+  "opentitan_commit": "2e20836f9c9787bad82c84b5ba704223f06c8890",
+  "liberty": "/Users/zxy/OpenDonz/p0/lib/gf180mcu_fd_sc_mcu7t5v0__tt_025C_3v30.combined.lib",
+  "liberty_sha256": "c4a64618856caa93b31755d8e22acb7e7efdaaaa3b06cac4a72e3abbf17f861c",
+  "files": [
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_ip_jtag_pkg_0.1/rtl/jtag_pkg.sv",
+      "sha256": "5706a040cc94e01c3b91105e98fc025825f50f5c9a4a5216ad4cab2e4cba17b6",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_assert_0.1/rtl/prim_assert.sv",
+      "sha256": "d717d5dbcba3b5aa8a731ef9f8af18b036b49edef282f0a43a51f5ad2dd9bb40",
+      "file_type": "systemVerilogSource",
+      "include": true
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_assert_0.1/rtl/prim_assert_dummy_macros.svh",
+      "sha256": "cac4a930105da662547de873f0b80246074fb22df9a398663e1c8ac3e7998218",
+      "file_type": "systemVerilogSource",
+      "include": true
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_assert_0.1/rtl/prim_assert_yosys_macros.svh",
+      "sha256": "d1fd8c350785a7c6d8cccc0b0c385392b71575397e7dc58c70f07716c8f9f3a3",
+      "file_type": "systemVerilogSource",
+      "include": true
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_assert_0.1/rtl/prim_assert_standard_macros.svh",
+      "sha256": "4835706249e017eae999256ea807c526a39a49729196fc0aa18bb8818de86ab6",
+      "file_type": "systemVerilogSource",
+      "include": true
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_assert_0.1/rtl/prim_assert_sec_cm.svh",
+      "sha256": "25db89fe5f250c1bcbd808d0b4808206b9e85ac337b26e4ebb23f2ad569e1a13",
+      "file_type": "systemVerilogSource",
+      "include": true
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_assert_0.1/rtl/prim_flop_macros.sv",
+      "sha256": "2e8e6c2ee484899ae5d0020eaf0c9732c31537c60c30cb2a0a0acd2e92baee03",
+      "file_type": "systemVerilogSource",
+      "include": true
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_cipher_pkg_0.1/rtl/prim_cipher_pkg.sv",
+      "sha256": "9cd66bdbc64020e3fe1f14a5baee30a93609b7887a9d21df7991929087b0973f",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_generic_and2_0/rtl/prim_and2.sv",
+      "sha256": "54d10f2ad40702c020a3074f0d11bd99073e5e6f3bd6cc6d8417b7f159d8a730",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_generic_buf_0/rtl/prim_buf.sv",
+      "sha256": "9b00bd8ac203169268262ac9337076781fa962b19beed36f28dde54e360aaaf5",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_generic_clock_buf_0/rtl/prim_clock_buf.sv",
+      "sha256": "e986f0bcd51fc81b6cb575f5f00383fde4f45b4ed0c46a822e52631a03dbd893",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_generic_clock_gating_0/rtl/prim_clock_gating.sv",
+      "sha256": "b2474320674e645d423f32ba1ce60b25509042d40c2de8fe28dcb7760a8fa882",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_generic_const_0/rtl/prim_const.sv",
+      "sha256": "25879d5afbd1317665e299bdb586c4cfb37056f69e0f515628880ec7356cec02",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_generic_const_sec_0/rtl/prim_const_sec.sv",
+      "sha256": "569933bbcfb741dd2201cdbc25eb1e1c585f96d2de00039e0fdaf873bd73aa8e",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_generic_flop_0/rtl/prim_flop.sv",
+      "sha256": "6645d657b107b024f9211d3a0134890d1e20146f68ba1772bf62575f7b4e5549",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_generic_flop_no_rst_0/rtl/prim_flop_no_rst.sv",
+      "sha256": "a9bed993f2c26d634359b5b0f8fe9f6e965a78c2a0c4f3c07ca6851ca4b17545",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_generic_inv_0/rtl/prim_inv.sv",
+      "sha256": "cdb07816ac0349a54a2d20cdae5f09cada657fdd472a761bac31c27e1762399b",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_generic_prim_pkg_0/rtl/prim_pkg.sv",
+      "sha256": "e82d857795b3f82fa08cf9a7cece10629c2e39569d8f6bbeb226bcad62a26930",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_generic_ram_1p_pkg_0/rtl/prim_ram_1p_pkg.sv",
+      "sha256": "2dddf0db09a8514c043600a8f1f26971a3004524b6ee3b043bc16dab24ee9756",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_generic_ram_2p_pkg_0/rtl/prim_ram_2p_pkg.sv",
+      "sha256": "a2c122016f98e3552835bee9ae9f0036ee0e31246380f783f008672fb29b4c62",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_generic_rom_pkg_0/rtl/prim_rom_pkg.sv",
+      "sha256": "add6237a56ab1bd1c9aab2986c47aa29c3acb99666cf01b97a3af4958aa705bb",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_generic_usb_diff_rx_0/rtl/prim_usb_diff_rx.sv",
+      "sha256": "10b5a865b7f073ac828ebff639838d1a0d3486d4dbc874a4e9aba83ba830126a",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_generic_xnor2_0/rtl/prim_xnor2.sv",
+      "sha256": "ebdd3179c32a81303227775e3e6ef0afdf8959efebf7a6892d122d4bc6a776c7",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_generic_xor2_0/rtl/prim_xor2.sv",
+      "sha256": "0151c9a85fdf79122a235bd5091a3034f96ad8efbe46d0880599ed02ecf4a66f",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_pad_wrapper_pkg_0/rtl/prim_pad_wrapper_pkg.sv",
+      "sha256": "67f95bc2e330a4d0f9e69e6caff507426010233f597ba22bc03ec8fd44988e76",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv",
+      "sha256": "150ef0ca05e835a1b46ba96f4eeacf315395e018869f7a44d1f506ecba546e57",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_22_16_dec.sv",
+      "sha256": "3fa5a6def6da49786b2237d8e80685a3ae73f7afa44d75c8decda8aeb7e9bb07",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_22_16_enc.sv",
+      "sha256": "b3aba5171bed1333f29ab22e3b38b046d7a1c7de3e2a4cacafdd991ae4f00388",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_28_22_dec.sv",
+      "sha256": "1447300efddcb38b311c991dc9eaad334ecab3092bb91b372cdf68d254fbd98c",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_28_22_enc.sv",
+      "sha256": "57ccd3b6612da370b14643ce390e0201c027c73a60549e393cf086c8272b8c62",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_39_32_dec.sv",
+      "sha256": "7c52a0e3e707d826c16bbeb0c3518944957b5df46f95e83d80f941387ac9172b",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_39_32_enc.sv",
+      "sha256": "ae07883656c1f274511bc1ac66136b669bdd6de888c049832e6ba1b7c8771ef7",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_64_57_dec.sv",
+      "sha256": "16b813bfec91b5a839eaa65f32d448b9feb7d38b92867b4a09c51d9e7b4ccb78",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_64_57_enc.sv",
+      "sha256": "52d6bd993c1a8f7b71514042111e1e03967257b3b802ec609c636a4206b37e48",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_72_64_dec.sv",
+      "sha256": "0f2bcd71cd9275de4e6d4caad5d73de410310f3df8f480d13b516efd61576324",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_72_64_enc.sv",
+      "sha256": "186b3e3f9cef9794a9fe35e1dcac9004a1242f413a617f8844fb0acff24ebe9c",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_137_128_dec.sv",
+      "sha256": "5293f47824617d7076891083a9676d1e53badbd8102141f223e4776e02fd555e",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_137_128_enc.sv",
+      "sha256": "a4060821beeba2c09cfdca864d84b9cd5e58ec35599aa34fbc7e42182184d287",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_hamming_22_16_dec.sv",
+      "sha256": "c418d2a339e8d70097faaafd6c9b711a16fbb8ef887917b4a382744ad97d4fa8",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_hamming_22_16_enc.sv",
+      "sha256": "51977d9731b8c5a5b2b454a9ffb0262f1d98f1f28141bd7f4b8ffca7f2e8538c",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_hamming_39_32_dec.sv",
+      "sha256": "97a510d90dec299a5e577f1b1f9d492f60de72ec264a551bd110285be8e10ef3",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_hamming_39_32_enc.sv",
+      "sha256": "940911da24d76befa94b7dd67a2ba57cec76de9e1c610ea4af438cc6d6488dff",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_hamming_72_64_dec.sv",
+      "sha256": "2f5581a15fca88cf592be5a4e06f01428d6ccebf18c3140090006def30b2e3da",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_hamming_72_64_enc.sv",
+      "sha256": "2540a2b8a43962150c91085c3775862189d872bcbd6493667e0cddd64dfef30d",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_hamming_76_68_dec.sv",
+      "sha256": "1670f8d5b2824033e1c05768cb17b500b30d1facb29fd0b5046f7dbeb2b19bf1",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_hamming_76_68_enc.sv",
+      "sha256": "68c313b09f5650ec40ac0901b1c7b4017ebd5c184ff6fd1c15c8cff044977878",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_hamming_137_128_dec.sv",
+      "sha256": "c2665023612cac41b61ff79e599ce93b286d564c60f2ff7e2486ee5f1a7b9bc7",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_hamming_137_128_enc.sv",
+      "sha256": "df83a4bb0a99784a8ab33d5e727601c5b1e0c496525ff9acc427af9b5e407e63",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_22_16_dec.sv",
+      "sha256": "efe06173b30ade468e31bb7abd8150f54916890aed63e0ca7bdc83b37371d4c9",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_22_16_enc.sv",
+      "sha256": "9bc118b6cb9519e740cb1552bf8867b61000acd31ab72e63e1a78a1c47ce8f9d",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_28_22_dec.sv",
+      "sha256": "586cad0182d2a1d64a0ed6a1e3199281ea341beb5cd5236ce856b082400690cb",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_28_22_enc.sv",
+      "sha256": "9aab2e87e07c62171fe468e0b8e1e8596631645b20d7e212aa925a34a4efdff2",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_39_32_dec.sv",
+      "sha256": "04359a3170300c16bd8da489025f8bf9e9a47057097154bad4a58b0c3dc95ce3",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_39_32_enc.sv",
+      "sha256": "e509c07a2bff0940e9472c9d81662e5bb5d2bd38e1f1eb085333669cc6fce88c",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_64_57_dec.sv",
+      "sha256": "620150185cf885b5b9fe990e07d8ec963d604b8fef13144514ef97d88811d44a",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_64_57_enc.sv",
+      "sha256": "161e803ff13c84ce5ceedfe020491481f7f37dd4c65e5de98f68c78d1f1d59bf",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_72_64_dec.sv",
+      "sha256": "612d758649903a2e5ff87bbc0e4e0211de8118566428f57eda8090f5970f055f",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_72_64_enc.sv",
+      "sha256": "cc5b97facf31ad2e5935a7a57e76cbae627d1af17e816e9258c80685e94e2e55",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_137_128_dec.sv",
+      "sha256": "6e10098dc48e265e21e218b1a251b1c21febc355b6bb42da4412780dd61640ff",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_137_128_enc.sv",
+      "sha256": "dfc432a8f4dbcaeadb0ee889a80c176139be96fe41ac09d577ff1774619c7758",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_hamming_22_16_dec.sv",
+      "sha256": "4acd7808e8a7fffabfaf6f6f82864562052374705fd29f4dffd3e9b1c62708d5",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_hamming_22_16_enc.sv",
+      "sha256": "b63c6d13f184100815a5fa558298653312b3350e9df265b175e747db7b1601ca",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_hamming_39_32_dec.sv",
+      "sha256": "4190cd4f8a1613fabd41e74bee9320f266d0677477cad2de09dae5366a6d7c8f",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_hamming_39_32_enc.sv",
+      "sha256": "d74488ea01d65a08d2130a5009131ac94cde53e7017e37b89b370a4c83c70d8c",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_hamming_72_64_dec.sv",
+      "sha256": "e30e3e978590387070d0781b0a58abbd8c65bd5136c756acc97f197df1805eaa",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_hamming_72_64_enc.sv",
+      "sha256": "f20585b0b3f07b2bbbc0689935a8a620c5f23b59eb6c0143eae1017e0552db58",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_hamming_76_68_dec.sv",
+      "sha256": "d7b7e3669c7246fc31b44c8eef72b22350afb33cdd6d2ff5b4057b23179543ef",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_hamming_76_68_enc.sv",
+      "sha256": "82221116293b82f51820e385579af23d609c19a260e330b24ff13acc48b6168f",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_hamming_137_128_dec.sv",
+      "sha256": "805911b543b06ec625bfe2fcd622d5631dac24604488af82b27ae681e7ab34c6",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_hamming_137_128_enc.sv",
+      "sha256": "79aa2a6408831054433e5ef2fb6d60ad3f0b4153000eacf1a856e4415efb20da",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inc.svh",
+      "sha256": "bab181d9e08ddb264ad09aef167f41357ee02706797dddf3dd57dbeeac079d35",
+      "file_type": "systemVerilogSource",
+      "include": true
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_sha2_pkg_0/rtl/prim_sha2_pkg.sv",
+      "sha256": "7dc41a96fb1638bbb88982abfae26d91949f39d0217d300787c1fb71dda2cf65",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_util_memload_0/rtl/prim_util_memload.svh",
+      "sha256": "9484798c23f4f441e9e454677429af14bcefcad2d10f74d099acbe4b39475da3",
+      "file_type": "systemVerilogSource",
+      "include": true
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_blanker_0/rtl/prim_blanker.sv",
+      "sha256": "14792d96db2f0ea69d14aa89bebc53c3f822d2c6e6f7ab5cfbdadae531775a00",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_cdc_rand_delay_0/rtl/prim_cdc_rand_delay.sv",
+      "sha256": "6b0f9f46a5559a354c9770e6eb7a4721b50b09d40d34b4efb62218c7a777829c",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_cipher_0/rtl/prim_subst_perm.sv",
+      "sha256": "6cae23ff8a3c6d1dc775c2a55280f532cef98a9a6c787a2d717c50b5854ee3a6",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_cipher_0/rtl/prim_present.sv",
+      "sha256": "7a6ae0e88160d93b5f70460e41806ef2b7b5b5726e2aa8038cf7cfab281d890c",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_cipher_0/rtl/prim_prince.sv",
+      "sha256": "e3fa14d45eebe18e6404370540648d1037887877dbde4b22fddd83c2b43d1e0d",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_count_0/rtl/prim_count_pkg.sv",
+      "sha256": "8e465ed25b7d59f29faf0f315243a774cf0e50d178ec2068d8c71983cb2f18df",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_count_0/rtl/prim_count.sv",
+      "sha256": "d1004b35b275b79e45325e475f9570342e557d562ae66f8d332ea7f69a1c215a",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_generic_clock_mux2_0/rtl/prim_clock_mux2.sv",
+      "sha256": "d0010a7d97322a118a3675fec879bdf59179ea6a1036ab6d0001feeada732f72",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_generic_pad_attr_0/rtl/prim_pad_attr.sv",
+      "sha256": "9a38ebec3c38ec34dc9d326fdf48b06f9633b3c0616796115b17c9a1293d8de0",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_generic_pad_wrapper_0/rtl/prim_pad_wrapper.sv",
+      "sha256": "c71239b0cdb31691e9faf40fcb81d3b92bb03c54e66e41deed2b76f9d00df208",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_generic_ram_1p_0/rtl/prim_ram_1p.sv",
+      "sha256": "929616b4857236e6337a53adea525793b78ca642e2a7240461c6bf5078f9be63",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_generic_ram_1r1w_pkg_0/rtl/prim_ram_1r1w_pkg.sv",
+      "sha256": "cd0d1006faf18ce7f26de47861494146d0f72872b38be7f0b2564e24d8201b10",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_generic_ram_2p_0/rtl/prim_ram_2p.sv",
+      "sha256": "01dd37e138ec496406c54907ab73face412ef14355bc19e5f471ef97dddf482e",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_generic_rom_0/rtl/prim_rom.sv",
+      "sha256": "355698d36380e1fcdc1a43a5ce52c574cb70d9b6db20d4324cd1cf9fdff55d5f",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_mubi_pkg_0.1/rtl/prim_mubi_pkg.sv",
+      "sha256": "11a2f1a16ddaf750d859c95e07fc48c54743fe6ad3b5c5eabe2e14a51d9fb1af",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_sec_anchor_0.1/rtl/prim_sec_anchor_buf.sv",
+      "sha256": "073be7f3daa8a738add627e1055704cc94d82cfb8ff11f6952c644abde20c702",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_sec_anchor_0.1/rtl/prim_sec_anchor_const.sv",
+      "sha256": "d9946bafa888e01030be1352779f2d9816c0f11c190d273801f4e524ac9c8048",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_sec_anchor_0.1/rtl/prim_sec_anchor_flop.sv",
+      "sha256": "7bb3cb240164715f3956831e35e95f1a3e7e901deae02cc1297669318986d7bf",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_sha2_0/rtl/prim_sha2_pad.sv",
+      "sha256": "bb915fa003913af6b570a724896c8f877d1640cb32fdbc673a13360a07dbeaa7",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_sha2_0/rtl/prim_sha2.sv",
+      "sha256": "5744e5abb931036f17cecc20de34358d5fe297e955da7eb29089ac55d65cae50",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_sha2_0/rtl/prim_sha2_32.sv",
+      "sha256": "1d850f8f9b6b9415b56b4411bc95c096eea5c7d8daf6202e5276a87233071507",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_sparse_fsm_0/rtl/prim_sparse_fsm_flop.sv",
+      "sha256": "7c9fdf97523bb5eac16f0d219668811a790c2b5bc591660340e75b1cf429d11f",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_util_0.1/rtl/prim_util_pkg.sv",
+      "sha256": "12ec73502dc8115cf1e6051f10cba6fc73259f066581722d9d895d1e634676b2",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_darjeeling_constants_top_pkg_0/rtl/top_pkg.sv",
+      "sha256": "09f2948da1e167e14d45a27f2aae0f763d0c6f3a8d839a8a33fa8efa397c74da",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_ip_entropy_src_pkg_0.1/rtl/entropy_src_pkg.sv",
+      "sha256": "fedf4b990ab61316a366e164d036bd5c117842b1c221cdfca2067d36c79d31ec",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_ip_lc_ctrl_state_pkg_0.1/rtl/lc_ctrl_state_pkg.sv",
+      "sha256": "160e409e85aa8d41af98b6c1fff94415f5b437220f88c7c3ebe9118bb3645ff7",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_generic_clock_inv_0/rtl/prim_clock_inv.sv",
+      "sha256": "c1988aec07ae5e38f42465be35500f84e17eb056cb2ae62808b57ec1e8f9be18",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_generic_flop_2sync_0/rtl/prim_flop_2sync.sv",
+      "sha256": "5780aef67607c161eb8a4b3326757af5b416eb5337aef0afc457fdebf2891c53",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_generic_flop_en_0/rtl/prim_flop_en.sv",
+      "sha256": "68854581eaa23a57f00c4b49ee0ce972147ffca9f2800da2859d1fe38cc5b476",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_generic_ram_1r1w_0/rtl/prim_ram_1r1w.sv",
+      "sha256": "8d62009a4fa12a7c78985446ee57cc46e2cd717ae17a87265451ee697adee25c",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_leading_one_ppc_0/rtl/prim_leading_one_ppc.sv",
+      "sha256": "5fd9c8bc227da9d599e6f7cdf7acf75214c7e0e776e0e30892be6fc9d71106c9",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi4_sender.sv",
+      "sha256": "2bd763ba3f489b406de68e6759650fe2ed7fd875298ac0adff71e70234993b39",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi4_sync.sv",
+      "sha256": "8d6461687bb7f022f326875e401a271f1bf6df3a7a87bf625508b334530c20df",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi4_dec.sv",
+      "sha256": "b33530adf41b05849d06424a40db5536dfb5ffd441752bf49af03ad3d7b5f48e",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi8_sender.sv",
+      "sha256": "cfd926dd909081b590aade41fac9a91cb72c2493defb870cbaec45153f3aa951",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi8_sync.sv",
+      "sha256": "2f0b9d5f5c95e0338cda232d61c390136cb0e17696c4edfd842007a6a9fbcaa7",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi8_dec.sv",
+      "sha256": "e34268f75dd36cc0bf6cce710e1ebbd900cb253fd977a394a84eaf2f19f52956",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi12_sender.sv",
+      "sha256": "d57946855f6d5674f557b84976189449117f4f17014a7eca0fa716f8e990d012",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi12_sync.sv",
+      "sha256": "44a06e1eb454387e104c51621dd99e5840d4b187ea7fda74bd8b5e0a824206e1",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi12_dec.sv",
+      "sha256": "7e30e02744c255717d0094fd0b3cb5d77caf4626c5704dce37ac5c86c59d5d50",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi16_sender.sv",
+      "sha256": "cafef386918aee0fcccbaa1a36bf4c11b15a0051c8f94742d926a09c834590a4",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi16_sync.sv",
+      "sha256": "27d63c260b986b0db77b90a4f26d0c165f7451f01b60bbf48f3b7601059bb913",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi16_dec.sv",
+      "sha256": "34ae5437446015f276f09e30c515a5538af44fbe5617f73f61b464c613dccc20",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi20_sender.sv",
+      "sha256": "cda878555930047822ac382e1a19e2db5a31bb2dddb8f920165bc8d515e0b7d5",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi20_sync.sv",
+      "sha256": "5c582e50e12a201d5060a85fa33e1de2298804ed3d273334b66c58240f2dd190",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi20_dec.sv",
+      "sha256": "99a296946f4547c4907840db35dc8d65e7d61d20cbd8120e6f8e3bc3abd49bd6",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi24_sender.sv",
+      "sha256": "9748a85ac3dd716d09be4047718dac6e78f7a1e23a03082fb95158abcf3367de",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi24_sync.sv",
+      "sha256": "5072f6c7b6ad93ca1362fc84e986e994ca9d7e80c621fd6b14308d71ad675c19",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi24_dec.sv",
+      "sha256": "677c30909b141e0f9adaf579ad4681ece28892b8911a1c85d7c11ca866bb7d8d",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi28_sender.sv",
+      "sha256": "0d036039d7d48b9fa614b93803167b0f1bc2dae5eb7aec2b3a6f33f39084c6ac",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi28_sync.sv",
+      "sha256": "d55a1857dda0a0de5a1fbfc0af3860e1731df8cdb030c9da0efe6e654dd7d70f",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi28_dec.sv",
+      "sha256": "64ae1fc075458e4cab87f8d7a665f548f78e1cbffb05b43041e48d7b941010b0",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi32_sender.sv",
+      "sha256": "b4dae09251ff294afea4532ed5e7205dbf52d4265aa75dc90d1b003e22f7fdd6",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi32_sync.sv",
+      "sha256": "66269bfff124800e2073a423bce9922ebd0f865d39608d40803b23397e3eee5b",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi32_dec.sv",
+      "sha256": "75dbc715d66adb61c72ecfa4747192317b0a036be240a9bfeedd52bde30a6932",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_onehot_check_0/rtl/prim_onehot_check.sv",
+      "sha256": "97aefa2e7ebd26e12ea9fc691908a62315e2135bdbb127f3c3d640eeb15096ca",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_arbiter_0/rtl/prim_arbiter_fixed.sv",
+      "sha256": "17cc878a5e7846d7c558c49da2fd45cecdd1014c389b0e50741f523ca62fe582",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_arbiter_0/rtl/prim_arbiter_ppc.sv",
+      "sha256": "20c831d4b8b8d7d9ef87bcd24f1b6dd0c5a4db95acc8ce1feb0ac75505016e99",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_arbiter_0/rtl/prim_arbiter_tree.sv",
+      "sha256": "cad891e0479a377896ecbcddaf6dd7d5b9aa6e5b18ba23654b61795fcf3083e1",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_arbiter_0/rtl/prim_arbiter_tree_dup.sv",
+      "sha256": "6bc08dc541b6682c2976af4c7ef5e4367f92528c604d912ddf8e2202ffa792dd",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_diff_decode_0/rtl/prim_diff_decode.sv",
+      "sha256": "e3ed6f83329589eed061c893d8b9ad1e00e975e23e9347ed31f68b50f0822d6d",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_fifo_0/rtl/prim_fifo_async_sram_adapter.sv",
+      "sha256": "1fb4405f2aa48894d9afe63775e14904bca8d4df8384f5f430757a8f5f290e0f",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_fifo_0/rtl/prim_fifo_async_simple.sv",
+      "sha256": "e7353e3478250d7e1371cce6e43f13cc606b8e843a068899564470ff13916052",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_fifo_0/rtl/prim_fifo_async.sv",
+      "sha256": "0fde480a5f513a4273540e0d70c7502d0e179b759414e3020c8d4d3d349cf6c7",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_fifo_0/rtl/prim_fifo_sync.sv",
+      "sha256": "2655befe56a70ee672c2f1259a82ef2beb2adf429ed0405bcf26bea7c4de3630",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_fifo_0/rtl/prim_fifo_sync_cnt.sv",
+      "sha256": "33b87939c31a6d71ccd2fe005e5a5dcaaeb343990f9425568cb8686def9f4fb7",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_fifo_0/rtl/prim_fifo_assert.svh",
+      "sha256": "4d695096c6582de1e723474e06ca002d3aa2cc87f85e9ffd25bb8c8275ff6118",
+      "file_type": "systemVerilogSource",
+      "include": true
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_generic_clock_div_0/rtl/prim_clock_div.sv",
+      "sha256": "3d2ef35a6e0b2215cbc78b24979c27d916e6757a27d738f86b74c88bbc018f31",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_generic_rst_sync_0/rtl/prim_rst_sync.sv",
+      "sha256": "5ea59afe93b02ba71f08f955704e46dd36c2266238f34430fc5bdd8bd5a46931",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_reg_we_check_0/rtl/prim_reg_we_check.sv",
+      "sha256": "0f38519d831f24bb9a1afc1041f6840eb42187a958788a5256aa0c698819af4a",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_subreg_0/rtl/prim_subreg_pkg.sv",
+      "sha256": "a38c3243535348fb4b0e5d233c0baa89eea3588b976d8bb050c7de4a2fd09bf0",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_subreg_0/rtl/prim_reg_cdc.sv",
+      "sha256": "be295cb29ace82478f344b8d0fa8fd1f94fe58ebfec1826d44dd450e06027ea9",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_subreg_0/rtl/prim_reg_cdc_arb.sv",
+      "sha256": "a09a6f543ec1f1b8052bf953c51664912079c5a08fd7a2dc38568798d56f31ea",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_subreg_0/rtl/prim_subreg.sv",
+      "sha256": "200e9213932ab3ac02015dfbd620b878eebaaf81d9861f0d2390c9c2ea4fc498",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_subreg_0/rtl/prim_subreg_arb.sv",
+      "sha256": "16530c91931e97b25e33334bfc5942fd254324189115f942585f26f56d8ae758",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_subreg_0/rtl/prim_subreg_ext.sv",
+      "sha256": "dc22ea14c164661970db2a76060fc54cbbe1d432534eaadce0caa8a3a2935ce5",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_subreg_0/rtl/prim_subreg_shadow.sv",
+      "sha256": "a6acd68064ab5f03bd66fbc7f7cfa184f216d0b5624b0a86f9f2f4eec2b8f078",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_tlul_headers_0.1/rtl/tlul_pkg.sv",
+      "sha256": "a26274dd17824645eedac5160e01ed2ab422e04daefcde2306b167ee65c9833c",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_darjeeling_constants_top_racl_pkg_0.1/rtl/autogen/top_racl_pkg.sv",
+      "sha256": "6ee8cc7b7e66a6ed6604b1f7742a88b47cf3fc9100cfc8f9ce40e68a3ab4bb50",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_ip_lc_ctrl_pkg_0.1/rtl/lc_ctrl_reg_pkg.sv",
+      "sha256": "6d17262d4a278f20d1606f1e6068c03ba7849b8fced03b7081ee0b040c60b3e1",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_ip_lc_ctrl_pkg_0.1/rtl/lc_ctrl_pkg.sv",
+      "sha256": "a6115eb69cfdf6a6ceefdb8eecba4945aa97cbd89d360a667d72e9d8a9122e9d",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_esc_0/rtl/prim_esc_pkg.sv",
+      "sha256": "113834e1cc58cc6d656c4e9ecbbd9b9bb8a37e39623d8ce2b26d1aa17c399704",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_esc_0/rtl/prim_esc_receiver.sv",
+      "sha256": "96ba9b0a2fd33c274e818ceb50a934dd8399a63a9d7a6222fa6f694368d9b418",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_esc_0/rtl/prim_esc_sender.sv",
+      "sha256": "048948b089946822e8f2bc0b54ae81fb21a48e522b1c7bd97adb6894eeef8d01",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_tlul_trans_intg_0.1/rtl/tlul_data_integ_enc.sv",
+      "sha256": "28567bc5483eddcf20b51890bc82497f32728b6a46b134a43c01f7180a14c7a9",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_tlul_trans_intg_0.1/rtl/tlul_data_integ_dec.sv",
+      "sha256": "0df25d94c03bef617e6ef309375c2d40cbc27719a0696fb1119ca53c3a68d2cb",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_tlul_trans_intg_0.1/rtl/tlul_cmd_intg_gen.sv",
+      "sha256": "1b212e8f085ccc89d16b38e4731762165c11bad51cc275c356bd08f097e42518",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_tlul_trans_intg_0.1/rtl/tlul_cmd_intg_chk.sv",
+      "sha256": "1b56b9fca7e0b8643110622f6e9d5e6d8bb263bec923a5836748ba3b6f7f76ad",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_tlul_trans_intg_0.1/rtl/tlul_rsp_intg_gen.sv",
+      "sha256": "673bce2f23ef8e60f95f96f14bb3a71de6e88d788e12f0b3e89bc7125ed7e145",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_tlul_trans_intg_0.1/rtl/tlul_rsp_intg_chk.sv",
+      "sha256": "2159ecd5b1c89222c8dd6b7e807ed5e05d2e052fa5c4b7feb5747180f39064b6",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_ip_csrng_pkg_0.1/rtl/csrng_reg_pkg.sv",
+      "sha256": "0715ee64345474824f3459586ff7d90721334760506439a03944a8a7de9e4f3e",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_ip_csrng_pkg_0.1/rtl/csrng_pkg.sv",
+      "sha256": "211be005f428e99ce6cd824c60d80f2f1be29c1c0af14145c67148f8246766f0",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_alert_0/rtl/prim_alert_pkg.sv",
+      "sha256": "32d9e1647d61bab570c41c5d61b7464c29925c9d38f03d0648b626e8ce42c1f4",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_alert_0/rtl/prim_alert_receiver.sv",
+      "sha256": "939ef1b7c657fe26c9c44baa02fc24e9f1874caaaec22433383106561dd29f61",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_alert_0/rtl/prim_alert_sender.sv",
+      "sha256": "288561001fd344dffb0d935cf85de264ca16e1296f1f30fdc8386659a9683b98",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_lc_sync_0.1/rtl/prim_lc_sync.sv",
+      "sha256": "d6b6e2235983c86ac3e2c07528640e4940ead70c9b3ac5a08a484b5b8cf07d2c",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_tlul_common_0.1/rtl/tlul_fifo_sync.sv",
+      "sha256": "a3895f40bbbe0247cab57b22d52cf122b6e500a9e73d31a326cc89c8ccf4fafe",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_tlul_common_0.1/rtl/tlul_fifo_async.sv",
+      "sha256": "fa4c988cef0b604595159409213662022c5f6df42adf431d6c2341f8c0eda539",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_tlul_common_0.1/rtl/tlul_assert.sv",
+      "sha256": "68cfe1aab7d2848fd3b2b702adc35e61ba4d2138e92c305873338e5967af18ce",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_tlul_common_0.1/rtl/tlul_err.sv",
+      "sha256": "850cefc36e1a5c6f78161b8bf04786dc72138336a48edaf5ca92242690294462",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_tlul_common_0.1/rtl/tlul_assert_multiple.sv",
+      "sha256": "950aa3f0a4595688e56e047371c6b477e975c5d40cd117d019d2fbe7603cdd15",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_ip_edn_pkg_0.1/rtl/edn_reg_pkg.sv",
+      "sha256": "6c2676638d91cbf7cc2c7a438e4dbd0d0acdb5671de2f3f42bd3a1c248365488",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_ip_edn_pkg_0.1/rtl/edn_pkg.sv",
+      "sha256": "06c6fdf4b850ca5c35b8cf35ebcd7c1baa30910bcff7b2b5903ec0691465f03d",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_all_0.1/rtl/prim_clock_gating_sync.sv",
+      "sha256": "aa0783c5253ab607ea436193e520f82168bd926504f62eaaa68dd3f1c8e2edd7",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_all_0.1/rtl/prim_hpc2.sv",
+      "sha256": "fdd61bd679024dd4e6804d42ffb2e35e4b20e29b47318708cbde9f3b3ab86788",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_all_0.1/rtl/prim_hpc3.sv",
+      "sha256": "b368fc76e7479a622ff1701d601a040c95bc8cf550a1694827371ab2ae1c9ff9",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_all_0.1/rtl/prim_sram_arbiter.sv",
+      "sha256": "d0e07972d5c241a8c77cd8cdb87ddf68d55ee9453bca7d102505ee359adfb2a1",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_all_0.1/rtl/prim_slicer.sv",
+      "sha256": "c1e76c9b9d4f740c8de2f52cce3c982e660070b5cbbaa028ed30739ccf13f91c",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_all_0.1/rtl/prim_sync_reqack.sv",
+      "sha256": "30329c6e3c7e389c4e85d91846f485ef8810c0ef8a72d71cc37f3cac81bc89a3",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_all_0.1/rtl/prim_sync_reqack_data.sv",
+      "sha256": "d1bb023c1ac5f89b63f61b573180add5f16c00db3c4c1ed0854e2408708ed867",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_all_0.1/rtl/prim_sync_slow_fast.sv",
+      "sha256": "77f243af15e393d6cfabd8102c5211b92f52deec51167d53abb1a3f44a0269cd",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_all_0.1/rtl/prim_keccak.sv",
+      "sha256": "2aa7dd8714b01f0c0783c7b87a729517e4f6c94c8c0ac82143fc0fccd817cbfe",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_all_0.1/rtl/prim_packer.sv",
+      "sha256": "fa4558a5e753152bdc4232b6bf83691b9ebfe134c1f5814fea46dcc9bd21941c",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_all_0.1/rtl/prim_packer_fifo.sv",
+      "sha256": "99aeb7564474111dc6662488c9f4ca6b788723e449b128d08ac54f8fc2da5cd2",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_all_0.1/rtl/prim_gate_gen.sv",
+      "sha256": "594a4771feae6fb32de390d94d523da90b3ac8ab0a9889216753365d3f3f4c9d",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_all_0.1/rtl/prim_pulse_sync.sv",
+      "sha256": "1be70031ecf75195f5c4036727626d564e06584da5b510c95e3f295307e2cd6d",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_all_0.1/rtl/prim_filter.sv",
+      "sha256": "a93454041ca882103395f8b1ce418591368de67b6e60edd395a8a158494c554a",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_all_0.1/rtl/prim_filter_ctr.sv",
+      "sha256": "770a3ae13dc5fc389cb0ab513ab2becc9f1521ea83f55ce4eb517c77b1a7dfde",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_all_0.1/rtl/prim_flop_x.sv",
+      "sha256": "516bc20fbf081d746f9f542a99c1a30ea059ac663637781750f77f0200846bcf",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_prim_all_0.1/rtl/prim_intr_hw.sv",
+      "sha256": "2fb312f9db786982dd4c2bb656f9ba7862637b045dd704ea128a4ce6a4a1f8bc",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_tlul_adapter_host_0.1/rtl/tlul_adapter_host.sv",
+      "sha256": "cf6da0f1482e3e6804c53dca044a9cf538d24e722183ee000d3442b28b88eafe",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_tlul_adapter_reg_0.1/rtl/tlul_adapter_reg.sv",
+      "sha256": "6993b14697bc826c619793697ffaea382d4bba3775c23af3add25ad3914ef531",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_tlul_adapter_sram_0.1/rtl/tlul_sram_byte.sv",
+      "sha256": "651fe04f529b9a49fcf190e620bfa53bd1594d8b1a9c707b6396baeb2839cc7a",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_tlul_adapter_sram_0.1/rtl/tlul_adapter_sram.sv",
+      "sha256": "20158de115ab66224b497e087cdcbf3b596f5c284c5af889d94e74934bf6ae57",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_tlul_lc_gate_0.1/rtl/tlul_lc_gate.sv",
+      "sha256": "4c81fa79c868562d29637a2e1ea99ffa6500a520fadff5714eeb7124ab11594b",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_tlul_request_loopback_0.1/rtl/tlul_request_loopback.sv",
+      "sha256": "97b2cc40944872c08760c5fce72ddfdeefcee1f5ca7d8cd158f2471d1e17af47",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_tlul_socket_1n_0.1/rtl/tlul_err_resp.sv",
+      "sha256": "5cff3d6a33502f36fb059cb6cf626cb154633afe0dc621bddd1c40e98544372a",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_tlul_socket_1n_0.1/rtl/tlul_socket_1n.sv",
+      "sha256": "be19c91722dab2b5b6645281c16a59a2fbbbfbeca2518b12cacf3a07ab9aa2bf",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_tlul_socket_m1_0.1/rtl/tlul_socket_m1.sv",
+      "sha256": "2d1d8d5c55b7a6a733a78dfcd099f671b23ff5570bc37a754a29b919a9818c52",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_tlul_sram2tlul_0.1/rtl/sram2tlul.sv",
+      "sha256": "a0a64882c84f665d34a6ff6eb227c2e885b65857ac5a764fc51b2ba10c5997f1",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_ip_keymgr_dpe_pkg_0.1/rtl/keymgr_dpe_reg_pkg.sv",
+      "sha256": "fd1add68038e21b6ff3082316fbd34b66220e77278182927d8acbcbcd191dff7",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_ip_keymgr_dpe_pkg_0.1/rtl/keymgr_dpe_pkg.sv",
+      "sha256": "4e458cda3423e9e52fd67cb0c75fb890f898ee21b1f3b2b631b1ee22a4f314b7",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_tlul_adapter_racl_0.1/rtl/tlul_adapter_racl.sv",
+      "sha256": "fde13265646c27d04d5fe573a06e88278d199af4ab5f8326c9dd5fba5bbe27cf",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_tlul_adapter_reg_racl_0.1/rtl/tlul_adapter_reg_racl.sv",
+      "sha256": "235245b729148c6f4fd6446dc3128b08f1d9a754ce36418da49671083e06c596",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/pulp-platform_riscv-dbg_0.1_0/pulp_riscv_dbg/debug_rom/debug_rom.sv",
+      "sha256": "3dfc5bce1021e5fcc07c31cfe2fa087eb6801d31160d7f47692880d2637e6ce6",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/pulp-platform_riscv-dbg_0.1_0/pulp_riscv_dbg/debug_rom/debug_rom_one_scratch.sv",
+      "sha256": "ae30ed4821f5b1bc08e05c3c44db8deda5fbb7d9ec5991227d1bbccfa94e8bff",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/pulp-platform_riscv-dbg_0.1_0/pulp_riscv_dbg/debug_rom/debug_rom_cheriot.sv",
+      "sha256": "d7cff87baa609f80240622498013f0e11fe9794ffc1191033ec1212534ef6047",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/pulp-platform_riscv-dbg_0.1_0/pulp_riscv_dbg/src/dm_pkg.sv",
+      "sha256": "c776a2dcbca61436406582d81e1eda5151472288d53fd687556971319127d2dc",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/pulp-platform_riscv-dbg_0.1_0/pulp_riscv_dbg/src/dm_sba.sv",
+      "sha256": "4386f04de9145c6285948b72c404fb6a563830507ebc17c6e79620b35066cdd9",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/pulp-platform_riscv-dbg_0.1_0/pulp_riscv_dbg/src/dm_csrs.sv",
+      "sha256": "5e4989c0ff6e8b067ffaa5bf0b6751ce65e2eed5be602b4aacc611f8a6e147b6",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/pulp-platform_riscv-dbg_0.1_0/pulp_riscv_dbg/src/dm_mem.sv",
+      "sha256": "fb20e56cbbca5a9f2dcec5ffcca71ffc7b03d187275a1c7818e26f71c40394d1",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/pulp-platform_riscv-dbg_0.1_0/pulp_riscv_dbg/src/dmi_cdc.sv",
+      "sha256": "f7ae0b59fc4666994a637e5b0962a4a4587dc0cc4c41e9637f5011b0ab56a372",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/pulp-platform_riscv-dbg_0.1_0/pulp_riscv_dbg/src/dmi_jtag.sv",
+      "sha256": "ee379c75db833f859800b2982401cb4b878f16b10edd83e39dca3842780b6d6d",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/pulp-platform_riscv-dbg_0.1_0/pulp_riscv_dbg/src/dmi_jtag_tap.sv",
+      "sha256": "5f92048ebfa2345d646bb92f672049647baec0f1c9c36134b754045501f2caba",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/pulp-platform_riscv-dbg_0.1_0/pulp_riscv_dbg/src/dm_top.sv",
+      "sha256": "95dbfc74156640ebf2ff86de7cee8e2113021c07064c169f463b8cf0479d9d4e",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_tlul_adapter_dmi_0.1/rtl/tlul_adapter_dmi.sv",
+      "sha256": "6abd28ffbd7da0be85654ca627da06085a19566e18b6918174d683dd2d6493c3",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_tlul_adapter_sram_racl_0.1/rtl/tlul_adapter_sram_racl.sv",
+      "sha256": "6683721c2f10af2a0333ed6f7899c81c588b10ca3ea3611f8f54681c087e52d0",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_tlul_jtag_dtm_0.1/rtl/tlul_jtag_dtm.sv",
+      "sha256": "23b2b22b9fe377e9143d109282be22668290fc2f0d44823d1c4397a66e6387d8",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_ip_hmac_0.1/rtl/hmac_reg_pkg.sv",
+      "sha256": "54d854915d8c0d372ad02a6b1f45338dcf81cdcc98cd0c4d0584923cf840d1d4",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_ip_hmac_0.1/rtl/hmac_reg_top.sv",
+      "sha256": "753ee04baf4f746f1471be6a8d9c5df4768ae2a8852e12c03a2db3a36d38d62c",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_ip_hmac_0.1/rtl/hmac_core.sv",
+      "sha256": "72f673cb4203ffef9d20a65fb740dc9b6c9ed1e2de29fa984f58000a2bc9fb28",
+      "file_type": "systemVerilogSource",
+      "include": false
+    },
+    {
+      "path": "build/hmac/opendonz_crypto_hmac_0.1/default-yosys/src/lowrisc_ip_hmac_0.1/rtl/hmac.sv",
+      "sha256": "45ef84fa34a2347962f850be9c390bf5370c14d924a6c5e36bc6cbd8415becae",
+      "file_type": "systemVerilogSource",
+      "include": false
+    }
+  ],
+  "export_command": [
+    "/Users/zxy/OpenDonz/crypto-hw/.venv/bin/fusesoc",
+    "--cores-root=/Users/zxy/opentitan",
+    "--cores-root=/Users/zxy/OpenDonz/crypto-hw",
+    "run",
+    "--target=default",
+    "--setup",
+    "--build-root=/Users/zxy/OpenDonz/crypto-hw/build/hmac",
+    "opendonz:crypto:hmac"
+  ]
+}

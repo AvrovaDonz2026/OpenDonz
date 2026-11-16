@@ -1,0 +1,15 @@
+CAPI=2:
+name: opendonz:crypto:otbn:0.1
+filesets:
+  rtl:
+    depend:
+      - lowrisc:prim_generic:all
+      - lowrisc:ip:otbn
+targets:
+  default:
+    default_tool: yosys
+    filesets: [rtl]
+    toplevel: otbn
+    tools:
+      yosys:
+        arch: xilinx

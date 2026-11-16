@@ -1,0 +1,3069 @@
+{
+  "commit": "2e20836f9c9787bad82c84b5ba704223f06c8890",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/BUILD",
+      "sha256": "e900e38d2c9204fa576ae0681f2e09ac03f17ad93f9fe02fbf99d729ae7faec2"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/Makefile",
+      "sha256": "a00f79e8ac64d441901fff6c75759fdb00859db102b486ac26809b61f4259147"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/README.md",
+      "sha256": "fdab31bca632967f22561c46073420c94e2ed64e82babd75c0bdcffd5ed2c2df"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/mypy.ini",
+      "sha256": "7317fb2ad39d984e5435b074e92c853927c9708cb19c7579ffe531428f8f3277"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/sim/BUILD",
+      "sha256": "e8bb944467b0b97d5bfe780151dcd54d35999dafeca1aec1c00cb4098a3730e4"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/sim/__init__.py",
+      "sha256": "bd64b22215f9af8546898920d83269e3640d56722d5f130b71448181b789710f"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/sim/constants.py",
+      "sha256": "475097d1011e3c459f068a16109f39242e209ded5bf0d5ab688cee6cbd2227e8"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/sim/csr.py",
+      "sha256": "8e6bdad869fe0bf424292f781ff76a27c5f9c1566407fb13068cb9e305096d3d"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/sim/decode.py",
+      "sha256": "3abd28ce8d73533dfedd9f9b9921317ae91a073041f038ce02d3446b66efa49d"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/sim/dmem.py",
+      "sha256": "ba0694f3b3b8281805ee8c772c1abc2c57c81bdcf2f3022e39f461c81223e136"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/sim/edn_client.py",
+      "sha256": "1d0a6982bd276b53e567794441594593a2fd40f7955bf16a075d4bb23ea7c8be"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/sim/ext_regs.py",
+      "sha256": "efa3ad7e37c4ddaa75a14c5a72ad147a95d2becabfe9517dce778f526b2650b5"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/sim/flags.py",
+      "sha256": "72d8ba27020b9f4d1da62543d9e815aa35443df8c0c5c1939179d6c2c1b25b6d"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/sim/gpr.py",
+      "sha256": "67c4388a85c9198b3911d0a105bf29d159a6da7264caeaeea86e459e39d15eea"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/sim/insn.py",
+      "sha256": "ac729a52687ce55b4cd57e5c3c0de0475f217ad545cfe82629ba094eeb0440c3"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/sim/isa.py",
+      "sha256": "9df729b5393ebc3e507d2dda7afb9d71e2f8a47c5b6049d5631cdddc72163464"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/sim/ispr.py",
+      "sha256": "b766176ebb153c88fbe9517443cd34d0278ce9c1d88ed42875620f0c6aa2626f"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/sim/kmac.py",
+      "sha256": "b78e3e0e61f299495dba87639366f1d5b2a41dd49fc96fbbc636f8e99041b526"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/sim/kmac_ispr.py",
+      "sha256": "5ac62fe21ba3db82f0ac115d8fec764af4892d2ba19460d4084517bb85fc8019"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/sim/load_elf.py",
+      "sha256": "6be0be2c7086caab9fa0b3a6fb0604efe555119d172d01bb535dfc6fe634b360"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/sim/loop.py",
+      "sha256": "d8a9a0bd853bfc4ca152e35cc504fcd363534f57498cc8eaec0a78994f5d5866"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/sim/mai.py",
+      "sha256": "ee0efcafa486c726ae8e91cf75f660ead7e488abc0922fe4e7fe7d602a3eb6f6"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/sim/mai_ispr.py",
+      "sha256": "8b0da36457c71bb23e76750b9b6217fefa126efbefd09ec06e4f2cf83403f9e0"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/sim/reg.py",
+      "sha256": "d1bf017c5c498870dafa998c1fd774c630be328544195ad55d226f2dd4171b5d"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/sim/sim.py",
+      "sha256": "4c78b19ff3cf4ff7a64fac8f8f696a6a593bbd96ade9c25e193bad92b33abcac"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/sim/standalonesim.py",
+      "sha256": "c9bf29f39e3ef891120d058380231d31b09db103a16a983979d8a675d15a8668"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/sim/state.py",
+      "sha256": "6487d17c8216651222bd64c47bb1a4a4b2726e0ce6d95d33a287b3fc3ddff501"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/sim/stats.py",
+      "sha256": "f3e5ccc8521e0c820f49a2fd45108ea1e3d94870f558434cd80f0d81b3db0de9"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/sim/trace.py",
+      "sha256": "1b63bbb8e68c466f4b2c217cce90fa1a1dc1e030aa418fba0d21deb07bc12ed9"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/sim/trivium.py",
+      "sha256": "bd20fe4bd0063bd7b932354a8ab2c4ffcf61c3fb07131400c347953abf8611b7"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/sim/wsr.py",
+      "sha256": "f792e5b42fb8d8be0cca048738cdc68c2f1c24d42949d039fca0fb88f4a8a7f4"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/standalone.py",
+      "sha256": "d7d8062396a76dda699e5e53d3650d7591190dc49fc9e73ad65aad349deb27b3"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/stepped.py",
+      "sha256": "d274295e1d5b53e31f4789f8f944a16f0c541f186b8457dc626593888fb35cf9"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/conftest.py",
+      "sha256": "e70f0f72275e512b61ed219b43fed6f98d701121057edecacf7e1014ab3f6dd4"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/generate_bn_simd_tests.py",
+      "sha256": "38c580187eb3606a7401a9f2806eca497dcfb4718c41bca6838268afb3b98e5a"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/.gitignore",
+      "sha256": "005b7c0c0744e55fcf881d0233890102f64e5c6da6d8a1fd4c7b1cc137a345be"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/insns/add.exp",
+      "sha256": "770395808896c7bac8240d12072d14244c0504c72f21bf5bc219af4c8515ca73"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/insns/add.s",
+      "sha256": "83818cb32465467c5d455ad4af00e44cd283615a832f087873eeee0f3e036b97"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/insns/addi.exp",
+      "sha256": "4da24549b7be025fbb7ab6086c0808f47506708fca0818e02c56e598f212c877"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/insns/addi.s",
+      "sha256": "981d0311902282adb9256def3dcc7e271ad8d59f24769c63ab76f609fb42c0f6"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/insns/bn_lid.exp",
+      "sha256": "28a354c86df1a22ba5b5dfebb6b2f27f9d747397220e55d95e12f0530c4d8f68"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/insns/bn_lid.s",
+      "sha256": "983725a55263e04dfb056ad29fa59390776601b3637a0b53bd817c3ab16358b7"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/insns/bn_pack.exp",
+      "sha256": "faba1cc9edec06cd13580769fbe198d2da1d359efcb5bd17d9946028be41b933"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/insns/bn_pack.s",
+      "sha256": "edd366cfc8eace5d01cce5131eafd0d98203094de5d1f1c301176fb9789732cc"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/insns/bn_unpk.exp",
+      "sha256": "880d07d96a9db3464d6d51f5593f5ff906e852e86634fe20c04b8188be6d9132"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/insns/bn_unpk.s",
+      "sha256": "deab1fd1bc8b201ea687dc92e689d9bdd66382f931c6beeb30c920ba6f8e06da"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/loop-errs/loop-end-loop.exp",
+      "sha256": "1d259a00d97973e08245b68bf7bf5e9b111016e14175d4317b50553c9778a4d0"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/loop-errs/loop-end-loop.s",
+      "sha256": "48f22c214ba3013c17d4d659cb1c47d2c8533422c2ebcaeca011345e2d08e0cd"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/loop-errs/loop-overflow.exp",
+      "sha256": "ef2b822bbe2bd99e0ce6657f0f00ff630de943ea76d09945826e2012080014a0"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/loop-errs/loop-overflow.s",
+      "sha256": "836a7fff0725403c6e7624d1cbb44b07b7626448425f6511aa53a5d745d8fc46"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/loop-errs/loop-zero.exp",
+      "sha256": "2f7299b04d402bdfb45f5decd4e8df0247c89d8657423fa6e465ba9a005b0a6b"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/loop-errs/loop-zero.s",
+      "sha256": "ebeb913a3acb68822e9c87540ea9abd0be12051a156390182d7f324ec1a66ef7"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/loops/loops.exp",
+      "sha256": "1847248892774f95e16364a57351b7848c281e2ebe66d4525e98047e65788593"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/loops/loops.s",
+      "sha256": "555435c7c5db78af462db0ba335061882b3d95c0f4a344928c38670086ccf6a0"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/README",
+      "sha256": "7ab8964c7f478c95b0202fe6107f98f302231a503699ead34db10704a58e4780"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/beq-0.exp",
+      "sha256": "1ac6f12b29c9f867330b491c8e50dcd9c4dd8c057d2058a98a4d2765cd4065f9"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/beq-0.s",
+      "sha256": "d656a2d8a3a288380d18eec0526a67d7530c0346813c267a2a38a359c88c82d7"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/beq-1.exp",
+      "sha256": "98a35f2b6871f8a0c9e22838ff8883ac8d49577a2af0322b22cd78b730b512bd"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/beq-1.s",
+      "sha256": "64ae75bee4bd08d9842d3bd6d7ae31689f16f1e7a9cb245f3260118360a3c6ce"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bne-0.exp",
+      "sha256": "1ac6f12b29c9f867330b491c8e50dcd9c4dd8c057d2058a98a4d2765cd4065f9"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bne-0.s",
+      "sha256": "a46f8bba0e741b32d31c0c69eb39e6c9d4805edcfab465237311b52e91a6181d"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bne-1.exp",
+      "sha256": "1e986b66dc7e01fb47177c956aedec078be671cb7ead0d2256a8904e8c673f19"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bne-1.s",
+      "sha256": "40cc82d929ee7baa131668ab64cefdfe251cc7cc164e888482c5f31d0cb368c2"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnlid-0.exp",
+      "sha256": "e37595dd87722451342ce04863d7f28b221f3024523fd62d123c4ea16e2b752d"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnlid-0.s",
+      "sha256": "acd20f653f5cd5f27a4fbb3f29f14d0907d3aa3fc10a79a564e3168cd1095c85"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnlid-1.exp",
+      "sha256": "66b3bf4f5098aba48038755a399bc9afd8fb1869e2f06bf14ec968001d6e9271"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnlid-1.s",
+      "sha256": "34ac05ca5627a85dc09e4e83f12255947be64cdec965f04113ef3626beff67d1"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnlid-2.exp",
+      "sha256": "afdc894ec198103e643a5f54987038bd25ceba36eddb4f77a685930b6950acb7"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnlid-2.s",
+      "sha256": "69b631467d27a9187be36bb3010ee3785c64cd14f52227f88b1e95e801bb2bb7"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnlid-3.exp",
+      "sha256": "a2deae4d962e8ce15ec47f970bd768eeb34aacdd0730c5519b5d22f4704d62f5"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnlid-3.s",
+      "sha256": "244a178e4ae41103d78b277087244080a92bc29b69a4a5dab63885c14657c1d9"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnlid-4.exp",
+      "sha256": "9d689ad9f0caf5cc13892a63947ae8f82c61e21b4f00cc1067923498909758f3"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnlid-4.s",
+      "sha256": "bfe2fa86177be3f1b77510cc66ff0e903ef3d10567e1e3222838a08e653fd91e"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnlid-5.exp",
+      "sha256": "ae8f93b4f712e247032db346b74bfadba74a9989b21c5ce197c906ff6aa66cf8"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnlid-5.s",
+      "sha256": "cd4fbcf254c4b88a102cb7ad567d848186c4aacb3d053abab77db6b11cac5bf4"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnlid-6.exp",
+      "sha256": "a2deae4d962e8ce15ec47f970bd768eeb34aacdd0730c5519b5d22f4704d62f5"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnlid-6.s",
+      "sha256": "32adaa1677556d2266878212c348708dc0a995e7d54ba772e15ab71490a1fcaf"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnlid-7.exp",
+      "sha256": "9d689ad9f0caf5cc13892a63947ae8f82c61e21b4f00cc1067923498909758f3"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnlid-7.s",
+      "sha256": "18b6b53b992efc5e79e44da17dc9c6874e5e7aafc1ae1a5f6a4698d71e9f728a"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnlid-8.exp",
+      "sha256": "7cbd73074fbfa5a44b9c62c314039854a7c78f6b0cceb90c166d71326e825735"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnlid-8.s",
+      "sha256": "d0d868427a3b18dd86339349e78fc6e0498d8295805328233a3c36722e86b3d6"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnmovr-0.exp",
+      "sha256": "e37595dd87722451342ce04863d7f28b221f3024523fd62d123c4ea16e2b752d"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnmovr-0.s",
+      "sha256": "76c8f1c00e89448b262c25c2dd5f2c903fa64bd79bf8ed05ed9f246609fdbc59"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnmovr-1.exp",
+      "sha256": "66b3bf4f5098aba48038755a399bc9afd8fb1869e2f06bf14ec968001d6e9271"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnmovr-1.s",
+      "sha256": "df3c5d42d5815cd4c0112697aa24cd641d7c9f912f60fb1a728d3ab7f45bc37c"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnmovr-2.exp",
+      "sha256": "66b3bf4f5098aba48038755a399bc9afd8fb1869e2f06bf14ec968001d6e9271"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnmovr-2.s",
+      "sha256": "8b4994a3ed982b7f4a42ba4996e4146097c745059c5fdff8c18ce737704d08af"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnmovr-3.exp",
+      "sha256": "a2deae4d962e8ce15ec47f970bd768eeb34aacdd0730c5519b5d22f4704d62f5"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnmovr-3.s",
+      "sha256": "f445d95c3d6f4ac7275c8bf40b44d19571664ab81194dc76f1c313e5c230dd2f"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnmovr-4.exp",
+      "sha256": "a2deae4d962e8ce15ec47f970bd768eeb34aacdd0730c5519b5d22f4704d62f5"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnmovr-4.s",
+      "sha256": "d3d5abf2a462a545b5fd166cc3b447362cf2f50da6026859e6e4b7cd45740d24"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnmovr-5.exp",
+      "sha256": "a2deae4d962e8ce15ec47f970bd768eeb34aacdd0730c5519b5d22f4704d62f5"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnmovr-5.s",
+      "sha256": "ca39d1d3417ce29b481aa5df804644b78dc589c0ba7a55201b05f61b19809a07"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnsid-0.exp",
+      "sha256": "e37595dd87722451342ce04863d7f28b221f3024523fd62d123c4ea16e2b752d"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnsid-0.s",
+      "sha256": "5da10ecfa76b385ccb5216097c245bd4f82aba232e89c6672cd3b365ec035a1b"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnsid-1.exp",
+      "sha256": "66b3bf4f5098aba48038755a399bc9afd8fb1869e2f06bf14ec968001d6e9271"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnsid-1.s",
+      "sha256": "34a98136efbb912f81e13d9807b7f7124eb58a89076a350e1aced5202c379284"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnsid-2.exp",
+      "sha256": "da92eabb46367ee534f259f5f77a06596e4236b0aa4294c1ed146c72207aaf15"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnsid-2.s",
+      "sha256": "71e3ac7a521dc77241e8784019ef2d0c7e00bef2e409b21f25dcf3d8f63d5674"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnsid-3.exp",
+      "sha256": "a2deae4d962e8ce15ec47f970bd768eeb34aacdd0730c5519b5d22f4704d62f5"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnsid-3.s",
+      "sha256": "05eb69cd952c397343690cab0144ff2641260a3193c85756aef86d9e277a6944"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnsid-4.exp",
+      "sha256": "9d689ad9f0caf5cc13892a63947ae8f82c61e21b4f00cc1067923498909758f3"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnsid-4.s",
+      "sha256": "dee3ed24a88947093b33dc9103a6c4ba3727d44a177ddb72a6a89c4f5b6e9c00"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnsid-5.exp",
+      "sha256": "ae8f93b4f712e247032db346b74bfadba74a9989b21c5ce197c906ff6aa66cf8"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnsid-5.s",
+      "sha256": "f20b82bd7a6f9618365ffdd870f86d84e66bde912ea06f2ba7223862fd9b227c"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnsid-6.exp",
+      "sha256": "a2deae4d962e8ce15ec47f970bd768eeb34aacdd0730c5519b5d22f4704d62f5"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnsid-6.s",
+      "sha256": "1e6a6925446ab0d3b7d26d4713671d50f5dd5131d8fdebd0f85873e326029050"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnsid-7.exp",
+      "sha256": "9d689ad9f0caf5cc13892a63947ae8f82c61e21b4f00cc1067923498909758f3"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnsid-7.s",
+      "sha256": "a3ef314f9f976be6e61b524243bb210531dbd4aa655db500d21bd55201344da5"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnsid-8.exp",
+      "sha256": "7cbd73074fbfa5a44b9c62c314039854a7c78f6b0cceb90c166d71326e825735"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/bnsid-8.s",
+      "sha256": "7ad06a3dc06a305df3c8cb1bf846360ab1002b157abee9095bc04db69a90ee0f"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/csrrs-0.exp",
+      "sha256": "e37595dd87722451342ce04863d7f28b221f3024523fd62d123c4ea16e2b752d"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/csrrs-0.s",
+      "sha256": "26bfbaf703bf0e58f15a16eb919b85a0eb6e04c0577a2e517310f5ed63490d10"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/csrrs-1.exp",
+      "sha256": "7e125c15299e437abdaf1d2e56b05916cb698b02d505b900d75bd4878876f393"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/csrrs-1.s",
+      "sha256": "445346421819ce3fa4d00a9de0f095a77561c5446fde5218b476fb6d4708c89b"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/csrrw-0.exp",
+      "sha256": "e37595dd87722451342ce04863d7f28b221f3024523fd62d123c4ea16e2b752d"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/csrrw-0.s",
+      "sha256": "f913c535b8c7f9466b00c71bddd7a7872a8d436261375aec2b37838498062220"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/csrrw-1.exp",
+      "sha256": "7e125c15299e437abdaf1d2e56b05916cb698b02d505b900d75bd4878876f393"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/csrrw-1.s",
+      "sha256": "8f79653cc032b76bab8329e01bb1132f0e50e193fc857e3e4951a294d0d8de38"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/jal-0.exp",
+      "sha256": "968ea3b5277feaf5bf41af267dfc49e7195a1418df69c7a550adb1f0cc91cc93"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/jal-0.s",
+      "sha256": "4ee29476298cffb41bd4fbc5b94af17e552ddb01234d6f338ef0ab04dcec5492"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/jal-1.exp",
+      "sha256": "ca4d9fcedaaa8ca2a51b739437340edaa3a285f76dd3ea31f165e10715ce5ead"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/jal-1.s",
+      "sha256": "4ba16cda931bfdb68f9caa0288b924a01bdc631028af85fc94b442a2208098db"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/jal-2.exp",
+      "sha256": "98a35f2b6871f8a0c9e22838ff8883ac8d49577a2af0322b22cd78b730b512bd"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/jal-2.s",
+      "sha256": "6ea40981cde0edd3b3e2b749da003cc92f956c0b764fa440e43d4fb112a7c4b1"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/jal-3.exp",
+      "sha256": "d1d783e0f888052614959072ca3550c52c427ef32fd2c75e4e0178218bf78244"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/jal-3.s",
+      "sha256": "b9ba8369721c1bcbc422dee800647953ff33311572566b07b8c2626219ffef78"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/jalr-0.exp",
+      "sha256": "1ac6f12b29c9f867330b491c8e50dcd9c4dd8c057d2058a98a4d2765cd4065f9"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/jalr-0.s",
+      "sha256": "d14c77c9afcd7b6bff20fe017284216bc00c33312699ff161ccf05ed7d949796"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/jalr-1.exp",
+      "sha256": "968ea3b5277feaf5bf41af267dfc49e7195a1418df69c7a550adb1f0cc91cc93"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/jalr-1.s",
+      "sha256": "e96fee7f17bf299dd1d96517a4fc1b9e3192d9d88b8fdd4cd3dba47c01b3879f"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/jalr-2.exp",
+      "sha256": "ca4d9fcedaaa8ca2a51b739437340edaa3a285f76dd3ea31f165e10715ce5ead"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/jalr-2.s",
+      "sha256": "9108feb19556b34534df0c5dce70cb6f2b29a25c48a02af965e517eae01b2810"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/jalr-3.exp",
+      "sha256": "98a35f2b6871f8a0c9e22838ff8883ac8d49577a2af0322b22cd78b730b512bd"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/jalr-3.s",
+      "sha256": "e479f13f54469d63a1319bcbbf664162992ed6988d9e9fbcf53ee700d2aa0a77"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/jalr-4.exp",
+      "sha256": "d1d783e0f888052614959072ca3550c52c427ef32fd2c75e4e0178218bf78244"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/jalr-4.s",
+      "sha256": "a5cfea14dcdf01f87382bb2d543f9176c11a2a9ebe63455319fdbd1c73c05a2e"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/loop-0.exp",
+      "sha256": "1ac6f12b29c9f867330b491c8e50dcd9c4dd8c057d2058a98a4d2765cd4065f9"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/loop-0.s",
+      "sha256": "3c13434e4cd2378138254aec1a81a91deabcce446b8e91933ca17694d0051a40"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/loop-1.exp",
+      "sha256": "0195dfdb129c4e4f3902f0645273295ac5c7826914007f636d1129e3ce684239"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/loop-1.s",
+      "sha256": "b8cf661732d7424f9d7d80a8c76140b2bb2510a501ee3a06933ecb9dc98bc6c4"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/loopi-0.exp",
+      "sha256": "0195dfdb129c4e4f3902f0645273295ac5c7826914007f636d1129e3ce684239"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/loopi-0.s",
+      "sha256": "3ebc243449e26af53245166266189a0575a255cc4c1f4022cfb8138dc7766187"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/lw-0.exp",
+      "sha256": "5e71138f2bc116a0b4b0409892be5bb48bddc4ef9c3b302a104e1794d871fb8e"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/lw-0.s",
+      "sha256": "2a0b78b4435b01beb6c8036a7be22c44b340e5d1fc330dcd74a7407850f71bf1"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/sw-0.exp",
+      "sha256": "ee75fe78b93a95e52b7d20625a2d9dd147a99882f822ab117a1d3d35d3900f9e"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/multi/sw-0.s",
+      "sha256": "09ca53f1e532f731c7adab45f3e7856f7725c6316d498e1200ee2997bc90f673"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/pseudos/bigla.exp",
+      "sha256": "c4ea21b28b3da48a8a822ade7c24a96d860dd6a2db98c63d53d20846a9e311bd"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/pseudos/bigla.s",
+      "sha256": "35dfc0c213188aa5c6c82a97c3acaa19133fbe5c141e648cc54eae96a6fc085d"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/pseudos/la.exp",
+      "sha256": "19b85028a8c76195ca2c6887abdc9db0df26efcfed14eea18556b0c407a50705"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/pseudos/la.s",
+      "sha256": "7993c34b05ea0b230b86e7aafef2486996cf8e48c20a238b6ffa191be91ab052"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/pseudos/li.exp",
+      "sha256": "32b5d320dd5f0b65de2f709f78db438883413ae24b211c1efd97b1c8fa2d467b"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/pseudos/li.s",
+      "sha256": "1b244abfa1d935ad216707d9f524826bf2dd6f36e6320b9c46d0807f0d6369c4"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/relocs/hilo.exp",
+      "sha256": "d9645d39f0fa6dabcd6c8bb45bb6227e3de1f75d6b6d4ad4c729ee91a21200f3"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/relocs/hilo.s",
+      "sha256": "eec02779e193634fc24e6695944dd8214af026b88ad7e98cab2a7fe08a901393"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/subroutines/direct-call.exp",
+      "sha256": "233b31639713d548541df30e97e716ccdbfbd08356e3b8f80257debc0586e6d0"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/subroutines/direct-call.s",
+      "sha256": "2451f094e13bd7f24d5ffcb394c01d2d5861966a6712905b2e94a0ee5d3af207"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/subroutines/indirect-call.exp",
+      "sha256": "70cc50c2d5cded56bf9118126d6353dd7e0eacc3246938313d890f2398bd0d09"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/subroutines/indirect-call.s",
+      "sha256": "851cd95d2d3cf534574a691aeb5d84c38d8ecd0dc136cbf5f9f0ab47dfab905e"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/x1/overflow.exp",
+      "sha256": "d5e656fa628e69985bc24018cf1e756ab81a09b0bcf7263d4c330c5a8fd0e8d5"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/x1/overflow.s",
+      "sha256": "32f6f08d3a07ec1988cf7abd83809c686bb0deb739add2af50f3983049c5412f"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/x1/underflow.exp",
+      "sha256": "90c0898399c438a839bad4216330e3bd419918bb07eb4019db633682658caf66"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple/x1/underflow.s",
+      "sha256": "d39cef471aae275f9331f15705851a0669533b751d6e43e90ca30372fd2f789d"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/simple_test.py",
+      "sha256": "5c1f053766632c1352caec9a1e6b2ca8cae75a791aec4635fdddc7871f3a42a8"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/state_test.py",
+      "sha256": "ff7bc7eac0f780aec53dec3136c3daad788208556b49f8dde125bc8c5db819dd"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/stats_test.py",
+      "sha256": "7317b8d7ac06da884adf6089148d34f8c471a48b6e9d769ced2493d4afe4faa6"
+    },
+    {
+      "path": "hw/ip/otbn/dv/otbnsim/test/testutil.py",
+      "sha256": "f1c35133fd081ce5639930e9230a349ff01f17161d150faf9267b7719211307f"
+    },
+    {
+      "path": "hw/ip/otbn/util/BUILD",
+      "sha256": "a3b1914c4370c09f040a4107ba668b18ae4dc6d3382c4a933276168b47425ff5"
+    },
+    {
+      "path": "hw/ip/otbn/util/Makefile",
+      "sha256": "81db5d47c1db7312340fc03fc24bf713495ce73f69c26533c5bd10e418c606a5"
+    },
+    {
+      "path": "hw/ip/otbn/util/analyze_information_flow.py",
+      "sha256": "c4f288e3fa7b8dadee22b9a70e39de5f73ff89e7240bb148878d582ba45404b4"
+    },
+    {
+      "path": "hw/ip/otbn/util/check_call_stack.py",
+      "sha256": "cc927ff44161324c55d1072abe9b874ada2ddc24d4e38f83f71553a6e90e1463"
+    },
+    {
+      "path": "hw/ip/otbn/util/check_const_time.py",
+      "sha256": "f176af8455f49110ce1d92c96dbedc3cdeeebe46833a1afd7dfd2ea1d2c7db32"
+    },
+    {
+      "path": "hw/ip/otbn/util/check_loop.py",
+      "sha256": "a8d8b29609cf6e1940e3e6c44d072e64063f15c4b8ee4577e9517b6c21135637"
+    },
+    {
+      "path": "hw/ip/otbn/util/docs/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "hw/ip/otbn/util/docs/get_impl.py",
+      "sha256": "dc08da84bbf1ed1b47b7b2fc9e9f52e41cb0261b731967bcd9a16ac64d8a76a2"
+    },
+    {
+      "path": "hw/ip/otbn/util/docs/md_isrs.py",
+      "sha256": "956ec107a68e5031f9ed82a38b5d318e0c12ceaee54fc5d3deb2c9ec89415262"
+    },
+    {
+      "path": "hw/ip/otbn/util/get_instruction_count_range.py",
+      "sha256": "165ed4f38472058defe8f76db145fef2a9ac031caa901cb40d28985f2cd9c575"
+    },
+    {
+      "path": "hw/ip/otbn/util/make_mulqacc.py",
+      "sha256": "9fda36ee03eaa2db34559e1bddf23dc6416fd61564648d1301c7d05495a45d3f"
+    },
+    {
+      "path": "hw/ip/otbn/util/mypy.ini",
+      "sha256": "0e5bcc3cbfa9e4d66eaf548a8502122de5e6fbe78431d2c1f185ab14079c0603"
+    },
+    {
+      "path": "hw/ip/otbn/util/otbn_as.py",
+      "sha256": "27c2c1cbbdd9a918ab6ac913e681f68804e77d87b3e9098b281d0f2d11bda41b"
+    },
+    {
+      "path": "hw/ip/otbn/util/otbn_fi_campaign.py",
+      "sha256": "387690dc37cbf63b6696d2ae25f7d6d4f9228ca73e495687149cfb6e8483c551"
+    },
+    {
+      "path": "hw/ip/otbn/util/otbn_ld.py",
+      "sha256": "e320405f53a86ea1840fc5e97c7de78a07db99ec22b46a9c3d8344e606b68d4f"
+    },
+    {
+      "path": "hw/ip/otbn/util/otbn_objdump.py",
+      "sha256": "2205269a6b21462009a1b844840e786ae0671a9876b124ae1bfddc4ee74a1b01"
+    },
+    {
+      "path": "hw/ip/otbn/util/otbn_sim_test.py",
+      "sha256": "06514bbd4c7ebccbeb92e37d41257babf897b68c1969b3835f518a291d7af182"
+    },
+    {
+      "path": "hw/ip/otbn/util/otbn_tvla_campaign.py",
+      "sha256": "3c121d09660eb1db46f77fe683dbdb5d5fe3168eee9a6beafcb5de54eaafe7aa"
+    },
+    {
+      "path": "hw/ip/otbn/util/shared/BUILD",
+      "sha256": "9d937982f73d3095d96fbd8afc55816e8bea2f6a340b7f7b36fc9a02df01a20b"
+    },
+    {
+      "path": "hw/ip/otbn/util/shared/__init__.py",
+      "sha256": "ec13bb1d430eadf40a0e12703b4ca8910dffbc0c0d4a300dedf3626f3313054b"
+    },
+    {
+      "path": "hw/ip/otbn/util/shared/bit_ranges.py",
+      "sha256": "38f07fc3fff2c3e84a22ed008e080d625d422192435f61b6eac2dba6fb94dced"
+    },
+    {
+      "path": "hw/ip/otbn/util/shared/bool_literal.py",
+      "sha256": "d339a86864b388a9017dffc71d5c6b38aadfbea9e706d4a5c9a3f4c9ee66758d"
+    },
+    {
+      "path": "hw/ip/otbn/util/shared/cache.py",
+      "sha256": "778fba520fc33d5f5e766ac1fc88a1062c29289a4e9ab0ebaee2341816d2f653"
+    },
+    {
+      "path": "hw/ip/otbn/util/shared/check.py",
+      "sha256": "8d4f1d766517d15200d53a5c810ec6d39c16317ed79ef8688dd7fdfa1ac1f292"
+    },
+    {
+      "path": "hw/ip/otbn/util/shared/constants.py",
+      "sha256": "ff9bf80673de17f5178aed8ba7fce8306f4cf2df6af4e987c241dbfcfaea141b"
+    },
+    {
+      "path": "hw/ip/otbn/util/shared/control_flow.py",
+      "sha256": "d174b8341c1bd46f5868aa1cc31abe70bd0bf1361f21013e1887b1eace0dd7cc"
+    },
+    {
+      "path": "hw/ip/otbn/util/shared/decode.py",
+      "sha256": "e57902ab9f26572237a1c454ad9f550acba0754c0827aa024969a31ba1f5d5f9"
+    },
+    {
+      "path": "hw/ip/otbn/util/shared/dmem_dump.py",
+      "sha256": "97f47725182b49eab6d8ff5b82b21ea2f3872de54a9dcd56f68c733890e93104"
+    },
+    {
+      "path": "hw/ip/otbn/util/shared/elf.py",
+      "sha256": "d8a5576a5aa1ea7a0eb354cfae73755031ab0a784fc27e8913916f35f00df03d"
+    },
+    {
+      "path": "hw/ip/otbn/util/shared/encoding.py",
+      "sha256": "6543041ba822963e57650915edde301d517e8b2d3321a35d4ee71571aed8acfc"
+    },
+    {
+      "path": "hw/ip/otbn/util/shared/encoding_scheme.py",
+      "sha256": "e05e947e6235c20255b64731738e1f30932153f5e958378456206f25a08e7dea"
+    },
+    {
+      "path": "hw/ip/otbn/util/shared/information_flow.py",
+      "sha256": "e1f516e6983a9e234ff89ab72e46c8557ec002d438da5fbda1a8fac57460cc58"
+    },
+    {
+      "path": "hw/ip/otbn/util/shared/information_flow_analysis.py",
+      "sha256": "093d4929251e6923ce10ea9e56b30b50f0fe16439f5640a44420e32e7e011eb5"
+    },
+    {
+      "path": "hw/ip/otbn/util/shared/insn_yaml.py",
+      "sha256": "0b62c91dbb91d96a62616564818e23c52e95470b568a439f4f73f8a01e7671ff"
+    },
+    {
+      "path": "hw/ip/otbn/util/shared/instruction_count_range.py",
+      "sha256": "8dd2ea3c61c335371218cd1b558813b5fb6e8dd4e3894af7ae7f259d026bf8ae"
+    },
+    {
+      "path": "hw/ip/otbn/util/shared/isr.py",
+      "sha256": "de4ffccdc5c744f137c0950854fd319afa82f0bef5aba136216be8bd94e8def6"
+    },
+    {
+      "path": "hw/ip/otbn/util/shared/lsu_desc.py",
+      "sha256": "b1e235a69fd8b3edc49d5f2b6cbbdb746462ef100ca46e77fadac4d9d81e710d"
+    },
+    {
+      "path": "hw/ip/otbn/util/shared/mem_layout.py",
+      "sha256": "008f6cf2282e9f8ad0dd4ded41506e1c1fc2cf62c71ac6339638b2b1aafc61bb"
+    },
+    {
+      "path": "hw/ip/otbn/util/shared/operand.py",
+      "sha256": "518380907a1beb92a2285a1a94a8b98d71964fc52cd62b9a1f06366b012387ec"
+    },
+    {
+      "path": "hw/ip/otbn/util/shared/otbn_reggen.py",
+      "sha256": "ec7f529200cb74f4ac5df5b9cf656c7b2a5f2f2938700aa0344e2d656d12c037"
+    },
+    {
+      "path": "hw/ip/otbn/util/shared/reg_dump.py",
+      "sha256": "933d1e3a6ef994816f9227e33dc09fed2ab8661a1d9209158aa68f9ccbf811de"
+    },
+    {
+      "path": "hw/ip/otbn/util/shared/section.py",
+      "sha256": "5de26d7014791c0aaaa403f7e02f878778331af1c059dabdb03f850d07cfae59"
+    },
+    {
+      "path": "hw/ip/otbn/util/shared/syntax.py",
+      "sha256": "89763538463a5b6351ab985fe78657209989802af24c669de061ab60f5bff1d1"
+    },
+    {
+      "path": "hw/ip/otbn/util/shared/testcase.py",
+      "sha256": "1e5679d405c6a53eb204b5b9732c5e7e7cf55ffb4e91026f380e0fb70de911a5"
+    },
+    {
+      "path": "hw/ip/otbn/util/shared/testgen.py",
+      "sha256": "0407bddb76a0b4ee0d004dc9603d87a1b89a38fee48acc5d08fde0ea61ae1f37"
+    },
+    {
+      "path": "hw/ip/otbn/util/shared/toolchain.py",
+      "sha256": "8b53560b38c913e07b5e2fe9afe8db843a564e865bae59b05b64e521222dcd8b"
+    },
+    {
+      "path": "hw/ip/otbn/util/yaml_to_doc.py",
+      "sha256": "cc85fe5e230682e2ff8b2a8755cff15c2c0b6fe0bc5e1e994d42b7c060f4d8c1"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/BUILD",
+      "sha256": "693828436c23ce235240f35357befe2359601c795cab5a0da6d80acfc0be9e77"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/aes.c",
+      "sha256": "090489031601cb28cb50ee7a2f6c63552cc63c93096f7b738d170989434efd61"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/aes.h",
+      "sha256": "6374fd4bc6fe4b7921a538606ea43392a2515380247ac4ccba14892e60c53aac"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/aes_test.c",
+      "sha256": "fcaf3ec0f1cdd3622e5547fb575ba5a6903ab1531a1ffa752cbbf7f18122a7ef"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/alert.c",
+      "sha256": "79a38e461ecc2d8c185a542afedccb20aedb3fef08c2de3e2c9434d0d4de918c"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/alert.h",
+      "sha256": "1c78b3117b08f5bf0f0460744e676329080096620f9fe5227a704f8bac54aee3"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/alert_test.c",
+      "sha256": "28f54c0c8d26ffdb2a6b458727ce680e6f9d2d783ee8c9862ce36ef9029331eb"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/cryptolib_build_info.h",
+      "sha256": "e6c1d7344554366c3278ffd6b177cbc8efd74f6c39d849f1f3859b7fe940f027"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/entropy.c",
+      "sha256": "7030b252d05e636744076bcbfeb48e228172e311238cb7b01a507450f75ace64"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/entropy.h",
+      "sha256": "f5696d675735d047a30d6616d31d2abc33383ef3516bbb23f66044bab21675ed"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/entropy_kat.c",
+      "sha256": "ce4e8e02dc2eaf13b94bb4b8d00c19c1eef0de60f05c3816d8d2860ad6a7f329"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/entropy_kat.h",
+      "sha256": "c934c6f8c4d89f51f7ba6121f4dfeab89eafb875a79f175f44f7b5716aaa8b37"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/entropy_test.c",
+      "sha256": "12c7846c01481f0a0857d51fef9272de45bc8114b12529c4e1d402576d9ce4a1"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/hmac.c",
+      "sha256": "8fa02d50711a5c85ea20169da8b2853337c7071d960431f2756caec8dd1438a1"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/hmac.h",
+      "sha256": "4e44df7ce2c524c15866ea520a559ec01414d41b090e8a62753c7c8a22357686"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/hmac_test.c",
+      "sha256": "2582e23a3c4362851d3cf326309be1c8ee4087ad8eaf43492d87f28af7320f9a"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/keymgr_dpe.c",
+      "sha256": "956426c74fc6b5e0a293faa902847c69c6ef9e451546deb44eeaaaf2fab2abf8"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/keymgr_dpe.h",
+      "sha256": "9b38628b243e5100b559e51ac3b3c4143aa1c3bcbf52e2b3fcef7f81c7ce15ce"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/keymgr_dpe_test.c",
+      "sha256": "2e147c98e95199108a8778ae21578b3437ebeb5aea1b54dff4a96dbc02781cf5"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/kmac.c",
+      "sha256": "391211525549b336b39f3ef4c8ec13dc1b89be1e28f57dffe7f49e5a0b9083d2"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/kmac.h",
+      "sha256": "1ff461acf2a6f59ab262e50befdd11c907f7238fa54f9635de17030e5651394d"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/kmac_test.c",
+      "sha256": "3ac65d89450aed736d9a20b81bda5102f567f66fbe73f7270f494298dad642c9"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/mock_alert.cc",
+      "sha256": "afc1a323e25aec0782b22fc2e1b4317d70e247b77efbca6e6efbe9cc72649fb6"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/mock_entropy.cc",
+      "sha256": "3f694bb2cb3fd7eddd90e25d4e595248a2a5b2362722a153738d2e17b0867eb0"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/mock_rv_core_ibex.cc",
+      "sha256": "1d1c905cf452341c72cd7d61ff89f6d7514fca30962df941c5c372d4ac37aba5"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/otbn.c",
+      "sha256": "b50bbc34ef67db198372361a7b979834bcd1f132070077a26a99190dfc025492"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/otbn.h",
+      "sha256": "8e22bac6de2b2a4a885afbf5eab0031e3a09d729d2e5550b451dd6ed51db9106"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/otbn_test.c",
+      "sha256": "e0207dfbed37b6755c53634c7c48522e512812dfa3430053baf1acfe9e1e659e"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/rv_core_ibex.c",
+      "sha256": "9d0928de936551339365cfb339075707c1d3a5e6c25d58acb1a929c605dd5fe8"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/rv_core_ibex.h",
+      "sha256": "4e3ef42a5c773ea75685992d9264a7d37cb0856981c069d3cee2d8575cf4785f"
+    },
+    {
+      "path": "sw/device/lib/crypto/drivers/rv_core_ibex_test.c",
+      "sha256": "f773640bd40f0f513ce5673dd7e87a0eecc272b7c70579f8354997e38a30f494"
+    },
+    {
+      "path": "sw/device/lib/crypto/impl/ecc/BUILD",
+      "sha256": "ade58548c68363e4045e6ed95605c3587696b5216341dad0be27a3474ef11afd"
+    },
+    {
+      "path": "sw/device/lib/crypto/impl/ecc/curve25519.c",
+      "sha256": "64ae3f12db2cfc0aaef5701a77fd91d86a8adf7a1c5171b6a6138fca02bc8400"
+    },
+    {
+      "path": "sw/device/lib/crypto/impl/ecc/curve25519.h",
+      "sha256": "09df03df24bdc7f487e82d804b0241790f8d5082b7fb9aaaaab82f6d99eb9a65"
+    },
+    {
+      "path": "sw/device/lib/crypto/impl/ecc/p256.c",
+      "sha256": "7a4e756e45d2ae3522f2d24557acf7dcc9200f642802db3a06c53d2a202a7830"
+    },
+    {
+      "path": "sw/device/lib/crypto/impl/ecc/p256.h",
+      "sha256": "03aa9887aa3b6731e1b104874da7da484cce0387a1c7477afdc5b16b7eefaf2e"
+    },
+    {
+      "path": "sw/device/lib/crypto/impl/ecc/p384.c",
+      "sha256": "d785bad5030932cdbbc874a4293f3fb9e4e28763a288bed0afe22e830e823537"
+    },
+    {
+      "path": "sw/device/lib/crypto/impl/ecc/p384.h",
+      "sha256": "3a7cdcfc97d05e547b05dc954385c3d3bfd08fc8fa26cc864998d890a3c113f6"
+    },
+    {
+      "path": "sw/device/lib/crypto/impl/sha2/BUILD",
+      "sha256": "1338755bc88ecba15e6e6402bc508bdd3a91e5aa0527055145ed60d50783892b"
+    },
+    {
+      "path": "sw/device/lib/crypto/impl/sha2/hkdf.c",
+      "sha256": "4fdf48374b5365c92449e0851bf1f50d381526c4628f006ac8416e450390856f"
+    },
+    {
+      "path": "sw/device/lib/crypto/impl/sha2/hkdf.h",
+      "sha256": "d9ee22beb1e18fc4bf0143d94ca766a538af407b02984667d027a4bdd96127ba"
+    },
+    {
+      "path": "sw/device/lib/crypto/impl/sha2/sha256.c",
+      "sha256": "149894e4d9d93aa54fa3d4ffde0635ff3fcbeb8b92770b6c9f703744016543f4"
+    },
+    {
+      "path": "sw/device/lib/crypto/impl/sha2/sha256.h",
+      "sha256": "6f9c16b40c2921c84eec40e8dacaac7f04e80a00f7e5b5eb1c0be25a3aa974c2"
+    },
+    {
+      "path": "sw/device/lib/crypto/impl/sha2/sha384.c",
+      "sha256": "a77af25a3d83fcfd98e8c6a8acf7002b8e2ebd03303904ebe3a5c98ccc0add73"
+    },
+    {
+      "path": "sw/device/lib/crypto/impl/sha2/sha384.h",
+      "sha256": "69a89db6811dbbb9a5a39c5198caa12ead7a867f5a233ab0dad6925c68bbcc4d"
+    },
+    {
+      "path": "sw/device/lib/crypto/impl/sha2/sha512.c",
+      "sha256": "51581f7b8c60fb7bf4ae8bd79be9e56217467b58eb7d58d8701b42f41e54c4b4"
+    },
+    {
+      "path": "sw/device/lib/crypto/impl/sha2/sha512.h",
+      "sha256": "6ce491af1e602bf97114f62b19c6d81ccfa896a19b9fb9c51992576986028305"
+    },
+    {
+      "path": "sw/otbn/crypto/25519.s",
+      "sha256": "fd40c5b35bdb4ff8651f797267315ebf2f3fd3927445bb5bbb673391f835bee1"
+    },
+    {
+      "path": "sw/otbn/crypto/25519_scalar.s",
+      "sha256": "65db1047a324fc8abd62df5eed3c9b9e882d43690ae2428cd7fd7ee77bfdfc7d"
+    },
+    {
+      "path": "sw/otbn/crypto/BUILD",
+      "sha256": "10d66dd01bbadf10cac63dc2582d57dd6ae3701deb14a80bccbdfdaf10e74f42"
+    },
+    {
+      "path": "sw/otbn/crypto/LICENSE.dcrypto",
+      "sha256": "2ec57b211acd8f1661c6fb42112a8f18abd2106b0e8c582776ad9d483cdee2d4"
+    },
+    {
+      "path": "sw/otbn/crypto/LICENSE.tiny_sha3",
+      "sha256": "799618121b4fd1ccb3545521a613419703ed0ceba5aeb7a8d30d4a8f70a18ece"
+    },
+    {
+      "path": "sw/otbn/crypto/boot.s",
+      "sha256": "ca7559b3e6acce270f0fbc0b3f114f3269b8805e36bf49f37e0685e18b21e068"
+    },
+    {
+      "path": "sw/otbn/crypto/div.s",
+      "sha256": "944b2f3950103eaaf4cfc09f33553bf78d72429b8295a73e7cd42943e65865e2"
+    },
+    {
+      "path": "sw/otbn/crypto/field25519.s",
+      "sha256": "6765f45c45723f12a06b19eb3ccacb81612da4ed4c345da01a0b0c46b80d1b02"
+    },
+    {
+      "path": "sw/otbn/crypto/gcd.s",
+      "sha256": "9dd59c78ea85cdbed4d90f2a550be10821c568f5e1392bac8c0d936e977822ef"
+    },
+    {
+      "path": "sw/otbn/crypto/handwritten/README.md",
+      "sha256": "a59460971e12a518ba6a58fa161ea2804540bd4f55b8e5734c5094b645f0a122"
+    },
+    {
+      "path": "sw/otbn/crypto/handwritten/rsa_verify_3072.s",
+      "sha256": "419c936caaeef8caad96d914752a51234b69036055db969942d5004e96db8e59"
+    },
+    {
+      "path": "sw/otbn/crypto/lcm.s",
+      "sha256": "92c04968fda365704be5db42f7c97507a2f1ff0ad3896e786901b3681f1b2018"
+    },
+    {
+      "path": "sw/otbn/crypto/mai_gadgets.s",
+      "sha256": "3994b618e7bdd98b5493d8efeb903e67b6701428db3c29f06301846b972e148c"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/BUILD",
+      "sha256": "cc59b2745b9c89a8a3fa2b41480a000dbbedc224bdf4d5efd40aba23f2f9fe60"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/README.md",
+      "sha256": "f48d1591ba5e4e48b5d1d418f280bde3bd8b4d4a1aaaac0e8b3881389049bf45"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/mldsa87.inc",
+      "sha256": "5d5591277b92aceb26e057b4d6b7a187f14ac0c1bb999a87e6526a4d64d9a6c3"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/mldsa87_arith.s",
+      "sha256": "8c48874b1979836a231fbacfa3e1c31b5b838adfb556991d5cb0723620553672"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/mldsa87_encoding.s",
+      "sha256": "f411160bfadd5821426bf252dc4b690c7ca772d690fabcee15ce02e40fc0ece1"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/mldsa87_expand.s",
+      "sha256": "19492c2bb1d5660baee574e341dabb418d3bf5318becdfe275f59def6765ec80"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/mldsa87_gadgets.s",
+      "sha256": "05241bac845f27a1f41384c909809749ae90e03242dab94d3b2c85cf6b00dfc8"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/mldsa87_keygen.s",
+      "sha256": "219b2341770e6b60bb44b9d81360e8131f2df4e6fa194b9dcd3432e69f2ed97c"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/mldsa87_mem.s",
+      "sha256": "c86189af141f6e4ddaa1a8dd11b109dbc8173e29913ecde6879f512d6c700aeb"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/mldsa87_ntt.s",
+      "sha256": "311020920a9f6867689452f6e8f9bf230de5ae27bd239d31eeaf5b5c798abb27"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/mldsa87_ops.s",
+      "sha256": "972ede5544be373da6db8a9a62d34d7d2e378b7e942f2e9fff247b98dc6868ad"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/mldsa87_rounding.s",
+      "sha256": "e8e028ec1671fc2153bc8307af1098a34ddbc14e19f45febf220f06bc916efc5"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/mldsa87_sample.s",
+      "sha256": "47248a14a8dfa686a4a681c92945e64c972d64c7ddb181fb7744a059d6af17e1"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/mldsa87_sign.s",
+      "sha256": "28fcf848b17776f21fbc361aaedba09d22c6b6dafa1c6b8d9e9906d2ebbc1e6a"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/mldsa87_utils.s",
+      "sha256": "e54d8956bdd8d75080e39d3da40dc9c1ca48b84c7c3dad7f19ab4d9877a59074"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/mldsa87_verify.s",
+      "sha256": "2c5b8e689fa4322f1a62fabffe41698d5f35c36976e8dc7ed6e7a299f969906e"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/run_mldsa87.s",
+      "sha256": "fbed5528ec6de4217d9415e125ba586d172e3a2d68f21515364db72d35f0b7bc"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/BUILD",
+      "sha256": "a1a6aa61036df0f5d100b150fe7963d4b78a2b43720a240bb832a905a60f4325"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_challenge_hash_test.hjson",
+      "sha256": "3f22dfbd676a0ef6820d018bfa919b73d08ebc711f0520f1abfca6d2b82f2eb4"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_challenge_hash_test.s",
+      "sha256": "bd4245c981c0ac5c802dee6807a1abd777521a86f4b5b90f77e91b13aafcf9c1"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_decode_s_test.hjson",
+      "sha256": "36cf8befc2be1f2384756e31e7246b50758367845b76f23e6c1c159768cab3da"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_decode_s_test.s",
+      "sha256": "4a21739b567c1445cd3c2b361697f56b79521815ac26e112f8247f33c9c71562"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_encode_w1_test.hjson",
+      "sha256": "7a2d5ac794325f360a99721dc7628a769caf3f0be57be7ab827b7722a59b502f"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_encode_w1_test.s",
+      "sha256": "9665b2ec7b1ac0cebe33facb879c39ceb96a027e5b1d8855333f45126e5b0557"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_expand_a_test.hjson",
+      "sha256": "2f56fcfc955b69370357820c313c09761c06e7678386d2c3a469dc7963e5a25a"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_expand_a_test.s",
+      "sha256": "fb62a9bf7caedb7f52538a7ca9f18b7f42ad48af596b47041a851312d19094c3"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_intt_test.hjson",
+      "sha256": "49b007a696acce09c1d86bca1390f397d35decdb73578607feca9268d25c125b"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_intt_test.s",
+      "sha256": "8f38a114bef2bcaeeb954c8a1a832ebb2b05cc7c7ffdaa02d6b57d09e9f54e26"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_keygen_compute_t_test.hjson",
+      "sha256": "1c446ff70e9a3712c0acd071f91c1fc19c543f253088d15be6cf882a12edf093"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_keygen_compute_t_test.s",
+      "sha256": "53b74104e8ba13863dbe9c4fcd0b4cf456573c5bba3a705dd56ad1b1fe671df4"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_keygen_encode_s_test.hjson",
+      "sha256": "febd3f7693e77e9e78cef293dcfa7a64fc7673db569adc2720de05573046e907"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_keygen_encode_s_test.s",
+      "sha256": "b2f3a669cfc2b893a27cf2cc9d6903cbe52514e47a1c5fa703c21f7dfc78a4ef"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_keygen_encode_t0_test.hjson",
+      "sha256": "d999e35d7839706db3f66e9c0524abd71142efc62451437ae8b9ba824d7f9162"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_keygen_encode_t0_test.s",
+      "sha256": "cc4f0d1d1e4a8b1435f878dfaae11bd0739d976deed264015cb6a0d027bcea71"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_keygen_encode_t1_test.hjson",
+      "sha256": "eca7974a35edaa15755ffe47461f62bc202bd39db589ace9f54e9d12ab13cffb"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_keygen_encode_t1_test.s",
+      "sha256": "bb6186cb41c5d80dba7083b8e30eb4d2cab94632024df6f16b6b64371fbe0039"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_keygen_encode_t_test.hjson",
+      "sha256": "3616665dec0a61e66879086e91d77ca79b8544d268239a22a578437078f410b2"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_keygen_encode_t_test.s",
+      "sha256": "f981fb5f8eb6d8178eee112f0dc75670550702f912eec7047d8a9db0a16833df"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_keygen_expand_s1_test.hjson",
+      "sha256": "69cc625483e00073515cae620d0a0b3fa57b40199e723b436e3086cdb4294064"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_keygen_expand_s1_test.s",
+      "sha256": "29655c56a543164f70e68ba08fef04f1a28cb7b10423478beb967a95001745ef"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_keygen_expand_s2_test.hjson",
+      "sha256": "bfe5dc83b0c8fd3a5e68dfd290266a902defbc8556e26a481a8c96113db0e835"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_keygen_expand_s2_test.s",
+      "sha256": "df71b30107b81dbcb882dbcbf1b00c4927181c672a6e1d12b0f845e74bbc1173"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_keygen_hash_pk_test.hjson",
+      "sha256": "a2e0946a141a1be1d060117efd0e9fb42dc37ab5efc1c0f1d7a08d95d33cbb79"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_keygen_hash_pk_test.s",
+      "sha256": "810aefc6f611e8301da97cf80c3b6f026f2711dc02cf5238529d73b44ce2a280"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_keygen_hash_seed_test.hjson",
+      "sha256": "5d9cade6c45478d7baae2890d79c23e854c279161a08bf538258ff2f72dacbe4"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_keygen_hash_seed_test.s",
+      "sha256": "a8766ea95008057af48b946fcf5103ed0b5f39bf0633d0e89ebe072efa3c9c8d"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_keygen_nist_acvp_51_test.hjson",
+      "sha256": "7ca129f07163d348ce4131c36c36191273cd5138bcbdab91cbb4d590cdf37a07"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_keygen_nist_acvp_52_test.hjson",
+      "sha256": "ac9e640dc7f1614c7d31cc51020059f1580f57531c481536c252dcf25d415775"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_keygen_nist_acvp_53_test.hjson",
+      "sha256": "54a6ee983de3dff2292ec8632340501e1575c38c94ae6b7b8b5ca24e2bbd798a"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_keygen_power2round_test.hjson",
+      "sha256": "ad68023213f074f628ddaf821e05c62261cb2696164eceda74217ca0ef6e9b9a"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_keygen_power2round_test.s",
+      "sha256": "ada916e95b177f14385c25832462b7065936e9e2598e9248cc49e5d1e246bb31"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_keygen_rej_bounded_poly_test.hjson",
+      "sha256": "9dbf6c5b0592f911d6d6078ee786388423521a5f7181a032e923f8cc95219efc"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_keygen_rej_bounded_poly_test.s",
+      "sha256": "7860f2cc8082b7aae7effacc9fb5ffe352f2ee9c7dd62aad82dbf0fd5e43cc65"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_keygen_sample_s_test.hjson",
+      "sha256": "961c5343e8f5b0eb3c3c2e8c384a902155388d7a57cf1112772a436b0450a0c0"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_keygen_sample_s_test.s",
+      "sha256": "e78f2db96ac29e400f04ac265305fc4d23d02afad64c73a539f103733330baf7"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_keygen_test.s",
+      "sha256": "0597ff56b0780d64a2c894d0cd94e854aba8990b9c7be0c126961d2d13d1e1d0"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_ntt_intt_test.hjson",
+      "sha256": "f2e0eb8a0c56ce61b126a9177811c347f42ba1c60ab9f92a746e8651d8745144"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_ntt_intt_test.s",
+      "sha256": "c2c6eef237eb6236649f158574cbfdc47d45ee46c9bf7ceef35a57db32a1d705"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_ntt_test.hjson",
+      "sha256": "e483a51f9bde96710576cba4993348c4d4edc9083799a776c80b50bb165def98"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_ntt_test.s",
+      "sha256": "7436436dba24f0312348ceaae2f80fa519e868da44e179cedf0d2effc56bad7b"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_ntt_testgen.py",
+      "sha256": "fd6d96fbe28a80a2986e12c6b81422f95b5838ee1b1d68beaabe623d9401d937"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_poly_add_test.hjson",
+      "sha256": "867ce565aad879a1e47eaefba0c6f53a85b38334dfce49567d2718143c846a33"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_poly_add_test.s",
+      "sha256": "0b28c73444f9253930320e1a33f1ae8374df652e4fc7e8ac140b26852ca5e8f1"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_poly_mul_add_test.hjson",
+      "sha256": "fceb74f4205e97ddd25c423fc4d4e95bee4e90fbc3607b3c534a352bfdcf3039"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_poly_mul_add_test.s",
+      "sha256": "9dada102477c10d6c6e043f5400d9635f663fc4f4cddd48cc873deefb79e9dad"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_poly_mul_test.hjson",
+      "sha256": "c7a45be3de33d2bb44428e10b721eaf4bc59db54dc91fac3371a49bd8f1c73c9"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_poly_mul_test.s",
+      "sha256": "7ec53102205aef70840c6e87be4df46e566efeefcbf97c4d2d8632e6c9b2850e"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_poly_sub_test.hjson",
+      "sha256": "640ef889059e0cc6778069fbc5903048f0314fb9884e51a3f03a0324b7f1f5cc"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_poly_sub_test.s",
+      "sha256": "d5516077c26626a8c9ef41b807f359e769c3adb507e18218b6e5622dd753d3b2"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_rej_ntt_poly_test.hjson",
+      "sha256": "7dea5b8767d5fc84d7e6eeedcc4d9d971b6abaf4cc9cdfe2cd331607284904d2"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_rej_ntt_poly_test.s",
+      "sha256": "d31c40e2377f8b429039d0870fa125177d2ed64e475bde5a9022a5e2386bd7bf"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sample_in_ball_test.hjson",
+      "sha256": "bd07f4fff724e86976172debaa4e046302781a70c7bbeafc39447b46878a84e0"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sample_in_ball_test.s",
+      "sha256": "b29811f3fad79b8ac5864ae0044572854b8a44f841792a17af0b81ff28a682c5"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sec_bound_check_test.hjson",
+      "sha256": "ffd8f2eabcea0f4217f5f512d97105fc887d19e841d914859af943a4943932b9"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sec_bound_check_test.s",
+      "sha256": "a7f0ba348b63552eeaa6c19fefdb24f408b0ee4d817ddf8af3d26598712aa939"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sec_decompose_test.hjson",
+      "sha256": "447d365665eaf623551e16c395d2285078f081db04900591a1116a67b2069e63"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sec_decompose_test.s",
+      "sha256": "942e5d6ba74120160a5972df95f3464f542bc5f8b2231228a60648cd807a9bc1"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sec_mod5_test.hjson",
+      "sha256": "98dd8ee7c53b6c5604f4a9e88da1f6e1031c85ad51ada0c36e7a74912f6eeb58"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sec_mod5_test.s",
+      "sha256": "6011c48cf131ef4384695c235295496893bb41931fe973b318e99fa24e187d39"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_compress_hint_test.hjson",
+      "sha256": "d5059b9cef81b605bdba4e6bc2f547e650679abdeedcda0728f55c8b375c99ca"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_compress_hint_test.s",
+      "sha256": "613ec1e6e8552777fee384a4925c1848bd6a7bfb84070955417be5d119380ce6"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_compute_r0_neg_test.hjson",
+      "sha256": "30e324027c7c115740c6a09fe87fdefb97566bbdf671da6a24243e5c8610f3c9"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_compute_r0_neg_test.s",
+      "sha256": "13e5d4c8d6a4fa74735b2ba2e5f682f61b0f6c3d8f4f51fda68b6b07c9f2bbd9"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_compute_r0_pos_test.hjson",
+      "sha256": "06d3c54f39f96546d6f5db848e7fa9c3a847d5d46778c7774e1a3ed3c80dc282"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_compute_r0_pos_test.s",
+      "sha256": "3c9b0e432ae4b75b8bf43456983c4abc47d0e8d4d3b90daadf67d1547b1f437d"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_compute_w_test.hjson",
+      "sha256": "dc49c4ac74602d98b53a98df1ffa290c58c1532cd669584954c4a4b6086d5e2f"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_compute_w_test.s",
+      "sha256": "4e8488fd56fc229f7791d036d5be12520ad949513fafe5bbe8a64d67e610c58c"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_compute_x0_test.hjson",
+      "sha256": "f25d718613f679d34c56bdbe5211d7885e3772d686731063a5ef04f8d14bf089"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_compute_x0_test.s",
+      "sha256": "73936507116ab08026c9a0896b5f42d6dec1b9666c36927c9c92ccbc05d04d22"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_compute_z_test.hjson",
+      "sha256": "68b25f1a1a28f4d289b772e4778055a99c3303aa8c96f089420019d5d10227eb"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_compute_z_test.s",
+      "sha256": "1418dad079c3fdda1c130f3fd2eece9401207df4f42dca676afc6dc8956a5730"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_decode_t0_test.hjson",
+      "sha256": "65673bc472b6d49cddd65d1acc495edaba5dae6568682c2816c43e95a693e6ee"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_decode_t0_test.s",
+      "sha256": "4555929effbae720887e96ec1651bc87560f4903910b85de7ba91010db861c75"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_decode_w1_test.hjson",
+      "sha256": "1b7c5b6c8d0d5dfe9c277c296d78c96f37ee62dbdc35b2cb696c00dad4ed1c87"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_decode_w1_test.s",
+      "sha256": "81503786075514775db1ba66b0d86cc7f677c0c58c587d696cfc0b628f7f55e2"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_decompose_w_test.hjson",
+      "sha256": "5e928444c75dce81008ae7c78b8986a89fe488e81fe60f2394bc683411faa900"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_decompose_w_test.s",
+      "sha256": "1b9ab7a1d2c2826957d3ed9e0c0a939acdb1ffee9dca821bc4627506dc1d351c"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_encode_z_test.hjson",
+      "sha256": "d784a6a3c5dd5bc0ec8af8f1387665ce2086115892cfdb0fe177a66de5ebce78"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_encode_z_test.s",
+      "sha256": "56d68e5ddd1817b7e0520d0892b021ac567f5ed75d0c8d9a28088955187a857b"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_expand_mask_test.hjson",
+      "sha256": "85e0b17b7d0e7b8580f2e57e8a1abe4cf51faabb59cf82f2b1d6b57e86d36b34"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_expand_mask_test.s",
+      "sha256": "6208d7d7eef6e70c24cf4e5d85a2b93e2ae17cdf9fe421d429a96350edd5de13"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_hw_check_hint_test.hjson",
+      "sha256": "c7ab87fb972ac4b51725f72cf759da9fbdfb8ad6a2e3e6759ab2fe0817ad645d"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_hw_check_hint_test.s",
+      "sha256": "d1378878aac9f8fe3a940b54c06b65ed9d51790236087f55e85e1f14c05a0877"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_make_hint_test.hjson",
+      "sha256": "3cb29a5c21f941f1310be47a14d41014ba651c39d30b0671b590d9e006b9e581"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_make_hint_test.s",
+      "sha256": "4082f4a68f1c7d6a9e7c0aedb9f991473a3fb0bbc6d0b57b1236dddc7cfd1475"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_nist_acvp_61_test.hjson",
+      "sha256": "94b296dbcb03b165e8c7dd0c2b7e5004b66b14f15f6eb66bb589c69d66d81f98"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_nist_acvp_62_test.hjson",
+      "sha256": "9d37f3f7b360dd95ba6543675f58910aa4289137fc9132b183f2dbdac4438460"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_nist_acvp_74_test.hjson",
+      "sha256": "3c3b81df9a57073106bd869435119e9ab1d00a4127faff261d984bd2c3eba5b5"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_sample_mask_poly_test.hjson",
+      "sha256": "869003631cbf97b18eda70542959df44105e188074e01fa7b4dd1568babad785"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_sample_mask_poly_test.s",
+      "sha256": "22e1279f15ea9bf669c76985eed3b25890c49d1326ccef33df4c4c7a1cf86ec8"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_sign_test.s",
+      "sha256": "4aa77a8f5fd0325a8cc64a170c4372f2a4cd294898e839227b0945cb8ddae0dc"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_verify_check_hint_test.hjson",
+      "sha256": "06f7da3c5b338c972b2eda55f4f47317c2e2923599958cf952fbc250d95e9eb9"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_verify_check_hint_test.s",
+      "sha256": "85b738a06de8a5d8c4d5988f560447ade70ca41cc318b339bebc7991c31bf1da"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_verify_check_infinity_norm_test.hjson",
+      "sha256": "010171f2587d036863046c253a6259ef575f53c49e184724c4a5651346ba9600"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_verify_check_infinity_norm_test.s",
+      "sha256": "8ebe41586e627e4bab435ffa628ab83b79c99d5a7a93375c45d9243ac29afcd8"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_verify_check_infinity_norm_z_test.hjson",
+      "sha256": "9370b2bdaab2a557af1ed2d7cd975e5a721136d2750d54c41f228a6b8f355b21"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_verify_check_infinity_norm_z_test.s",
+      "sha256": "37dbf82163809b57176492673d907d3476bbd02b0778498dcb64b575edb08fc5"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_verify_compute_w_approx_test.hjson",
+      "sha256": "016bcd62c4bf819bd81eb132d815160856e6a3c73ea88394ed13ab9cea21304b"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_verify_compute_w_approx_test.s",
+      "sha256": "9a71e75db3f6b9ef3c6c63390acc9d752abfe80a5ff7c2ae479560d9a1fbdb09"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_verify_decode_h_test.hjson",
+      "sha256": "fe3c07d5e050440ed62ab9d9386a2007a4cf75ec6cfe82d2b0264787b3228c39"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_verify_decode_h_test.s",
+      "sha256": "3336038443b374b3d0012aaa5c7ddf67ac8ae1ed000b41912af2c9837ef47aca"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_verify_decode_sig_test.hjson",
+      "sha256": "386a6dcd0ec1933b9643f2308854ca761c1e1a265c467af8e377e3e0d27a198b"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_verify_decode_sig_test.s",
+      "sha256": "b0d810d9b49fa04ca389f416c35c8b5f978d8e50d04a9aae6a3fb64b4f711197"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_verify_decode_t1_test.hjson",
+      "sha256": "e6b052c2f07038b35cf45561812d91534597f33aaf3adc02591b42243cc7ef00"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_verify_decode_t1_test.s",
+      "sha256": "51ae468371de747de24341e5f10fa73a41fff07b7f619bc8208558a94249c432"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_verify_decode_z_test.hjson",
+      "sha256": "7d4bb48f737e371b9b9f428948dc965e7dcb796f8dbf808e1ac675544c096bef"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_verify_decode_z_test.s",
+      "sha256": "a1c566691546068dcb00a344bad5b2da8f0bf382151aa783eda7860e04f340b7"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_verify_decompose_test.hjson",
+      "sha256": "80276678fbc845e43625ebd0fff42b69b13a224861aba3522f1f77f4d5ee6e66"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_verify_decompose_test.s",
+      "sha256": "6aed31c5fc4b22c7f7b18112803539c75cb1399934d09e663dfb221350904957"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_verify_nist_acvp_63_test.hjson",
+      "sha256": "401eaffd170ac94a530086e770d8a8eb93f1bb0d32117657e17429b649061589"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_verify_nist_acvp_64_test.hjson",
+      "sha256": "e30432d51dc744e98b74585429ab2e06b3ec44d36a3d81a071e164ec73333910"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_verify_nist_acvp_65_test.hjson",
+      "sha256": "96118bd174193f7c244b5d6a91d53ca837e7749b32d1536b897aee679344fc46"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_verify_nist_acvp_66_test.hjson",
+      "sha256": "5c8548dd9b77eb7b2ecea530da2788bf0b697620c55ddb17527785ff960ff128"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_verify_nist_acvp_68_test.hjson",
+      "sha256": "26a96a98ad13ab2517b94f0707cf9c8f354e0beda10b1de64dc1d13ab5f0858e"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_verify_nist_acvp_69_test.hjson",
+      "sha256": "26ee18576bfb31a45be32776c6215450404ae2df927b7f75c79414fe068ad225"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_verify_shift_left_test.hjson",
+      "sha256": "6d63307eb663b3a1884fae9e647c4fdfdf9bd3e948e092838ab6ad5df9209b17"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_verify_shift_left_test.s",
+      "sha256": "a32b93399cad2b9398bf2aef40533e24aaeeb0d6f24c55cf66e50ec5af0729d2"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_verify_test.s",
+      "sha256": "b54cbcd2ed8b706af02ab3cf1527bcde6c3eb173770fb991b866d15a36d2294a"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_verify_use_hint_test.hjson",
+      "sha256": "33655c9c99073250f8cb61ed0148daaf6037980fb3b0745dcb24cf6c022e4a77"
+    },
+    {
+      "path": "sw/otbn/crypto/mldsa87/tests/mldsa87_verify_use_hint_test.s",
+      "sha256": "c600373fedb3f7ed9e135e01a675689eb3edcd82dae3a520f84709857167e767"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/BUILD",
+      "sha256": "7bc8277561b3dd27106d28a05ad5199263a116d24b29dd65dded738db2c64750"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/decaps/BUILD",
+      "sha256": "8e36beb91d5cc53cdfb8dfd59d3f2ced51b58b88f2a1b21f8e65c39051643004"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/decaps/mlkem1024_decaps.s",
+      "sha256": "c09d536bd26f0056114080767a9bee7c0da04a55bad8b0ce7a67e2455526b606"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/decaps/mlkem1024_decaps_mem.s",
+      "sha256": "26b2b7cb911c542deb5a6989abbcca3a02adca2bc6fec412eac6f1c26c347ec3"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/decaps/mlkem1024_decrypt.s",
+      "sha256": "4fd4bf6ac91e533b022f3a7d723167abf4fcf3d0edc2faa0ae7d2d729d21a2f0"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/decaps/mlkem1024_decrypt_mem.s",
+      "sha256": "e1f983e8f71b84b0c6a5cc0a09e68c760bf262c5fbe6e7a1fce6cef1bc712e35"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/decaps/tests/BUILD",
+      "sha256": "2d4491190bd5a1ba6f996dd2cf98253aed485173173886482f5a768002bd301a"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/decaps/tests/mlkem1024_decaps_reject_test.hjson",
+      "sha256": "afa1319f8177c7bdf8c0d00484af7791d7f11f98c763af73331844227ddf7509"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/decaps/tests/mlkem1024_decaps_test.hjson",
+      "sha256": "2070184a72033e78c40b8d69bdcbb018334a22ab0f91c665ffdb8496ebcbe50c"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/decaps/tests/mlkem1024_decrypt_test.hjson",
+      "sha256": "0ba23a181991ad7f462103de768b18bf8065935cd97866125db58c0c2b0836b4"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/decaps/tests/mlkem1024_decrypt_test.s",
+      "sha256": "e15546d9cd22b119fd36626da39390cd5a35510d377bd3bb2879eb04aaef1154"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/encaps/BUILD",
+      "sha256": "15670d812badf413e90ab785c9ced3262a2f2eaac545e0412e80446b00965bf3"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/encaps/mlkem1024_encaps.s",
+      "sha256": "00fa3a4e5869dfba915fc1d05a1027d735827b08cadcccbd68ee8a38aea1aeb6"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/encaps/mlkem1024_encaps_mem.s",
+      "sha256": "1895f07367c318fc8ce18debd93e102ac3f303a120fce296828abf03d12d6fac"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/encaps/mlkem1024_encrypt.s",
+      "sha256": "03c4faa53f3eb691bc569c5eb9e65ee415a50452c5740902c22f916f12dca495"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/encaps/tests/BUILD",
+      "sha256": "61bf3e4a3eb55f99a48b9a007e5f66735371493b4ce89c7e8c762befbf6c92c4"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/encaps/tests/mlkem1024_encaps_test.hjson",
+      "sha256": "5ef4107ced0cebf869e54171c1c767da60ad1ee39632347119d3587be3ff48bd"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/keygen/BUILD",
+      "sha256": "80a31eaa462161c96264ebb214b2d45cceb94d5bf9d83e51793fc419120e4e0a"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/keygen/mlkem1024_keygen.s",
+      "sha256": "a6f4d73f29d65b21e55ef0579656eba782c080ff1fc8dece5d33a47314bd98a1"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/keygen/mlkem1024_keygen_mem.s",
+      "sha256": "aa67c91bf1b0491cbc321f39c2be0401161aeb61027167ace6e951dc6c71d1fc"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/keygen/tests/BUILD",
+      "sha256": "eb58d8d97f015598248828a2c1cb6e2f8889528938184d4cbc0332b2c52720d5"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/keygen/tests/mlkem1024_keygen_test.hjson",
+      "sha256": "24e3665abbfec28f18d100049ab309870901de1a4e9263da71c0f7baeec18998"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/mlkem1024_arith.s",
+      "sha256": "0b3e22b5cf6b91588dd82c09331cf607c87c268d3b20cca12bee7476bb168e6e"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/mlkem1024_decoding.s",
+      "sha256": "9405a464d4d656de7ec45745c174ec9004934439de1994d0b14392de2fdf8351"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/mlkem1024_encoding.s",
+      "sha256": "0f7218942357bfd4a8679b74f4bf47bf2f5c090b75e4d9f0d2fb6f62b9f33511"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/mlkem1024_expand.s",
+      "sha256": "3a55082e3dd87ad40bedcae95d2488f081dfdab94ba298b24ce14f9ed2465f19"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/mlkem1024_ntt.s",
+      "sha256": "efa65f43fe4b468b7c3bc8280bfcc3ef1bdabd6561e96eced3ab65d34f21ad84"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/mlkem1024_sample.s",
+      "sha256": "f04c461db6347fe1a75e98042495fa081eaa156c312a3d3d44a2632821465a2d"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/BUILD",
+      "sha256": "6ef3928e99c68673f9558a87b94b28deb0118e4073b32de6f1d14cdf545966a4"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_basemul_test.hjson",
+      "sha256": "40dc0937be2a2f8a5f2cde3213aacb6faccf755bbcf79c67f3a31cb498673b6c"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_basemul_test.s",
+      "sha256": "b046914d360194f9408f9b0dd98731a27d8c8de583e4fd4875363f6b2cb66491"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_compress_11_test.hjson",
+      "sha256": "b54d19f967e48245a77c69b7446efc49107c7a4cf89a4809114d07417d000b82"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_compress_11_test.s",
+      "sha256": "582837e6caffd686ed13bd966985a4822162390ec8805b8068201a1d93ddb4ce"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_compress_1_test.hjson",
+      "sha256": "39837f89f4293b580a53fcb5072f22705432ab55de2f17cb39297f7e5fd51c69"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_compress_1_test.s",
+      "sha256": "9699df1e9e3b117ff3fa5b41d920e53aac42055761137ea791853a69d8acc394"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_compress_5_test.hjson",
+      "sha256": "c442f8d11240d67e7fc2c4fd2adf66ec8f1744419a0f8ced2c1131dc50b7e1b0"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_compress_5_test.s",
+      "sha256": "d9cacf06f4dc01ced664e3b940f15d5c8134abda844a370a82dfc1e2b87cef9b"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_decode_11_test.hjson",
+      "sha256": "78b8f7995da8d37451c98812079aefe9374646993b9e087d9fa49a4937576346"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_decode_11_test.s",
+      "sha256": "b476ea3463bcb18f416ef39bffa3936ad95ac9a848113a1d9186bb939ae28da1"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_decode_12_test.hjson",
+      "sha256": "a01b9be49565e0c6a3b89326d612abc3fbf77ba7b752bfa9596cbb0fd10cce9a"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_decode_12_test.s",
+      "sha256": "e151d2ac87cd1901d260aa38448fde5ba4647f7bf59c21b7ba3fa8d1f70bc4a0"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_decode_1_test.hjson",
+      "sha256": "815b84c94132983df96fac08acb275beeb39fdb48dd790c668f0c39a417754eb"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_decode_1_test.s",
+      "sha256": "4f46f32511ebbb4f9bc7399895a301528d68595493026a9d0f59da15eb588493"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_decode_5_test.hjson",
+      "sha256": "5ca1175d442fc425d94ee2b7745b125d436ef1236b22c16606a1dcd438063d32"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_decode_5_test.s",
+      "sha256": "7f3e0d6dd15cb3678019789acde2841674f71a54757ff5f5b5961950d72415f5"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_decompress_11_test.hjson",
+      "sha256": "33c241a5ef8103bc0733f7399116749438d43db3b817b27c223060c57084d302"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_decompress_11_test.s",
+      "sha256": "ff1d8498850d05371576b2e2823bffc50c032e24b80cf41bcee2e8ad6e885b9e"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_decompress_5_test.hjson",
+      "sha256": "8af8673e3bc8c4af5b5ede143003e97ced9b47483e79a544a02b068e6ca887c2"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_decompress_5_test.s",
+      "sha256": "d3ad6a7b26443c7fb48632fa2f6b20cad25eb5fece162351dd3676d4cbf85977"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_encode_11_test.hjson",
+      "sha256": "c003f0e8573edd026ccd73f6ddf6cbda993e0833e7c0d5fea7de16465d7283bb"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_encode_11_test.s",
+      "sha256": "17e2df95eff2757cc359c58bbb5bec60a0aa3568f20b4128d49e987caeef93e1"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_encode_12_test.hjson",
+      "sha256": "6808d229fb90f856837ca29c8a65c4f0903cc60de31a76eafcee7c77d6ea2301"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_encode_12_test.s",
+      "sha256": "d2b433cf3fb113f3aef0f374bce91916cfa9cd790d7b498cd8fa6de1af59faa6"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_encode_1_test.hjson",
+      "sha256": "ceb47a9f8152d27173fdc820ae040812da2687e62197bd97722934ed0838095a"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_encode_1_test.s",
+      "sha256": "4cd8feb7f395d67758e2a5d8ca0f9a6b64ea75bf746fe3d3a19fb73ccd503743"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_encode_5_test.hjson",
+      "sha256": "3d1c90bc03d1a1998aa87170dea48a78791e65d014596f98cc902ee73f3576d1"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_encode_5_test.s",
+      "sha256": "3b993f11664de4309a6666078e1412384eaa0890426befee59f1bd401da8ff00"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_expand_a_test.hjson",
+      "sha256": "53dbb8aef1ade9c541a2446808ab8c9a61fd9cc49d4ff91548a93cdff653eced"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_expand_a_test.s",
+      "sha256": "b4a554678ce2776ec662c01533d26be3bd8899539e1e8c1698f40fd7fc12ff46"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_expand_prf_test.hjson",
+      "sha256": "28653e1a683e1c9f840f2cba46920a3fc29d0f4deb0c1130f011b00f2affe4af"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_expand_prf_test.s",
+      "sha256": "14f6e9c9b4dc0e23a0043ff9685c6d3f6cb62d88a80767b4338b0643256fb8c8"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_intt_test.hjson",
+      "sha256": "bae22ba3bf21fdfc44739b0451db76c451002d869dbe386b8b24476882f8b50d"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_intt_test.s",
+      "sha256": "d691e4693c95341596390df3294e2b7dd0784c9b8422609090a316e691ae8513"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_intt_testgen.py",
+      "sha256": "5efa960c175d678cdf2921b6c2a3eb0ef6272e02f7de9a3d8468e7bbc73a6454"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_ntt_test.hjson",
+      "sha256": "254b0907f742bd19a506bafca6ec9c59fcc7a42dbd8c8b6d5c74b9b1669dd2eb"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_ntt_test.s",
+      "sha256": "9a12006c70a3ef254f05c34fc0913990a87be78d00b7950e41c94006f4f45353"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_ntt_testgen.py",
+      "sha256": "cb76c20fa210b5ce35a7552330b9d9f028ba2063528cc6af4adf9d8bfa1903e3"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_poly_add_test.hjson",
+      "sha256": "e435ab48d08f80453b41b595539780e0f237d69e3b61e64b85fb53089c293253"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_poly_add_test.s",
+      "sha256": "21a926709f1aacbe0cdbac3703e77bdc5e7cb17cf30559c7d073a45a3bb4ca42"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_poly_mul_add_test.hjson",
+      "sha256": "42dd71b159494c16ffa1a4c097088f73d5d57800a54efdb38a8d6fa88fb322cc"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_poly_mul_add_test.s",
+      "sha256": "95c0ea62f3b54be3fd70995943efb08d425012fe33bc8c2e78a36133a06b6394"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_poly_mul_add_testgen.py",
+      "sha256": "bb6bba49df8d3c40da7501078c3c20e7e542768594d858e44005758675b76205"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_poly_mul_test.hjson",
+      "sha256": "50be70044eb1ce57e13ba5f57b5e6ca4eef39dddc4280129547a245628016bf9"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_poly_mul_test.s",
+      "sha256": "066acf788aae80eb1005e8ff4e0fe1cce36be84b5774a465679858c5572b8823"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_poly_mul_testgen.py",
+      "sha256": "ef69d1146a60006818d4af76a4800423c3ffffe93dd81f7dd0c3cefb63551919"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_poly_sub_test.hjson",
+      "sha256": "e948cea66f819f56e344e42fc173103ab8611a722f5670a599f8f5031a4bf252"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_poly_sub_test.s",
+      "sha256": "b7cad7d704035296d4f791c1f70d5d642d8690a1e95cc3a3424275a19621ca4a"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_sample_cbd_test.hjson",
+      "sha256": "f86c7d33ffaa864afc99bcdf38dcac21789d52d42dd540b61c4f9f4a0578e299"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_sample_cbd_test.s",
+      "sha256": "feed36c3b36835f54ba01d2ee5d9d3befb48920c53a358a413f22a616e4e2389"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_sample_ntt_test.hjson",
+      "sha256": "ec47c2218453f3acefb000c0e4b894a05abc939fff7e6f9db40c7900daa3dc38"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_sample_ntt_test.s",
+      "sha256": "e1830b9bb571134299cddcec08fcd8a3375ebe6105df0ab8c59ea78aa3a6b643"
+    },
+    {
+      "path": "sw/otbn/crypto/mlkem1024/tests/mlkem1024_test_mem.s",
+      "sha256": "bf6288ce1908c5d41be5e2ad075449636681f830592a85664cd110648b25fe8f"
+    },
+    {
+      "path": "sw/otbn/crypto/modexp.s",
+      "sha256": "ac410addb16fb6ed5ef83799532238066a14f35ef5fc966a885bd3114a1ef094"
+    },
+    {
+      "path": "sw/otbn/crypto/montmul.s",
+      "sha256": "fdcb90cec226a270924654d613dbef4f26f329bfa3f8538af10bce4ce21d1d0d"
+    },
+    {
+      "path": "sw/otbn/crypto/mul.s",
+      "sha256": "638391c28112257d9901b2ef1b29b95c9550f7f414a9f298ff7f3326dd54d3ea"
+    },
+    {
+      "path": "sw/otbn/crypto/p256_a2b.s",
+      "sha256": "7544d2406d06b538115b13d764b254934f92d66cf53224cff0fc5be41ea5772c"
+    },
+    {
+      "path": "sw/otbn/crypto/p256_b2a.s",
+      "sha256": "4e5e6dfa688bc92af896a3e322d032e22cf826f9fdd8cae21218e40cc1a3774a"
+    },
+    {
+      "path": "sw/otbn/crypto/p256_base.s",
+      "sha256": "9acc61e4bbbe4d0ba3a68a4160aa75c0a519faa60a64be3f2585da3602d08435"
+    },
+    {
+      "path": "sw/otbn/crypto/p256_ecdsa_sca.s",
+      "sha256": "715fba37aabadfbd62143db245a06a28b721f24cd815e7c2475adcd012ca5a64"
+    },
+    {
+      "path": "sw/otbn/crypto/p256_isoncurve.s",
+      "sha256": "20e60989318a3d61b84831fdf450417e84fefd0998f7167e9a19ce67d53f9e51"
+    },
+    {
+      "path": "sw/otbn/crypto/p256_isoncurve_check.s",
+      "sha256": "c06d250c8da2f563cbbba740e85d26f3695ba6f1990ead24295eb4fd21eab079"
+    },
+    {
+      "path": "sw/otbn/crypto/p256_isoncurve_proj.s",
+      "sha256": "d4ec1a4bec258cb789cd3b6739cab7b8df51c0d1e63d7d487f9778d8081ca62f"
+    },
+    {
+      "path": "sw/otbn/crypto/p256_key_from_seed_sca.s",
+      "sha256": "44403c3492c6f2a918bca9c1a19221b75de25aaee1cb46362f09b62c5c759763"
+    },
+    {
+      "path": "sw/otbn/crypto/p256_mod_inv_sca.s",
+      "sha256": "9ee5eaef2a18e5cd78814550323a8f75ba3a1d30d139226d55bb8da06f7a99ee"
+    },
+    {
+      "path": "sw/otbn/crypto/p256_shared_key.s",
+      "sha256": "bee5030d24811787b55c50a64ac12610c9785922767b978b7977877c41843086"
+    },
+    {
+      "path": "sw/otbn/crypto/p256_sign.s",
+      "sha256": "c247042ef89252f86972bb1a930dfe70252a5241e47956a253531d1c016885fa"
+    },
+    {
+      "path": "sw/otbn/crypto/p256_verify.s",
+      "sha256": "f9f93af84f128ab0a651d0fc6cc0c7ceeac5fd03a54b75d45991114bbc0ea946"
+    },
+    {
+      "path": "sw/otbn/crypto/p384_a2b.s",
+      "sha256": "508994a27c78e74341702cf52c899258eb5ae9e88430fec9cdf463bed953467a"
+    },
+    {
+      "path": "sw/otbn/crypto/p384_b2a.s",
+      "sha256": "4b62968e49945aefc46bfb2d27fcf49177d89cb383f51fb18ca3e9cee0f65812"
+    },
+    {
+      "path": "sw/otbn/crypto/p384_base.s",
+      "sha256": "3499705d3258e098bb78b6f28a44e63c0091f187ff7eeff8bd4aec80a3982da1"
+    },
+    {
+      "path": "sw/otbn/crypto/p384_base_mult.s",
+      "sha256": "7bed037b15a988223107fecffc7c6162561e035d710d84026870f5fd3b65fe2b"
+    },
+    {
+      "path": "sw/otbn/crypto/p384_curve_point_valid.s",
+      "sha256": "965c015b7ccd2d8b0d3c9732a415c6901cf5c607696e26dab64ca15509075066"
+    },
+    {
+      "path": "sw/otbn/crypto/p384_ecdsa_sca.s",
+      "sha256": "5586bf8f96864d1e54a093cab5bab6626ffc76a63ab24ee29b15bb22d8432abe"
+    },
+    {
+      "path": "sw/otbn/crypto/p384_internal_mult.s",
+      "sha256": "399e6c0790dc59f1efd4f199618868c14f2fb2e5e9eeacaede98bf702e6b4195"
+    },
+    {
+      "path": "sw/otbn/crypto/p384_isoncurve.s",
+      "sha256": "f95be9c5f44ae3bd0db1920f179716e05a2eea88765c9e5ee456fb4f796e6970"
+    },
+    {
+      "path": "sw/otbn/crypto/p384_isoncurve_proj.s",
+      "sha256": "36b26bf6c17138b882e60d8b2f6e9c1f0bedb403c8c4764fabe064fd8e35a540"
+    },
+    {
+      "path": "sw/otbn/crypto/p384_keygen.s",
+      "sha256": "d201348e6a71c3bae63920f9e4e2e2e964fdc253b721a5dd8b060a5ba2c4b824"
+    },
+    {
+      "path": "sw/otbn/crypto/p384_keygen_from_seed.s",
+      "sha256": "04ea087d5c829a3fc32a17de247f2fa41d375f328fc3130f594341c40c6cc04c"
+    },
+    {
+      "path": "sw/otbn/crypto/p384_mem.s",
+      "sha256": "a564bfef8edc7bf49f712941ab5fe9a739205e80cef36d2a6c33a36801426daf"
+    },
+    {
+      "path": "sw/otbn/crypto/p384_modinv.s",
+      "sha256": "4dcf8c2c2b78c34cacbe50f478b03f5ea371915639e707466955d15d59d62b7f"
+    },
+    {
+      "path": "sw/otbn/crypto/p384_scalar_mult.s",
+      "sha256": "0edaa8f2db657bfe3ce9738e4b861d0e75f6047d09add96d4df0b63b96a05aa6"
+    },
+    {
+      "path": "sw/otbn/crypto/p384_sign.s",
+      "sha256": "882a561eac8eaf13a800d759e15493b2cf41860ec2a7f5cec830096fb11f3548"
+    },
+    {
+      "path": "sw/otbn/crypto/p384_verify.s",
+      "sha256": "dc649ec9a338fa1aad9e57ecf1000a018268bd0fd071eb322d14061b831166f0"
+    },
+    {
+      "path": "sw/otbn/crypto/rsa_key_from_cofactor.s",
+      "sha256": "43451ba7d35a225295c22e3d756d25bed9afabd646596d8739c4742e6af8a84e"
+    },
+    {
+      "path": "sw/otbn/crypto/rsa_keygen.s",
+      "sha256": "818b5fa3093f91ca854ff7129ad9a674edb53bf99396db41cf382a7eb818d5ab"
+    },
+    {
+      "path": "sw/otbn/crypto/rsa_modinv_f4.s",
+      "sha256": "13cce1d4941abcd0ae05c1a00c5c449d7e972ef3e6476cc1210e89b1aaf80771"
+    },
+    {
+      "path": "sw/otbn/crypto/rsa_primality.s",
+      "sha256": "a59111bac0b581b4ddcda36be97b8dcbd8fe929e9fd85153ac6813a7a2d3c294"
+    },
+    {
+      "path": "sw/otbn/crypto/run_curve25519.s",
+      "sha256": "9e82cc31b6da63edc8aae867ddcfe383d9e1161de9cfcfa4b4d9d943876154cf"
+    },
+    {
+      "path": "sw/otbn/crypto/run_p256.s",
+      "sha256": "eda3abf78e6b34c23df933e77836f5029ce35770bb1ddc6f1072b4a8c46a39c8"
+    },
+    {
+      "path": "sw/otbn/crypto/run_p384.s",
+      "sha256": "2096365f6612ecae5633d3bf1c6a0acd7363c75829dc60a499c8f06d5b655277"
+    },
+    {
+      "path": "sw/otbn/crypto/run_rsa.s",
+      "sha256": "4367f189f254e344523b90b4fa09def6586a6511153858de91bd580577cbeeee"
+    },
+    {
+      "path": "sw/otbn/crypto/run_rsa_key_from_cofactor.s",
+      "sha256": "2d408b48364a9f42a153d03ea8b3bf5ea122c5300032196151f1084470086f30"
+    },
+    {
+      "path": "sw/otbn/crypto/run_rsa_key_from_cofactor_mem.s",
+      "sha256": "c1682917dee4b338ad326047cac9e2b75443130f488ad584059351932ac04bb9"
+    },
+    {
+      "path": "sw/otbn/crypto/run_rsa_mem.s",
+      "sha256": "b8af9ee130889f9179f0b88ede77de0adb0c067cc372bf1f0c2db32f9f207e2f"
+    },
+    {
+      "path": "sw/otbn/crypto/run_sha256.s",
+      "sha256": "b935dd1cfedfc52826821ce595a43793534305024f804d7baa68bb777af5ab2e"
+    },
+    {
+      "path": "sw/otbn/crypto/run_sha512.s",
+      "sha256": "338438db54fb8ccc88b591369e6e51be8d6251c253c83af6ea5f1246d774fae6"
+    },
+    {
+      "path": "sw/otbn/crypto/sha2/BUILD",
+      "sha256": "52c9e8c7101de450b31acfe1d34d15af89dac104a88477a300f5b1c7affbf857"
+    },
+    {
+      "path": "sw/otbn/crypto/sha2/hkdf_sha256_masked.s",
+      "sha256": "5b3dbd9f658af409459a1a8fe330b00fb6703db70bfc5ab1607b8e88965c2433"
+    },
+    {
+      "path": "sw/otbn/crypto/sha2/hkdf_sha384_masked.s",
+      "sha256": "c9f63667be0dad170fd2e7e534e15e8e802206020239d3018886f456f3a3eff7"
+    },
+    {
+      "path": "sw/otbn/crypto/sha2/hkdf_sha512_masked.s",
+      "sha256": "1d593ee12964f90ab640ffab3c8d9afbd95ab37efdd67edf36444628386098de"
+    },
+    {
+      "path": "sw/otbn/crypto/sha2/run_hkdf_sha256.s",
+      "sha256": "b00e6b7e753bfbf61225ab02244a5d7f3f4ca6388b0ec99e34da89d5d9fe49a4"
+    },
+    {
+      "path": "sw/otbn/crypto/sha2/run_hkdf_sha384.s",
+      "sha256": "14577c511a965e1817874d3011c480fdf1d30afe46353c58279a4e52084cb87c"
+    },
+    {
+      "path": "sw/otbn/crypto/sha2/run_hkdf_sha512.s",
+      "sha256": "65f8d783981827e3ed3e1f32cf0b8c1f75487fda85f2c6722ad26527c0686ddb"
+    },
+    {
+      "path": "sw/otbn/crypto/sha2/run_sha256.s",
+      "sha256": "a2c1d0fd04f9930dadbb47d2b7216c83f6b1b083895b935e6a2e8abbd570b2e7"
+    },
+    {
+      "path": "sw/otbn/crypto/sha2/run_sha384.s",
+      "sha256": "09c66d987fe7e6af437f50cfbc79a51d5d417cc06510363a7af852d71c6a9e39"
+    },
+    {
+      "path": "sw/otbn/crypto/sha2/run_sha512.s",
+      "sha256": "6908475bd7846f846ada29a605333effa3cde695130e4360dfcd0d054a21f287"
+    },
+    {
+      "path": "sw/otbn/crypto/sha2/sha256_masked.s",
+      "sha256": "0073f334c6c6f88a1c640941f69292988773a98a8935b466e8f80d8dea313056"
+    },
+    {
+      "path": "sw/otbn/crypto/sha2/sha384_masked.s",
+      "sha256": "849c4208967d144abcc7badadda3832d81c16f6728247f6ff24177dbc7c42254"
+    },
+    {
+      "path": "sw/otbn/crypto/sha2/sha512_masked.s",
+      "sha256": "16b0d0a60d47792414dbf6e1ec5b5a52b9dd80ad7edb7dd6c27e237495508c85"
+    },
+    {
+      "path": "sw/otbn/crypto/sha2/tests/BUILD",
+      "sha256": "03d6647d9fd960bb08cb8efb91a0fa1650656a5b9699b7fc8daff36e5a378228"
+    },
+    {
+      "path": "sw/otbn/crypto/sha2/tests/hkdf_sha256_masked_test.hjson",
+      "sha256": "db83f98fdd78ab22fe522f48282735eba79b795a753db537dcc22c3b1632b532"
+    },
+    {
+      "path": "sw/otbn/crypto/sha2/tests/hkdf_sha256_masked_test.s",
+      "sha256": "61ea3544bcce51dc771874f6846f530c3d7d923a4db75b2998b768207a49677d"
+    },
+    {
+      "path": "sw/otbn/crypto/sha2/tests/hkdf_sha384_masked_test.hjson",
+      "sha256": "ca792a7062707a09a6c2be78a6a2dbda33cf21aac6b41738b82a2f572ec0797b"
+    },
+    {
+      "path": "sw/otbn/crypto/sha2/tests/hkdf_sha384_masked_test.s",
+      "sha256": "0480c66ba0a190f22bc05dbe8c38f4aeef15c2c5c4d3488c5b337547df1ee666"
+    },
+    {
+      "path": "sw/otbn/crypto/sha2/tests/hkdf_sha512_masked_test.hjson",
+      "sha256": "f37af2458c0a2d40de153a8639dd2335ad3d1c98e850de0952cfdca7741b0a87"
+    },
+    {
+      "path": "sw/otbn/crypto/sha2/tests/hkdf_sha512_masked_test.s",
+      "sha256": "f99d2900e2dd4ad23f95f9796600e281f9dff1f83f17252bce50788d07059727"
+    },
+    {
+      "path": "sw/otbn/crypto/sha2/tests/sha256_masked_test.hjson",
+      "sha256": "208d3353a6aea5c65943e4f9d0986b041132b64f9995a93f24eac181bacf5b89"
+    },
+    {
+      "path": "sw/otbn/crypto/sha2/tests/sha256_masked_test.s",
+      "sha256": "ed417aa0b5388630be417959a394353477f98f2df154d1967fb7c386f86725bd"
+    },
+    {
+      "path": "sw/otbn/crypto/sha2/tests/sha384_masked_test.hjson",
+      "sha256": "be262516289d8dbc5f6205a8f7fa73bc0ca30e0411bece9cbdda4b20267cedff"
+    },
+    {
+      "path": "sw/otbn/crypto/sha2/tests/sha384_masked_test.s",
+      "sha256": "2b608476c1c071e3450ffe1ec718baf73a9ffcad58dbe8524faf0b1942a90366"
+    },
+    {
+      "path": "sw/otbn/crypto/sha2/tests/sha512_masked_test.hjson",
+      "sha256": "ff9f01440ad0156fa58475feab5417b6f73c870c3e961ac2236ad5356fe1368e"
+    },
+    {
+      "path": "sw/otbn/crypto/sha2/tests/sha512_masked_test.s",
+      "sha256": "c86a660e5e5476aea3218d2803e241c3d88d8b78642e7ed2efe1a283e154e002"
+    },
+    {
+      "path": "sw/otbn/crypto/sha256.s",
+      "sha256": "e034c27c677e25e57d2063ec4e375728aa91af88095f1851532dd29fe8434cbb"
+    },
+    {
+      "path": "sw/otbn/crypto/sha3_shake.s",
+      "sha256": "f6c5f5ffc165f8770acdcaf811d629693f74e0ca7d05aed5c8926f13dbd78274"
+    },
+    {
+      "path": "sw/otbn/crypto/sha512.s",
+      "sha256": "d416529cd477ee8652766e8fe28d02df94b8cc9767428b584c08134d92b59367"
+    },
+    {
+      "path": "sw/otbn/crypto/sha512_compact.s",
+      "sha256": "99b6a9cf4fff46f34890f82fa6dcb5048187ce8f2d2eb03cbbc2bf7ba6da4766"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/BUILD",
+      "sha256": "3cabcdc068009efe8f85edbecc639aa6abc3455627b5a8d9dbdad74f2b20642f"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/boot_key_endorse_valid.hjson",
+      "sha256": "cecdd1829fe9e40ac783a7bc86dc2da915c693ddae8cfd095ebc02500f74ef62"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/boot_key_save_valid.hjson",
+      "sha256": "e81cbc2666c8456f3f79ee5cee1fd317461cc8b373077c8466707b23bbc632af"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/boot_keygen_valid.hjson",
+      "sha256": "a0a80ed590c89272cd86536a43da3280aa2511c845b2b5bf5b4e735246f52754"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/boot_mode_invalid.hjson",
+      "sha256": "fa122b895d451e4f622913b5e623f88cd122e2147061a112801a5963b40ecb25"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/boot_sigverify_valid.hjson",
+      "sha256": "270accd32aacf0944e97ab7387130e0280c985bfcdac8c553c1cff12cac1e6cf"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/div_large_test.exp",
+      "sha256": "ff55093ceff016b1633c07978a5892b280b65c960c3f865eda914cf0d2598d86"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/div_large_test.s",
+      "sha256": "47e58a81f9bc3e6042064da89bfc8abab52212cb6d7c7558a31368720fb79fe2"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/div_medium_test.exp",
+      "sha256": "4ddef7568cabfa07e08d2bd097664f7377f02376173c7342dd7debf0c3cb8951"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/div_medium_test.s",
+      "sha256": "d022777a2fed475a1d6cf0db6e62bd95379b55d4664d0174e6a61cc7e31b483c"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/div_small_test.exp",
+      "sha256": "332149bfce13825c5a798e037ada3af398f5e6bb36522bb83c73838886c40602"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/div_small_test.s",
+      "sha256": "7185ca918823cbcdacfd7589e5ebf72c403354e59a8b5e2916006bb2f9851a3f"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/ed25519_check_isoncurve_not_on_curve.hjson",
+      "sha256": "58accb69fbbd956212fa7d257ef7d505b4bd0f239ffc4f2224c832e361b84520"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/ed25519_check_isoncurve_valid.hjson",
+      "sha256": "48c3ca495e2af886cdf4393392ac830dd74056e8e5f3cee21e8894d37d26a517"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/ed25519_check_isoncurve_y_too_large.hjson",
+      "sha256": "d47246e52ca6b5253ea24f51142f386114b0fe1e51b09802891f8788d7c429e2"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/ed25519_encode_decode_test.s",
+      "sha256": "d1dda07a44111a686afb289b917624690dc39694508e3f6b717f13b0d03cbc33"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/ed25519_ext_add_test.exp",
+      "sha256": "502789bd87f84e69fb4919d2d5701654bca7c8de42aa332115a2061710eb41e0"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/ed25519_ext_add_test.s",
+      "sha256": "cd9f0d622d378edcbcfbe569055acde2b6b787cc2abcff2948863a9ff9bcc05b"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/ed25519_ext_is_on_curve_test.hjson",
+      "sha256": "d491646db07d36981f7160249fc5b2a574841b46d0504154da7df6ee102b7a9f"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/ed25519_ext_is_on_curve_test.s",
+      "sha256": "315b5738aea37c5980a09122f90d46292f66a272ff42eb3d493d8c1d59a9ad44"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/ed25519_ext_scmul_test.hjson",
+      "sha256": "4f50e18fcee2530db30b52e64b91b41b5ad63b8e0cc10b30c87b6fd5f35ee308"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/ed25519_ext_scmul_test.s",
+      "sha256": "b95a5e0318be1f5777554e1a7566e0586138d81d7f854f4b4aa31adb24e9e4c2"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/ed25519_sc_reduce_test.hjson",
+      "sha256": "bab1b79d863f2255e353b74075624e39324da179b663e265f347963998fc3360"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/ed25519_sc_reduce_test.s",
+      "sha256": "3ccd485ebfdfec600cb1ca60305156b6e6705f0bc8ad63b087d86f72031d8cae"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/ed25519_scalar_test.exp",
+      "sha256": "502789bd87f84e69fb4919d2d5701654bca7c8de42aa332115a2061710eb41e0"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/ed25519_scalar_test.s",
+      "sha256": "a1b4b61c1e789209a474d15d9eb14d3e9c21b65aaf8708cd339740a512ff9778"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/ed25519_sign_test.s",
+      "sha256": "ded3cf61ceae5de423aa4314d2054a0215a646622f0af4a9b298b6bffae3a011"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/ed25519_verify_test.s",
+      "sha256": "9dd1493317dd137a66077f62c02501dfaac624dd8f45e78eefa3f26a718f871e"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/fake_primality.s",
+      "sha256": "9c1cbe385a0d62d3f37b69417fee5c7e0762a74a73324afc1229bbf4f8df9084"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/fi/BUILD",
+      "sha256": "288177cb05d7b0843a4681c83c46126eeed54ad5c5ed655fcd3eba41d4237b9d"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/field25519_test.exp",
+      "sha256": "502789bd87f84e69fb4919d2d5701654bca7c8de42aa332115a2061710eb41e0"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/field25519_test.s",
+      "sha256": "5d1d70a8a71b4e928c29aacd7eada03cfa58e6934a9c0c78d04e47cdba595b90"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/gcd_large_test.exp",
+      "sha256": "e50bf423bd14bc3fbe9add65bb6e2a2cfd90388b12c7e0a904523190a1f9e443"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/gcd_large_test.s",
+      "sha256": "ec499f00d8c82e962ae3971224e1130bfd12595eb4c4f002d0861bdd5b05445b"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/gcd_small_test.exp",
+      "sha256": "61e8b963f338a6ef1c2983c11b17e54600223fd10a122efa707c496cff6d82ef"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/gcd_small_test.s",
+      "sha256": "5de42f598b11454cde6e998a40fe0b6647ed9c16f7edc71dfe3e706a72eb27ae"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/generated/BUILD",
+      "sha256": "d402ed5de1bda98965c537efc19ed8fa702ea497dce1d5029a9f648e6055e6dd"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/generated/div_word_test.s",
+      "sha256": "966d5f0bfc67ccf5ca8315fb8e96eec2375d11669c2ef0c5937983eec052d752"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/generated/div_word_testgen.py",
+      "sha256": "0563b03be213031d8e5e6ddb42dc2761826273e2f9dbc9247d3d384e5a4e5cb1"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/generated/mod_f4_test.s",
+      "sha256": "672afccfd05a5d8c1b549279afc47b3a5dd4bcc33c89ae6b6f46ed9234c4c4fe"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/generated/mod_f4_testgen.py",
+      "sha256": "1959c5e45f888a582e6870e408fa8bf71529f9661acb7bb57c10ab6124531eca"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/generated/modinv_f4_test.s",
+      "sha256": "8aea971ca4e81b008c8348c4dcfe1250f6e76144dd27eb5e49cf34e3f91af73e"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/generated/modinv_f4_testgen.py",
+      "sha256": "8b7316b4d4a58333e7269924d96531b672d29b4ce1ce3e93dc9100613e1ead0d"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/generated/mul_test.s",
+      "sha256": "720105c16b4b0e73f984d17133558b1f71047b7febc57e39f676627fd73fd04a"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/generated/mul_testgen.py",
+      "sha256": "226db323780f94d9a5840df436ab26c70d0540b8773d5f7b3b5fa210906fe222"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/generated/sha3_py_test.s",
+      "sha256": "95b13bfdbc6a664650eef3e82800ae91b9d38b36c85e6dabd820d448cfe4b7c2"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/generated/sha3_testgen.py",
+      "sha256": "694734d398045df77e67ccb207791629b05c9858170b3b1e3f7aa89054d031a6"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/generated/shake_py_test.s",
+      "sha256": "3d9a2445829572a00e2674a2e5764417b32fbdaa566e9cbd7ebd939d7af53367"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/generated/shake_testgen.py",
+      "sha256": "b02a79b4ad46dccb590db4cadd1dc4fe8b849fcc6801ca370d8b1f54b46476f2"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/kmac_test.hjson",
+      "sha256": "81acfd7aba8a28a81f2b791e8488d29df961e0b2f3ba77a14226943e35931951"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/lcm_test.exp",
+      "sha256": "5b7d855ac80328251a49400c8d72db565a55ffe48869ce8b24cf6f6e72f99a1c"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/lcm_test.s",
+      "sha256": "74636e346f0521764b6c1c93baf8b6c16937a4bbdf8e0bca08bdb393fb9ae10b"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/mul_test.dexp",
+      "sha256": "d10897641f3d3759dde58cbe75d8eb118507a092ccc76fe93ec70746bf55757d"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/mul_test.s",
+      "sha256": "b3c40aa0201b22655c146f7e81aac375286e022ff2e62548efdfc22950a5c501"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_arithmetic_to_boolean_mod_test.hjson",
+      "sha256": "0fed9911b8b7c8bdb9794c15697aa678d9f866d07a5358c185c3f90f915c490b"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_arithmetic_to_boolean_mod_test.s",
+      "sha256": "750617719b714668cf8ba32d1c7faa852d1d91b0b34802829cb5ea3fda934016"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_arithmetic_to_boolean_test.hjson",
+      "sha256": "22215e93ca6776d0fad01eb00bda16cdf9a8e1c5020bd8c249b98f23a6ff6bb2"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_arithmetic_to_boolean_test.s",
+      "sha256": "7e5dfd8f1767735b0f301ea0fc835ff8dae5c61fd56c222ad9e2cdf0cfadd049"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_base_mult_test.exp",
+      "sha256": "a44cf6e87bbaa472bfddff83e92bfa64c2bdf4c0b44a7ebfe383718703c39ab7"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_base_mult_test.s",
+      "sha256": "247f17ab4e24e8139397db1fde6872960d1c7eb90e31882b86f4325b53a0491c"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_check_isoncurve_x_reduces_to_valid.hjson",
+      "sha256": "bdbdb4836760a5f15c5b16e04a8d3c14cfc9faa8933df8c16066ee6b1ebb9b42"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_check_public_key_not_on_curve.hjson",
+      "sha256": "911a757c3b2bd806b234c45abc849a2ad88072ba3ebfcd11fdc6f963809ba041"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_check_public_key_valid.hjson",
+      "sha256": "d277f8dc221d5954bcc169d81412e1aaa439a489eec310cafedae14444890997"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_check_public_key_x_too_large.hjson",
+      "sha256": "62e8074b9e573ebe2ee2667bb524d2509e435fb7955e9a3571a0f9ee5dab887e"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_check_public_key_y_too_large.hjson",
+      "sha256": "de28ff6651504fc28a5c94d460520ee59fe0de8485ed0c67207412031ab05009"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_ecdh_shared_key_test.exp",
+      "sha256": "da485fc59f0fa96ce19518de8f0909d1144d17cbfb8000e7b5e6ad1a3c56a6b2"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_ecdh_shared_key_test.s",
+      "sha256": "984c78b5a918760f106eb46e04b2fc0881551cb533c7b4d2653312beba294e10"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_ecdsa_sign_test.exp",
+      "sha256": "cad3a5f52b279d0525907a8b761887e26277736e8d161cb8db88c0c363f95188"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_ecdsa_sign_test.s",
+      "sha256": "ae1e5a1ab834e913dfc7d27255d25fbaa77ba4ec44e29037037c107f24035972"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_ecdsa_verify_test.exp",
+      "sha256": "8a67e937cef9aedda1df10baf5be5fc939f4e9d752f3d42c02a15e2eef1779ce"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_ecdsa_verify_test.s",
+      "sha256": "a7c21d588442441d9c0f9b6e9a0c37aeb03be2e30d4ab946de1005aa4951f7df"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_isoncurve_proj_test.exp",
+      "sha256": "a81f54ec3c6aac517e8376a122e31e00cfe76e17173d3299a0a9151a2e060dbc"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_isoncurve_proj_test.s",
+      "sha256": "e0a1a960e38be5e02be7732edd5ba9dd32b351ea4e5c5b39689e53827b0a08be"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_isoncurve_test.exp",
+      "sha256": "0f796b7d2b0ae0ece4f520fec4eeea1a79cd78e273994b3c86bfbc5285883e5d"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_isoncurve_test.s",
+      "sha256": "8529cf3b1107ed5335b8e78cc9b281f16bb4b4e2b4aa53ec0ec2502a10a53f81"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_isoncurve_valid.hjson",
+      "sha256": "793d1460a691d925f715c3df30dcdb2d151ea8ba52ec3198d724878dfd963b80"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_key_from_seed_test.exp",
+      "sha256": "63874e7bedfb6c4673566f3e274848e98ff56b23bbb138b504d02f2eb7f71076"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_key_from_seed_test.s",
+      "sha256": "9a0fef874b4466643c37598408d48296489e6cb9f916ce44a7893c164439fcd8"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_keygen_valid.hjson",
+      "sha256": "54e3c6186014f36b4013f1d4ea8c8d78fff71f9b5148f624b947bd5f63223eff"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_mul_modp_test.exp",
+      "sha256": "364160ebdc37817bd758ed79c5de351e2a46ad1f6293a3540e1e0d3e011a1d36"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_mul_modp_test.s",
+      "sha256": "d12f7936f1d5c4dae533562350c3f4f2e4ecdda7a63283c0f6eb0cb8b7d4c9eb"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_proj_add_test.exp",
+      "sha256": "b5d928d69f446fb4b27045c4d8993f930b7f1afce43b7e3f64b057c8fc16dad8"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_proj_add_test.s",
+      "sha256": "8b79d6748ca9207a125cf2ed08ef289282ca9dac17084bafefe56812d72ddf17"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_proj_double_test.exp",
+      "sha256": "91a22ea558cbdae855fe912d35bd139f050bcbeea4999a3bd440fc9462af517e"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_proj_double_test.s",
+      "sha256": "de6c273f66d7a91dac1e9a6ecd68fee0a6ab8f4992ca591a52e429e251f3c7fe"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_scalar_mult_test.exp",
+      "sha256": "294c9dd8315fba92c079c85fd57e285ae2c2f8bc5536929ec0b6ec8744fe06d8"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_scalar_mult_test.s",
+      "sha256": "53d808824178aa612c2d2904a48cc4f3c43cc2032fbf3805276df93725716d49"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_scalar_reblind_test.exp",
+      "sha256": "83f719fceb89e69b6e689160ecbe8ba35f72af95f5ad9ee9780f3f3216520422"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p256_scalar_reblind_test.s",
+      "sha256": "e0e9da051f9893ba306f2abf543f961aa0074511771637e16afe60ba8b46b4a4"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_arithmetic_to_boolean_mod_test.hjson",
+      "sha256": "6b1fb83a77ad29c219397fc58e2559fd887e151b7c060ce298ef85c98abff88d"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_arithmetic_to_boolean_mod_test.s",
+      "sha256": "6d02c4247c144ca67d9060c217e563b35456938e07497b1acd8fef3617dc67d3"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_arithmetic_to_boolean_test.hjson",
+      "sha256": "b6e3d53771f2ba948dee000e983fb04c31c83d35d8bd77d8c4f5505a56295d35"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_arithmetic_to_boolean_test.s",
+      "sha256": "2fab0f863fd294bd8439e2332ce788fda09201bcaebf73163b914dc76870fa91"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_base_mult_test.hjson",
+      "sha256": "1a6058f99000e06f07503020fd3881472ab1b896037dc7c66ed3ae0f8d4b3bed"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_base_mult_test.s",
+      "sha256": "37ffc15bbd85f0799d3871452a65016752fba455d1de1aa96bb56eb1f858e9cf"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_boolean_to_arithmetic_test.hjson",
+      "sha256": "eb363febf8acab7d58854e98888d629f65c5cbb8bdfdac47c65089918036dfcf"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_boolean_to_arithmetic_test.s",
+      "sha256": "769cb9be6bee376921d20145d3b3ca4ab877644dec9f5049bbaff6488862f842"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_check_isoncurve_not_on_curve_test.hjson",
+      "sha256": "57115a042ea1d7cfe5809bab1889dbe8e6afd7ae50624bddaf3664c3c8318dd9"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_check_isoncurve_x_reduces_to_valid_test.hjson",
+      "sha256": "171fad0a2db099de38d13bcbe9ef873fad9de12f34c8103c1d5d24cacb4b76ad"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_check_isoncurve_x_too_large_test.hjson",
+      "sha256": "384f1cf188c3f1f94503d71b494a2a075bf240cc1fbe1a64d396c5015c2b13da"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_check_isoncurve_y_too_large_test.hjson",
+      "sha256": "23ec6f68900938150407e15f5464f8fe30edbdc2fe21719800d2f6b6097d5de1"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_check_public_key_not_on_curve.hjson",
+      "sha256": "57115a042ea1d7cfe5809bab1889dbe8e6afd7ae50624bddaf3664c3c8318dd9"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_check_public_key_x_reduces_to_valid.hjson",
+      "sha256": "171fad0a2db099de38d13bcbe9ef873fad9de12f34c8103c1d5d24cacb4b76ad"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_check_public_key_x_too_large.hjson",
+      "sha256": "384f1cf188c3f1f94503d71b494a2a075bf240cc1fbe1a64d396c5015c2b13da"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_check_public_key_y_too_large.hjson",
+      "sha256": "23ec6f68900938150407e15f5464f8fe30edbdc2fe21719800d2f6b6097d5de1"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_curve_point_valid_test.exp",
+      "sha256": "a2c511cb8b2826a4c1226bc551b8d2dae70e6ba44eb306c1f2f6cf41a61b2db2"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_curve_point_valid_test.hjson",
+      "sha256": "19d1eda9affb2c9a05318f3aec0323a1c3c1ed29b3cbe736d64985450603845d"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_curve_point_valid_test.s",
+      "sha256": "9c06e578e7566a5055c9f4d96214bb95eb6866c957480f88a67488d39422c832"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_ecdh_shared_key_test.exp",
+      "sha256": "50b381e9a8c343742d1230ab5b043830d6f5c2b0972e5592a4dd259fc53f9097"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_ecdh_shared_key_test.hjson",
+      "sha256": "ecc694b647373cdb0f4625ff0377632495fdd4d9018fe2ece9699833ed1e5362"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_ecdh_shared_key_test.s",
+      "sha256": "b0f27238d8c831008f96525394706f7d0f7f5ffe437139300b43ec12721bc390"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_ecdsa_sign_test.exp",
+      "sha256": "cb34f41ca751ce49a1d259ad3d6be2a1def523aad1642b0b5e2738ea266ffb70"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_ecdsa_sign_test.hjson",
+      "sha256": "c78d331d4f6a16146cb8a56ec9f68945c753c44e5efdf561dea9f3cd45866637"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_ecdsa_sign_test.s",
+      "sha256": "0bcb0a2904ac2900c55a7a0f00e2dfd631d987e7f2b61458443483707f6ddc04"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_ecdsa_verify_test.hjson",
+      "sha256": "2562268e01fa82f1e9fe80768d25508eda50a76f70d6bd7318cb4476cbe7e7ea"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_ecdsa_verify_test.s",
+      "sha256": "e321a61a2716de94b86abd3de363c1cafa979c8abced663727518c6cf6308844"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_internal_mult_test.hjson",
+      "sha256": "846a2bc882aa1490313f4efaf2895f2bc7783a72ae041ccf3cde86b7f7a1608a"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_internal_mult_test.s",
+      "sha256": "61289c796155a97f10fb041ebf3dbb816543b2a8115990146b06ac30686c3b14"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_isoncurve_proj_test.hjson",
+      "sha256": "554a6e6b4ed06e7ec71d6d34af76cbee335916fb38d729081ba2522d846700a5"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_isoncurve_proj_test.s",
+      "sha256": "8c02991d669aba10cef54664fa39aeae555f1ea088fb9b5890b09d4e54317466"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_isoncurve_test.hjson",
+      "sha256": "be488ccbb04a8fe5d839a5bdf076d0be0cc688a268e0f6cd30bdbb2a52b58a29"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_isoncurve_test.s",
+      "sha256": "e36efe4e89c7f15f7fddcfa6510cfb6241d10ff9b1154d83c488b34cc89ba84b"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_keygen_from_seed_test.hjson",
+      "sha256": "27760b422a487bfa66443766def079b9db503bcf0f7a3efaccdac2bfba1c5279"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_keygen_from_seed_test.s",
+      "sha256": "72c0adcceb95957ac27ba0ae5ecd989a9313199576e11649bd3d0aedf21bd2a6"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_keygen_test.hjson",
+      "sha256": "2cbc5148fae8de1468e9ee2ba208d374b7ed2a9b9a34f19ad74e45a02699cd72"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_keygen_test.s",
+      "sha256": "a9a7f1a898bdecf0437860d59dc27bc7d16c6dbeb51937871e7006d380801236"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_masked_scalar_reblind_test.hjson",
+      "sha256": "baafe759f66f522b511a643ff89c405cba3a4d5aa70b9116408b610a93a6f4a0"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_mulmod448x128_test.exp",
+      "sha256": "660c42973ce4990c94ca02f14deafaa0a5fb39ffca52fb5b416f1d415885bf8c"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_mulmod448x128_test.s",
+      "sha256": "a426f0a8800e7ed74bf4d7c0608d83947a5dd8c73a6709c456bc2d4f419b5fe7"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_proj_add_test.exp",
+      "sha256": "b88a664e5da9caa57d7a6d0aff928d8765ed3de87df74cbcf3eb80d76fafbcfe"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_proj_add_test.s",
+      "sha256": "2cdf47e24ec88a9720e06d768b9be2af6eac73dfb30f4833a81163db222b562d"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_scalar_mult_test.hjson",
+      "sha256": "559065853d035da0cfd238c8bdf1aad2726faab2febfc402a4f5edd2fc1f77be"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/p384_scalar_mult_test.s",
+      "sha256": "b11c9bddd5aa50c1df01a74f5b18cdc3c3236d8165fd23493903e58254966ef6"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/rsa_1024_dec_test.hjson",
+      "sha256": "3eec52c88db85d64f59fd58d8c3621e21cc4a0dba426b6b5e7719798919b69b4"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/rsa_1024_dec_test.s",
+      "sha256": "079a31aaae64f5013daa9f296e8589de2a9a27a17f877eeebd7c6c11047bd2e1"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/rsa_1024_enc_test.hjson",
+      "sha256": "cd5003c1b614193afcae41e29679c70349c288a9dc626271162bbcd6f5e6e574"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/rsa_1024_enc_test.s",
+      "sha256": "82c5f7a27cfa06121c6432de73c7abeac237e1dbf062adc5418ce7e9fc70add2"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/rsa_2048_dec_test.hjson",
+      "sha256": "96286b2198ad6bfb42b92436092b14e82b7efd05546e5ab7ee8486df070b07f8"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/rsa_2048_dec_test.s",
+      "sha256": "3040ab1a047fc7388b6cedeb9de060b545806e2d3c6ae61341309ab44a57b416"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/rsa_2048_enc_test.hjson",
+      "sha256": "75330cae9d2460af5801b1186431c7a25de9a964ffeebe3a7b4b374f9cb98fe9"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/rsa_2048_enc_test.s",
+      "sha256": "ef4d098f082d7b9b14ea15f7bceda095b57da77a4b349beadcc8b9ac9398c430"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/rsa_3072_dec_test.hjson",
+      "sha256": "cb1976bf59a4b85688b21cf602eac56bfb1d29b9763de55cf604e1beb53ece2c"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/rsa_3072_dec_test.s",
+      "sha256": "6e4ec9d41883c0703ca335d730ec9464e1e197e73747ea499ce05fb09a206742"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/rsa_3072_enc_test.hjson",
+      "sha256": "b510826a1380c4a49d1d6adc29682e4e7e5ec45f3dd91242c98a90e1fe4d2958"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/rsa_3072_enc_test.s",
+      "sha256": "59863aa25f57a01f23e2e37c395270ce3365c3f6f8f9b7a799fe139d3b1e9dc3"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/rsa_4096_enc_test.hjson",
+      "sha256": "3f9676675fa273afa72946fe132fdb10db13a5ed42837c6fdb8faf4e726d34df"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/rsa_4096_enc_test.s",
+      "sha256": "bae395c3581096ec67f2ad5bb9b6e85fd40f6bfcb5b6c29c26c544da63d43e7f"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/rsa_512_dec_test.hjson",
+      "sha256": "25638e5fab046f650d379074c23ee7002acee26bebeb811d4fc297d20b07a3f8"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/rsa_512_dec_test.s",
+      "sha256": "39c1e5e7a98fe84cb5549f7d9ced078cc919e4b46a571a6bc0294b368dd94ad5"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/rsa_distance_negative_test.hjson",
+      "sha256": "f30af5cae76a5d4604ca429556a2cdce0f3b3479bfb7c06f6764f63fad72321b"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/rsa_distance_negative_test.s",
+      "sha256": "82bf7767d023e50ba457f9afe34f301de845554f357ec44f0165e4a9284b7c79"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/rsa_miller_rabin_negative_test.hjson",
+      "sha256": "b456b6b0097b2810aff3001d57fc0cc5957a5b3e9326709cf9f31928e0ca0d41"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/rsa_miller_rabin_negative_test.s",
+      "sha256": "8096eb4a736a5c5d59c7566c92a3e6a361105c554d8e5a21c4ee34932450f38d"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/rsa_miller_rabin_test.hjson",
+      "sha256": "5f6d4cae601862081b10e8180256c64d459496935a5329c89a9a4b2e4eb1c69d"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/rsa_miller_rabin_test.s",
+      "sha256": "50fcb96972cc3252d254eaa84e628b063f9c83a95ac2823f5bf4c7700f82e56d"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/rsa_primality_negative_test.hjson",
+      "sha256": "2c4f528d539e0474660c8f34c24fb03c4fcaece56e66ce93c8b95922fa9f005b"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/rsa_primality_negative_test.s",
+      "sha256": "093e05733d78682a8d9164ad2b62ec947f0daaf47e93b4d358f25d60e41e383b"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/rsa_primality_test.hjson",
+      "sha256": "67f9d8f99946b3e9e82d659548fae104055bbf3eb638d4d5302b4992a428ea30"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/rsa_primality_test.s",
+      "sha256": "93d92ec3fede5b1190321a790ceada98bbec31089a5459230e0e9c9ca512d357"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/sec_a2b_test.hjson",
+      "sha256": "f0795bec67b029fe2162b188822cf1b1d28355a27aeaf4a7693ebc4ee6d6fac8"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/sec_a2b_test.s",
+      "sha256": "fbd118e41c0b933e0cf064329b1221029093aa86cdfc852c1ef539429122eef9"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/sec_add_test.hjson",
+      "sha256": "3604c7be7d5ed2785fa70d74b0ae0a28835b3741e54278b8141f9d483d506111"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/sec_add_test.s",
+      "sha256": "dd06bc3548d46882b0a2b8087220568de64d87924316656164ae110775441bd0"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/sec_b2a_test.hjson",
+      "sha256": "f0795bec67b029fe2162b188822cf1b1d28355a27aeaf4a7693ebc4ee6d6fac8"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/sec_b2a_test.s",
+      "sha256": "f60411730b059a468a03f26bb1c21f8c77cb4d485a8634a36caf3f7ad652af87"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/sec_leq_test.hjson",
+      "sha256": "9f0f67b62b3fd91d026f29e0abd8e5bf018cc2bc7cf474436a1f30bf4bbf3932"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/sec_leq_test.s",
+      "sha256": "1690a7be25e0b526d05bfeeae31df6a3674e2b4730c84726cabb57978ce52dd3"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/sec_unmask_test.hjson",
+      "sha256": "f0795bec67b029fe2162b188822cf1b1d28355a27aeaf4a7693ebc4ee6d6fac8"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/sec_unmask_test.s",
+      "sha256": "d42179526dda4c0a506529e6d9580fb9e6b0d14d4539df5757edc95283c80925"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/sha256_test.exp",
+      "sha256": "ccded4b52562fe0be70ce2adc2fb3dbd855479f88881b65ab7d5bf9215fa6ca6"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/sha256_test.s",
+      "sha256": "9c677d597518d22c5c4598902bfb4003acc0f29858bfcff200930c22e2429a6d"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/sha384_test.exp",
+      "sha256": "b37c6e7c12ec34cf10f9df12a9e2d40d4f47ab697e1471fccf474ee65c6260d7"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/sha384_test.s",
+      "sha256": "3dbd740fc42aecd5cb7262c714652ac08836f1f2af6a985e52219947859e0df7"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/sha3_shake_test.exp",
+      "sha256": "c64d3f886f3697f826310b5b44dbd66271978ff7e5cc6804ac8bdef559506e3c"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/sha3_shake_test.s",
+      "sha256": "c44257e0dc10d5427fa0d4023bb92d0f3712ebb6ed06a7b394d828696c1b1d02"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/sha512_compact_test.exp",
+      "sha256": "e8c59c5c3df69b6e7aa9a3f3b8aafb6cd2fc7210ce73015ed6f0b45c8b14f5aa"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/sha512_compact_test.s",
+      "sha256": "3a6d4870357e3234d7d414d6714853956d33ec5aefbe93504c79686789cf8110"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/sha512_test.exp",
+      "sha256": "635ca5670b05f6f11a7d47ef015201025c9679677e20849f2311c46ef9326cc6"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/sha512_test.s",
+      "sha256": "e21fd0155dbe84bb92b7e3ab45478aba85019588a09a90f747644e5c099e4833"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/tvla/BUILD",
+      "sha256": "036a59d91e8299dd226b73ac4a8243eb87b75a7bdbfdfa1f276afdf05914c910"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/tvla/mldsa87_keygen_from_seeds.s",
+      "sha256": "bbfd04caba2f35273b4344a5a28f10aa65a89fac84a6e8619eb70226c4b4b357"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/tvla/run_sha256_masked.s",
+      "sha256": "af27f3348f6a23137efaa820780b8d4d0cff9234bcf33b89fb17fce3bed17bc8"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/tvla/run_sha384_masked.s",
+      "sha256": "c2d4079537ff1c2648c191180d30b046203d8546a01be0cf34ee4c27269c5fdf"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/tvla/run_sha512_masked.s",
+      "sha256": "480f6cf1f5b090f10ce8844fed5df124217c1d5056dbb6ba448c0926b3d5c8fd"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/x25519_test.s",
+      "sha256": "c9fd79fb149390319ccfc5b980840db7d9d5121990267394273a15c6f887a36d"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/xof_sha3_256_test.hjson",
+      "sha256": "154509443344db5c230d8f321f888c56570ce4be43b873540408871059a7ef66"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/xof_sha3_256_test.s",
+      "sha256": "d7036610af188e17dbfb8d6b507d3086fb1e4239f103029ed7e2d61844832aca"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/xof_sha3_512_test.hjson",
+      "sha256": "31d7736ec72469ab1d47a4cbe375d22dd41cef460f66ee8f1acdbdc028cdac1c"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/xof_sha3_512_test.s",
+      "sha256": "7a6b9cc4239041c5d5f5997e4e61de5569cc0be81dca1fac98d9d5c5a58b692c"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/xof_shake128_test.hjson",
+      "sha256": "27c000697cb0205d03e7671962305bab1d520c635a93b424ffa08d191147ee54"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/xof_shake128_test.s",
+      "sha256": "65cee22b485fd4f799f46df9e9ec0f3ace9530fb2ab3ea56325f8eba44361014"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/xof_shake256_test.hjson",
+      "sha256": "62db2bece0ea9ddcbb54a0adeab0c002d94f2ae9a9628bd369edfea5e56d8c5e"
+    },
+    {
+      "path": "sw/otbn/crypto/tests/xof_shake256_test.s",
+      "sha256": "428fd26369ea965e57c767f6f674343abd0b0a1bf540c963b94b18f52cdd8b1e"
+    },
+    {
+      "path": "sw/otbn/crypto/x25519.s",
+      "sha256": "6c202ae68a36b771c99f79ba63f70a7ac37c34dbad70d9b588eee84351d49df7"
+    },
+    {
+      "path": "sw/otbn/crypto/xof.s",
+      "sha256": "e6eaf461d1cc47182e2c0270bbe6592617c2b4f6ccfff21b35d2ec0837418d71"
+    }
+  ]
+}

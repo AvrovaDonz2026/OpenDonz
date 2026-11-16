@@ -1,0 +1,15 @@
+{
+  "configuration": "IMEM 8192 B; DMEM bus 16384 B plus scratch 16384 B",
+  "standard_cell_count": 154030,
+  "macro_count": 49,
+  "logic_area_um2": 4268281.023999,
+  "macro_area_um2": 7615264.096999999,
+  "total_area_mm2": 11.883545120998999,
+  "total_with_hmac_mm2": 12.815403130599,
+  "baseline_total_mm2": 13.450239390199,
+  "saving_mm2": 1.566694269200001,
+  "layer": "synthesis plus ideal-clock pre-layout STA, no physical signoff",
+  "mapped_sha256": "dcc648a948373eaa64ef015eb992926c8d5f7faab238786e28e18d7ecc6da421",
+  "core_min_period_ns": 306.48,
+  "core_setup_slack_24mhz_ns": -264.81
+}

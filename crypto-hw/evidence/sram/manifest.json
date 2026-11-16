@@ -1,0 +1,50 @@
+[
+  {
+    "source": "LICENSE",
+    "commit": "d41c7447d34d0c298158094378c8268560941724",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "bytes": 11358
+  },
+  {
+    "source": "README.rst",
+    "commit": "d41c7447d34d0c298158094378c8268560941724",
+    "sha256": "bcddf3b6af9a8e2b9f98b09e7772899641131d5cc734d77400fd86084407c741",
+    "bytes": 1418
+  },
+  {
+    "source": "cells/gf180mcu_ocd_ip_sram__sram1024x8m8wm1/gf180mcu_ocd_ip_sram__sram1024x8m8wm1.v",
+    "commit": "d41c7447d34d0c298158094378c8268560941724",
+    "sha256": "9b3f0403197df34186eddab06c0f887cbc83f8732a806fb5f0c4ac6403dab4cb",
+    "bytes": 20137
+  },
+  {
+    "source": "cells/gf180mcu_ocd_ip_sram__sram1024x8m8wm1/gf180mcu_ocd_ip_sram__sram1024x8m8wm1.blackbox.v",
+    "commit": "d41c7447d34d0c298158094378c8268560941724",
+    "sha256": "fe41b260702b05928f49c3b176911663566a726599665a56c8903b5344cbecd8",
+    "bytes": 1842
+  },
+  {
+    "source": "cells/gf180mcu_ocd_ip_sram__sram1024x8m8wm1/gf180mcu_ocd_ip_sram__sram1024x8m8wm1__tt_025C_3v30.lib",
+    "commit": "d41c7447d34d0c298158094378c8268560941724",
+    "sha256": "c2f7e0957e3e7f08845df9b511aa2c64236f2d4b34cf763ef0be59618c047d2e",
+    "bytes": 35833
+  },
+  {
+    "source": "cells/gf180mcu_ocd_ip_sram__sram1024x8m8wm1/gf180mcu_ocd_ip_sram__sram1024x8m8wm1.lef",
+    "commit": "d41c7447d34d0c298158094378c8268560941724",
+    "sha256": "35bcf13111ab5029860ca7a2ef473fbf21b4938d6c6244b53b4480bd35f2776a",
+    "bytes": 35409
+  },
+  {
+    "source": "cells/gf180mcu_ocd_ip_sram__sram1024x8m8wm1/specs/1_pins_desc.csv",
+    "commit": "d41c7447d34d0c298158094378c8268560941724",
+    "sha256": "76d8027938a3e67db4df586e4e5adc2b4fe1d0eb1fb06802a57921dddba147a7",
+    "bytes": 1299
+  },
+  {
+    "source": "cells/gf180mcu_ocd_ip_sram__sram1024x8m8wm1/specs/5_AC_Characteristics1.csv",
+    "commit": "d41c7447d34d0c298158094378c8268560941724",
+    "sha256": "bb08817dd30f79666d73d663c35f8ad1f51f33500bceeaf83cf4e11602d8fcb9",
+    "bytes": 1896
+  }
+]

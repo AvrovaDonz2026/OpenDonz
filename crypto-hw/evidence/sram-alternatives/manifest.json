@@ -1,0 +1,39 @@
+{
+  "commit": "d41c7447d34d0c298158094378c8268560941724",
+  "license": "Apache-2.0; see ../sram/LICENSE",
+  "macros": [
+    {
+      "cell": "gf180mcu_ocd_ip_sram__sram512x8m8wm1",
+      "depth": 512,
+      "width": 8,
+      "area_um2": 96985.457,
+      "macros_full_dmem": 78,
+      "full_dmem_area_um2": 7564865.646,
+      "macros_half_dmem": 39,
+      "half_dmem_area_um2": 3782432.823,
+      "platform_acceptance": "NOT confirmed; template selector is not shuttle signoff",
+      "views": [
+        {
+          "source": "cells/gf180mcu_ocd_ip_sram__sram512x8m8wm1/gf180mcu_ocd_ip_sram__sram512x8m8wm1.v",
+          "sha256": "59c431f0f36cb939bb9d12a3818a735959cac77f1b9ab39c439f986387f07be4",
+          "bytes": 17480
+        },
+        {
+          "source": "cells/gf180mcu_ocd_ip_sram__sram512x8m8wm1/gf180mcu_ocd_ip_sram__sram512x8m8wm1.blackbox.v",
+          "sha256": "9374b1714cae0733c9affcb6982defba917cd55178c5abd3afdc74995a5c4940",
+          "bytes": 1839
+        },
+        {
+          "source": "cells/gf180mcu_ocd_ip_sram__sram512x8m8wm1/gf180mcu_ocd_ip_sram__sram512x8m8wm1.lef",
+          "sha256": "f97a39ac2d4847da7246273e970733c96969ff8f63e5ef468a1f4e1ed9688c55",
+          "bytes": 26633
+        },
+        {
+          "source": "cells/gf180mcu_ocd_ip_sram__sram512x8m8wm1/gf180mcu_ocd_ip_sram__sram512x8m8wm1__tt_025C_3v30.lib",
+          "sha256": "e5f8dc8239c65c52f756019cba9cb78b3ac08aee4611269f0bf6bc9eabd84f1d",
+          "bytes": 35829
+        }
+      ]
+    }
+  ]
+}

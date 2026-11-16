@@ -1,0 +1,250 @@
+[
+  {
+    "path": "crypto-hw/.gitignore",
+    "sha256": "338085e7ad49e06aa56f7bcd7564cb634fc76dbb3bb2e917e7f570750b20b4e0"
+  },
+  {
+    "path": "crypto-hw/README.md",
+    "sha256": "3f7d5eee790212925835a4cb557eb2e03315f4d217c1e7c6ddb34b50346c5c6f"
+  },
+  {
+    "path": "crypto-hw/assess.py",
+    "sha256": "b98368de402f4587db4957e9c2a631cc2ea2c475f2d3804b06d9a4327fa843e7"
+  },
+  {
+    "path": "crypto-hw/audit_sram.py",
+    "sha256": "0847d39c330421cd2c419511939724e128d117eea6bb583004090ac399acec98"
+  },
+  {
+    "path": "crypto-hw/boundaries.py",
+    "sha256": "0a6db8f8a4e24eda971dc91981a9ce12947af708f3caf70f5ad2324b4a6eb342"
+  },
+  {
+    "path": "crypto-hw/configure.py",
+    "sha256": "f98fac1982058e753b699517ac39a2bc542c3853d0e478bd9f464b1c4c153f4b"
+  },
+  {
+    "path": "crypto-hw/driver_check.py",
+    "sha256": "d795a7233551e76f4111e8cf702877a690aac1325e9e364f282e172e68e801c7"
+  },
+  {
+    "path": "crypto-hw/evidence/OPENTITAN-LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "crypto-hw/evidence/results/dmem-macro-rtl.log",
+    "sha256": "1bd5803da1eb6b90e653dd57c97cd0df4ea53c725207c4b8d13bbd440c8db19f"
+  },
+  {
+    "path": "crypto-hw/evidence/results/hmac-driver.log",
+    "sha256": "f82bcdb79e2bb4bfcb130d0de98614811e3e88dd8eb31d8bea8802c1ddae523d"
+  },
+  {
+    "path": "crypto-hw/evidence/results/hmac-gf180.log",
+    "sha256": "2fc3baf19c9dc99edcb1e013920bc9508dbd889bc8eb1e572c4f55b831dc7f7a"
+  },
+  {
+    "path": "crypto-hw/evidence/results/hmac-inputs.json",
+    "sha256": "afc2f28b0887facc9fed35ae1faa2df67ab840ca0ce600a050af6bb8d25b74b5"
+  },
+  {
+    "path": "crypto-hw/evidence/results/hmac-timing.log",
+    "sha256": "d8269ee0527f1c02e923b9548addfda0acb5bfae2f0b9b26a37e43c3047e42a2"
+  },
+  {
+    "path": "crypto-hw/evidence/results/hmac-timing.tcl",
+    "sha256": "0b1528367bc2a400293e53e2d68078b4abe65dc60d1ac1d88482f4fabf6a925a"
+  },
+  {
+    "path": "crypto-hw/evidence/results/imem8-boundaries.json",
+    "sha256": "e84cc4d5ecb6746acb2658e2b1a6e4dd709d11c69ca7ae2d6126d6cb3a32cad8"
+  },
+  {
+    "path": "crypto-hw/evidence/results/imem8-configuration.json",
+    "sha256": "bd5ad1e575d4f83d7f0418766f311a2d454142b42ecd41559a6e74d0d1229e23"
+  },
+  {
+    "path": "crypto-hw/evidence/results/imem8-effective-inputs.json",
+    "sha256": "097859ba08c8c321a8ff39f8d77beaeaf347aa9def7d82b19d08aa5fb83844cc"
+  },
+  {
+    "path": "crypto-hw/evidence/results/imem8-gf180.log",
+    "sha256": "b253c8e15344404f81fe810c925fa3ea27062196dee22856d47122e47695886e"
+  },
+  {
+    "path": "crypto-hw/evidence/results/imem8-inputs.json",
+    "sha256": "d4e3274987c7a23b4ce94031000f52cb79097d7244c75ab7a4af4e92e154be2c"
+  },
+  {
+    "path": "crypto-hw/evidence/results/imem8-macro-retention.log",
+    "sha256": "17be9b563172449a08ac5ae68e062f07f7e93b00c135f381c3fe01d4a6545807"
+  },
+  {
+    "path": "crypto-hw/evidence/results/imem8-macro-rtl.log",
+    "sha256": "c305aab824fd5c434b71ed3cee5c00e4ee86f796a912ff5174480d9e2d29262c"
+  },
+  {
+    "path": "crypto-hw/evidence/results/imem8-map.ys",
+    "sha256": "dc8f265b3dda4c7950872ac01e5294573f5bb0e9379bab7dd231bb7914720e4c"
+  },
+  {
+    "path": "crypto-hw/evidence/results/imem8-summary.json",
+    "sha256": "a19e62094dce063062a89bb9f520c8726266249daf8c668f4421aedc6d0b4c23"
+  },
+  {
+    "path": "crypto-hw/evidence/results/imem8-timing.log",
+    "sha256": "3c4379b08c0e5fe2abe20f7f84e2596cc21859fea59128a649015387b7f8f959"
+  },
+  {
+    "path": "crypto-hw/evidence/results/imem8-timing.tcl",
+    "sha256": "aeec93f31b1f08181fc16367549c70fcfc3548e3168e3b529fbdcdefe1e0878d"
+  },
+  {
+    "path": "crypto-hw/evidence/results/otbn-gf180.log",
+    "sha256": "83fe2347993c6be242dff2da3677a7e7c4ead20d908f939dc75b7005a6ef6ab7"
+  },
+  {
+    "path": "crypto-hw/evidence/results/otbn-inputs.json",
+    "sha256": "328be7e1fef03dd9bddcebf5c704a8c069e17c94720a4c748409afdd48c4318c"
+  },
+  {
+    "path": "crypto-hw/evidence/results/otbn-timing.log",
+    "sha256": "122ad7f65281bf9f90fd83b23ce321e05c82ff904a81192c0277844174d8d349"
+  },
+  {
+    "path": "crypto-hw/evidence/results/otbn-timing.tcl",
+    "sha256": "b180f6a338f46a7faa9a6f14ed58186af5cbb908c0b1030fdb7687e0e4423add"
+  },
+  {
+    "path": "crypto-hw/evidence/results/p256-imem8.json",
+    "sha256": "93e0088171ed0698fa81d3ae0f664599df4ec2a0e8d822806c44b8a1485d6742"
+  },
+  {
+    "path": "crypto-hw/evidence/results/sha256-rtl-kat.log",
+    "sha256": "e085c6c5c899702f6c8e7651c5f66e9dc9200744bfea457df51b38d4ecb3324f"
+  },
+  {
+    "path": "crypto-hw/evidence/rtl-license-inventory.json",
+    "sha256": "380dc84a0ded0f72420100c44a058550a18b52dfc91438b04cb67dd616ee9d79"
+  },
+  {
+    "path": "crypto-hw/evidence/sram/1_pins_desc.csv",
+    "sha256": "76d8027938a3e67db4df586e4e5adc2b4fe1d0eb1fb06802a57921dddba147a7"
+  },
+  {
+    "path": "crypto-hw/evidence/sram/5_AC_Characteristics1.csv",
+    "sha256": "bb08817dd30f79666d73d663c35f8ad1f51f33500bceeaf83cf4e11602d8fcb9"
+  },
+  {
+    "path": "crypto-hw/evidence/sram/LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "crypto-hw/evidence/sram/README.rst",
+    "sha256": "bcddf3b6af9a8e2b9f98b09e7772899641131d5cc734d77400fd86084407c741"
+  },
+  {
+    "path": "crypto-hw/evidence/sram/gf180mcu_ocd_ip_sram__sram1024x8m8wm1.blackbox.v",
+    "sha256": "fe41b260702b05928f49c3b176911663566a726599665a56c8903b5344cbecd8"
+  },
+  {
+    "path": "crypto-hw/evidence/sram/gf180mcu_ocd_ip_sram__sram1024x8m8wm1.lef",
+    "sha256": "35bcf13111ab5029860ca7a2ef473fbf21b4938d6c6244b53b4480bd35f2776a"
+  },
+  {
+    "path": "crypto-hw/evidence/sram/gf180mcu_ocd_ip_sram__sram1024x8m8wm1.v",
+    "sha256": "9b3f0403197df34186eddab06c0f887cbc83f8732a806fb5f0c4ac6403dab4cb"
+  },
+  {
+    "path": "crypto-hw/evidence/sram/gf180mcu_ocd_ip_sram__sram1024x8m8wm1__tt_025C_3v30.lib",
+    "sha256": "c2f7e0957e3e7f08845df9b511aa2c64236f2d4b34cf763ef0be59618c047d2e"
+  },
+  {
+    "path": "crypto-hw/evidence/sram/manifest.json",
+    "sha256": "b648d1c4cf8a7ca65db5dbb6afbf6a24704dafdabbae259c7677f9bd959a572b"
+  },
+  {
+    "path": "crypto-hw/evidence/sram-alternatives/gf180mcu_ocd_ip_sram__sram512x8m8wm1.blackbox.v",
+    "sha256": "9374b1714cae0733c9affcb6982defba917cd55178c5abd3afdc74995a5c4940"
+  },
+  {
+    "path": "crypto-hw/evidence/sram-alternatives/gf180mcu_ocd_ip_sram__sram512x8m8wm1.lef",
+    "sha256": "f97a39ac2d4847da7246273e970733c96969ff8f63e5ef468a1f4e1ed9688c55"
+  },
+  {
+    "path": "crypto-hw/evidence/sram-alternatives/gf180mcu_ocd_ip_sram__sram512x8m8wm1.v",
+    "sha256": "59c431f0f36cb939bb9d12a3818a735959cac77f1b9ab39c439f986387f07be4"
+  },
+  {
+    "path": "crypto-hw/evidence/sram-alternatives/gf180mcu_ocd_ip_sram__sram512x8m8wm1__tt_025C_3v30.lib",
+    "sha256": "e5f8dc8239c65c52f756019cba9cb78b3ac08aee4611269f0bf6bc9eabd84f1d"
+  },
+  {
+    "path": "crypto-hw/evidence/sram-alternatives/manifest.json",
+    "sha256": "d1887b7709ef3ddff350125704a098ff0623aa9ae530d0f6297249685dfc4266"
+  },
+  {
+    "path": "crypto-hw/evidence/upstream-software-sha256.json",
+    "sha256": "56771d5601a718914b1d939fdccb55bf231115c1a9cc72c3c918c357218a0aae"
+  },
+  {
+    "path": "crypto-hw/evidence.py",
+    "sha256": "1c48b45276c65ad2e01532db3a369ec1e49ef0d01e5f9d4392ae1e45e709b9fd"
+  },
+  {
+    "path": "crypto-hw/fetch_sram.py",
+    "sha256": "2ea3553bb6e7125827adab91f56847b6d88643768c75053c18b63e164b0a8095"
+  },
+  {
+    "path": "crypto-hw/full_p256.py",
+    "sha256": "442bfdc5af03162661e922f5cdabff7fa4c105506492759ac028c41ce8afffd8"
+  },
+  {
+    "path": "crypto-hw/hmac-measure.core",
+    "sha256": "4de1293641dc14e32a31736276a8139caa47926eefb56341c740f416c55f0675"
+  },
+  {
+    "path": "crypto-hw/independent_check.py",
+    "sha256": "54149976b472cc210af0382ca9bf241e2b4e9264ee05973149f10089c28e8b88"
+  },
+  {
+    "path": "crypto-hw/otbn-measure.core",
+    "sha256": "99aa582ab1ad54a15dccfb5e281b5cbc9f1f05a22fb773e89d1a43e953823540"
+  },
+  {
+    "path": "crypto-hw/requirements.txt",
+    "sha256": "63b98130b22e6907b4eba246d4c0b46faa03ae4463a77266f34a23bd11e8a749"
+  },
+  {
+    "path": "crypto-hw/rtl/macro_tb.sv",
+    "sha256": "d1841d47b5b2e58d270ca07849c54664edd8099a7d367e5cf904d9dbf91ebaaf"
+  },
+  {
+    "path": "crypto-hw/rtl/prelude.sv",
+    "sha256": "aeadbded27b42adf7e5348893a1fdf2bbee17f0f0a9d7455ece7530338200b48"
+  },
+  {
+    "path": "crypto-hw/rtl/prim_ram_1p.sv",
+    "sha256": "7e62f321138d62dda6c62406715c3a081113ee78391e47f3ef7f78b7bb4820b7"
+  },
+  {
+    "path": "crypto-hw/rtl/sha_kat_tb.sv",
+    "sha256": "d681cb1f5fbcd99777ddc69147ed59310c3adc5b2a906584f63dac1c3ff1eabc"
+  },
+  {
+    "path": "crypto-hw/rtl_tests.py",
+    "sha256": "05446ca9703ce8eadcd508c3e6d1e866df9fcad81fee3f8656c6253020167678"
+  },
+  {
+    "path": "crypto-hw/sta.py",
+    "sha256": "7abc86d18f888ab3390f246302e5270d9f174c7d8ed5db6e9ab5140808de38f4"
+  },
+  {
+    "path": "crypto-hw/vectors.py",
+    "sha256": "b520ef1e95e34745c5ac0043d7a9411385932b0efafc6c53c5ef3dfd541ad841"
+  },
+  {
+    "path": "docs/opentitan-crypto-assessment.md",
+    "sha256": "f3adeda424fb46676c351da7378dcb54cad3a1461256abd2f5e3c6a4439b9573"
+  }
+]
