@@ -1,0 +1,21 @@
+# P0 dependency baseline; immutable revisions where applicable.
+opentitan_repo=https://github.com/lowRISC/opentitan.git
+# Set OPENTITAN_ROOT to the pinned checkout (runners retain the original local default).
+opentitan_commit=2e20836f9c9787bad82c84b5ba704223f06c8890
+opentitan_usbdev_core=hw/ip/usbdev/usbdev.core
+opentitan_usb_fs_nb_pe_core=hw/ip/usbdev/usb_fs_nb_pe.core
+# Root flake.lock revisions
+librelane=99148a9c1e648cdfdb9d7b772481af32e0dfbe8b
+nix_eda=8a8e673d5327d1ceaf039c1e647f487148c7bd85
+nixpkgs=9b696460ac78b5ccfc17c854d8c976f20456e943
+ciel=e180507a4190462d65cdded4448eb4f7bd2f30fa
+usb_requirement=USB Full-Speed 12 Mbit/s; High-Speed 480 Mbit/s out of scope
+usb_phy=external or custom; not included in candidate RTL
+
+gf180_scl_repo=https://github.com/google/globalfoundries-pdk-libs-gf180mcu_fd_sc_mcu7t5v0.git
+gf180_scl_commit=43beb45e4d323a76239de436db2df6732e9a689b
+gf180_scl_license=Apache-2.0 (p0/lib/GF180-LICENSE)
+gf180_scl_tt_025C_3v30_sha256=c4a64618856caa93b31755d8e22acb7e7efdaaaa3b06cac4a72e3abbf17f861c
+gf180_scl_ss_125C_3v00_sha256=4c375fe6cc333528bfc9253fac68a0326f67cfe61d7e42fabef6f1d3d2ccdc08
+gf180_scl_units=time=1ns voltage=1V capacitance=1pF
+gf180_scl_corners=tt_025C_3v30,ss_125C_3v00

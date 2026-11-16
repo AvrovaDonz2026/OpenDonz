@@ -59,6 +59,7 @@
               # Simulation
               iverilog
               verilator
+              yosys-slang
 
               # Waveform viewing
               gtkwave

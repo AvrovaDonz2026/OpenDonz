@@ -1,0 +1,28 @@
+P0 USB PE pre-layout OpenSTA run
+UTC: 2026-11-15T14:58:29Z
+Target: usb_fs_nb_pe_top; 2 IN + 2 OUT endpoints; MaxPktSizeByte=64
+Clock target: 48 MHz, period 20.833333 ns
+2.7.0
+== OpenSTA tt_025C_3v30 ==
+worst slack max 7.2861
+worst slack min 0.2564
+tns max 0.0000
+P0_SETUP_SLACK 7.286092824195402
+P0_MIN_SLACK 0.25642000359934314
+TIMING PASS
+PASS: tt_025C_3v30
+Reports written: p0/reports/sta-tt_025C_3v30-20261115T145829Z
+== OpenSTA ss_125C_3v00 ==
+worst slack max 1.6943
+worst slack min 0.1489
+tns max 0.0000
+P0_SETUP_SLACK 1.6943211757617436
+P0_MIN_SLACK 0.14891288623688673
+TIMING PASS
+PASS: ss_125C_3v00
+Reports written: p0/reports/sta-ss_125C_3v00-20261115T145829Z
+48 MHz strict original budget: 0.5/0.1 ns uncertainty; 3/0.5 ns I/O; 0.2 ns transition; 0.05 pF load.
+Synchronous controls/endpoint ports constrained; usb_d_i/usb_dp_i/usb_dn_i asynchronous and unconstrained; no timing cuts.
+Reset recovery/removal checks remain enabled; review reset and unconstrained reports.
+Ideal clock, no RC/CTS: pre-layout feasibility only.
+RESULT: status=0 report=p0/reports/sta-20261115T145829Z.txt
