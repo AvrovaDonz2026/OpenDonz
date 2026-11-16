@@ -177,9 +177,12 @@ usbdev 包缓冲缩到 1 KB 要改 `SramDepth`，源码注释说寄存器定义�
 
 ### 4.2 USB FS 物理层（最大的单点风险）
 
-- GF180 的 IO 库里没有 USB 收发器。usbdev 支持直接驱动 D+/D-，也可以关掉差分接收器（`use_diff_rcvr`）改用单端采样，所以两个普通双向 pad 就能接上。
+2026-11-16 边界修订：本节原先的普通 pad 直连是待验证假设；下一阶段的真实 cell 证据、
+外置收发器优先评估路线与候选 pin 预留见 [PHY/I/O 方案](phy-io-plan.md)。
+
+- 当前已检查的 fd_io cell list 未列 USB 收发器，本地未取得可用 USB PHY macro。PE 可输出数字 DP/DM，或选择单端采样模式；这不证明两个普通双向 pad 满足 USB FS 电气要求。直连只作为待 SPICE/封装/板级验证的实验路线，优先评估匹配 PE 数字接口的外置 FS 收发器。
 - 驱动阻抗：USB FS 要求 28~44 Ω（含外部串阻）。P0 用 PDK 里 pad 的 SPICE 网表仿真，定外部串阻（预计 22~33 Ω）和 slew 设置，再对照 USB FS 眼图模板检查。
-- D+ 上拉：外部 1.5 kΩ 接到一个 GPIO，由 `usb_dp_pullup_o` 控制。不用 pad 内部的弱上拉。
+- D+ 上拉：候选为外部 1.5 kΩ 配合可关断的 3.3V 上拉/开关，不用 pad 内部弱上拉。当前 P0 PE 没有 `usb_dp_pullup_o`；需新增 link/attach manager 和板级控制，核对 GPIO 驱动、上电、断电反灌与 VBUS 时序。
 - 时钟：USB FS 要求 ±0.25%，开源 GF180 没有能用的 PLL。v1 用外部 48 MHz 有源晶振，二分频得到 24 MHz 给 CPU。
   usbdev 的 `usb_ref_val_o`/`usb_ref_pulse_o` 以后可用于无晶振校准。
 - 退路：TO-A 实测电气不过关，TO-B 就外接 USB FS 收发芯片，usbdev 改用 D/SE0 发送模式和外部差分接收输入。

@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "status": "proposal-not-package-pinout",
+  "baseline_commit": "ef14285cf5b0709539449f1bea7fca364bdb7d21",
+  "slot": "0p5x0p5",
+  "voltage_target_v": 3.3,
+  "preferred_evaluation": "external_fs_transceiver",
+  "common": [
+    {
+      "pad": "clk_PAD",
+      "signal": "clk_48mhz",
+      "direction": "input"
+    },
+    {
+      "pad": "rst_n_PAD",
+      "signal": "reset_n",
+      "direction": "input"
+    },
+    {
+      "pad": "input_PAD[0]",
+      "signal": "vbus_present_3v3",
+      "direction": "input"
+    },
+    {
+      "pad": "input_PAD[1]",
+      "signal": "user_presence",
+      "direction": "input"
+    },
+    {
+      "pad": "input_PAD[2]",
+      "signal": "strap0",
+      "direction": "input"
+    },
+    {
+      "pad": "input_PAD[3]",
+      "signal": "strap1",
+      "direction": "input"
+    },
+    {
+      "pad": "bidir_PAD[8]",
+      "signal": "spi_csn",
+      "direction": "input"
+    },
+    {
+      "pad": "bidir_PAD[9]",
+      "signal": "spi_sck",
+      "direction": "input"
+    },
+    {
+      "pad": "bidir_PAD[10]",
+      "signal": "spi_mosi",
+      "direction": "input"
+    },
+    {
+      "pad": "bidir_PAD[11]",
+      "signal": "spi_miso",
+      "direction": "output"
+    },
+    {
+      "pad": "bidir_PAD[12]",
+      "signal": "status_led",
+      "direction": "output"
+    }
+  ],
+  "modes": {
+    "external_fs_transceiver": [
+      {
+        "pad": "bidir_PAD[0]",
+        "signal": "phy_tx_d",
+        "direction": "output"
+      },
+      {
+        "pad": "bidir_PAD[1]",
+        "signal": "phy_tx_se0",
+        "direction": "output"
+      },
+      {
+        "pad": "bidir_PAD[2]",
+        "signal": "phy_tx_oe",
+        "direction": "output"
+      },
+      {
+        "pad": "bidir_PAD[3]",
+        "signal": "attach_request",
+        "direction": "output"
+      },
+      {
+        "pad": "bidir_PAD[4]",
+        "signal": "phy_rx_d",
+        "direction": "input"
+      },
+      {
+        "pad": "bidir_PAD[5]",
+        "signal": "phy_rx_dp",
+        "direction": "input"
+      },
+      {
+        "pad": "bidir_PAD[6]",
+        "signal": "phy_rx_dm",
+        "direction": "input"
+      },
+      {
+        "pad": "bidir_PAD[7]",
+        "signal": "phy_ready",
+        "direction": "input"
+      }
+    ],
+    "direct_gpio_experiment": [
+      {
+        "pad": "bidir_PAD[0]",
+        "signal": "usb_dp_experimental",
+        "direction": "inout"
+      },
+      {
+        "pad": "bidir_PAD[1]",
+        "signal": "usb_dm_experimental",
+        "direction": "inout"
+      },
+      {
+        "pad": "bidir_PAD[3]",
+        "signal": "attach_request",
+        "direction": "output"
+      }
+    ]
+  },
+  "power_pad_instances": {
+    "dvdd_pads": 3,
+    "dvss_pads": 3,
+    "vdd_pads": 1,
+    "vss_pads": 1
+  },
+  "required_pe_ports": [
+    "clk_i",
+    "rst_ni",
+    "link_reset_i",
+    "link_active_i",
+    "dev_addr_i",
+    "usb_d_i",
+    "usb_dp_i",
+    "usb_dn_i",
+    "usb_d_o",
+    "usb_se0_o",
+    "usb_dp_o",
+    "usb_dn_o",
+    "usb_oe_o",
+    "diff_rx_ok_i",
+    "cfg_use_diff_rcvr_i",
+    "out_ep_data_put_o",
+    "out_ep_acked_o",
+    "out_ep_rollback_o",
+    "in_ep_xact_end_o",
+    "in_ep_rollback_o"
+  ]
+}
