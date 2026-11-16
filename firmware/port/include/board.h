@@ -1,0 +1,1 @@
+#define HAVE_PUSH_BUTTON 1

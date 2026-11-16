@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "model": "Unicorn RV32; function tests; synthetic entropy; no cycles or USB RTL validation",
+  "results": [
+    {
+      "function": "ecc_compute_public_p256r1",
+      "stack_written_highwater": 772
+    },
+    {
+      "function": "ecdsa_sign_p256r1",
+      "stack_written_highwater": 852
+    },
+    {
+      "function": "u2f_apdu_command_do",
+      "stack_written_highwater": 40
+    }
+  ],
+  "limitations": "Written-byte watermark is a lower bound on allocated peak stack; no min-SP hook, instruction count or Ibex cycle measurement"
+}

@@ -1,0 +1,1691 @@
+{
+  "note": "Per-function static frames, NOT call-chain bounds; indirect calls and interrupts need analysis",
+  "frames": [
+    {
+      "function": "u2f_apdu_command_do",
+      "bytes": 464,
+      "kind": "static",
+      "source": "firmware/vendor/u2f-token-2c19a75c31096e19cbcfcedeae6bb18077eabac0/src/u2f-apdu.c:538:u2f_apdu_command_do"
+    },
+    {
+      "function": "ecp_mul_restartable_internal",
+      "bytes": 256,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:2600:ecp_mul_restartable_internal"
+    },
+    {
+      "function": "ecc_compute_public_p256r1",
+      "bytes": 224,
+      "kind": "static",
+      "source": "firmware/port/ecc.c:22:ecc_compute_public_p256r1"
+    },
+    {
+      "function": "ecdsa_sign_p256r1",
+      "bytes": 208,
+      "kind": "static",
+      "source": "firmware/port/ecc.c:36:ecdsa_sign_p256r1"
+    },
+    {
+      "function": "u2f_apdu_init",
+      "bytes": 192,
+      "kind": "static",
+      "source": "firmware/vendor/u2f-token-2c19a75c31096e19cbcfcedeae6bb18077eabac0/src/u2f-apdu.c:531:u2f_apdu_init"
+    },
+    {
+      "function": "sha256_process",
+      "bytes": 160,
+      "kind": "static",
+      "source": "firmware/vendor/u2f-token-2c19a75c31096e19cbcfcedeae6bb18077eabac0/src/sha256.c:118:sha256_process"
+    },
+    {
+      "function": "mbedtls_ecp_check_pub_priv",
+      "bytes": 160,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:3360:mbedtls_ecp_check_pub_priv"
+    },
+    {
+      "function": "mbedtls_mpi_div_mpi",
+      "bytes": 144,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:1398:mbedtls_mpi_div_mpi"
+    },
+    {
+      "function": "mbedtls_ecdsa_write_signature_restartable",
+      "bytes": 144,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecdsa.c:630:mbedtls_ecdsa_write_signature_restartable"
+    },
+    {
+      "function": "sha256",
+      "bytes": 128,
+      "kind": "static",
+      "source": "firmware/vendor/u2f-token-2c19a75c31096e19cbcfcedeae6bb18077eabac0/src/sha256.c:218:sha256"
+    },
+    {
+      "function": "mbedtls_mpi_core_exp_mod_optionally_safe",
+      "bytes": 96,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:850:mbedtls_mpi_core_exp_mod_optionally_safe"
+    },
+    {
+      "function": "mbedtls_ecp_muladd_restartable",
+      "bytes": 96,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:2774:mbedtls_ecp_muladd_restartable"
+    },
+    {
+      "function": "mbedtls_ecdsa_sign_restartable",
+      "bytes": 96,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecdsa.c:244:mbedtls_ecdsa_sign_restartable"
+    },
+    {
+      "function": "mbedtls_ecdsa_verify_restartable",
+      "bytes": 96,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecdsa.c:479:mbedtls_ecdsa_verify_restartable"
+    },
+    {
+      "function": "mbedtls_mpi_core_gcd_modinv_odd",
+      "bytes": 80,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:1092:mbedtls_mpi_core_gcd_modinv_odd"
+    },
+    {
+      "function": "u2f_hid_main",
+      "bytes": 64,
+      "kind": "static",
+      "source": "firmware/vendor/u2f-token-2c19a75c31096e19cbcfcedeae6bb18077eabac0/src/u2f-hid.c:285:u2f_hid_main"
+    },
+    {
+      "function": "mbedtls_mpi_write_string",
+      "bytes": 64,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:620:mbedtls_mpi_write_string"
+    },
+    {
+      "function": "mbedtls_mpi_exp_mod_optionally_safe",
+      "bytes": 64,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:1623:mbedtls_mpi_exp_mod_optionally_safe"
+    },
+    {
+      "function": "u2f_send_msg",
+      "bytes": 48,
+      "kind": "static",
+      "source": "firmware/vendor/u2f-token-2c19a75c31096e19cbcfcedeae6bb18077eabac0/src/u2f-hid.c:227:u2f_send_msg"
+    },
+    {
+      "function": "mbedtls_mpi_read_string",
+      "bytes": 48,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:518:mbedtls_mpi_read_string"
+    },
+    {
+      "function": "mbedtls_mpi_mul_mpi",
+      "bytes": 48,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:1198:mbedtls_mpi_mul_mpi"
+    },
+    {
+      "function": "mbedtls_mpi_gcd_modinv_odd",
+      "bytes": 48,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:1752:mbedtls_mpi_gcd_modinv_odd"
+    },
+    {
+      "function": "mbedtls_mpi_gcd",
+      "bytes": 48,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:1825:mbedtls_mpi_gcd"
+    },
+    {
+      "function": "mbedtls_mpi_inv_mod_even_in_range",
+      "bytes": 48,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:1966:mbedtls_mpi_inv_mod_even_in_range"
+    },
+    {
+      "function": "mbedtls_mpi_core_mla",
+      "bytes": 48,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:462:mbedtls_mpi_core_mla"
+    },
+    {
+      "function": "mbedtls_mpi_core_montmul",
+      "bytes": 48,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:527:mbedtls_mpi_core_montmul"
+    },
+    {
+      "function": "mbedtls_mpi_core_fill_random",
+      "bytes": 48,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:616:mbedtls_mpi_core_fill_random"
+    },
+    {
+      "function": "mbedtls_mpi_core_random",
+      "bytes": 48,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:638:mbedtls_mpi_core_random"
+    },
+    {
+      "function": "mbedtls_ecp_point_write_binary",
+      "bytes": 48,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:692:mbedtls_ecp_point_write_binary"
+    },
+    {
+      "function": "mbedtls_ecp_point_read_binary",
+      "bytes": 48,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:770:mbedtls_ecp_point_read_binary"
+    },
+    {
+      "function": "ecp_add_mixed",
+      "bytes": 48,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:1584:ecp_add_mixed"
+    },
+    {
+      "function": "mbedtls_ecp_check_pubkey",
+      "bytes": 48,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:3001:mbedtls_ecp_check_pubkey"
+    },
+    {
+      "function": "ecp_double_jac",
+      "bytes": 48,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:1487:ecp_double_jac"
+    },
+    {
+      "function": "ecp_normalize_jac_many",
+      "bytes": 48,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:1361:ecp_normalize_jac_many"
+    },
+    {
+      "function": "ecp_select_comb",
+      "bytes": 48,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:2013:ecp_select_comb"
+    },
+    {
+      "function": "mbedtls_ecdsa_read_signature_restartable",
+      "bytes": 48,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecdsa.c:705:mbedtls_ecdsa_read_signature_restartable"
+    },
+    {
+      "function": "mbedtls_asn1_traverse_sequence_of",
+      "bytes": 48,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1parse.c:220:mbedtls_asn1_traverse_sequence_of"
+    },
+    {
+      "function": "u2f_send_error",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/u2f-token-2c19a75c31096e19cbcfcedeae6bb18077eabac0/src/u2f-hid.c:192:u2f_send_error"
+    },
+    {
+      "function": "sha256_update",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/u2f-token-2c19a75c31096e19cbcfcedeae6bb18077eabac0/src/sha256.c:150:sha256_update"
+    },
+    {
+      "function": "mbedtls_mpi_lt_mpi_ct",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:57:mbedtls_mpi_lt_mpi_ct"
+    },
+    {
+      "function": "mbedtls_mpi_safe_cond_assign",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:118:mbedtls_mpi_safe_cond_assign"
+    },
+    {
+      "function": "mbedtls_mpi_grow",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:209:mbedtls_mpi_grow"
+    },
+    {
+      "function": "mbedtls_mpi_safe_cond_swap",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:149:mbedtls_mpi_safe_cond_swap"
+    },
+    {
+      "function": "mbedtls_mpi_shrink",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:240:mbedtls_mpi_shrink"
+    },
+    {
+      "function": "mbedtls_mpi_swap",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:349:mbedtls_mpi_swap"
+    },
+    {
+      "function": "mbedtls_mpi_set_bit",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:407:mbedtls_mpi_set_bit"
+    },
+    {
+      "function": "mbedtls_mpi_mul_int",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:1258:mbedtls_mpi_mul_int"
+    },
+    {
+      "function": "mbedtls_mpi_add_abs",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:1005:mbedtls_mpi_add_abs"
+    },
+    {
+      "function": "mbedtls_mpi_sub_abs",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:1066:mbedtls_mpi_sub_abs"
+    },
+    {
+      "function": "add_sub_mpi",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:1117:add_sub_mpi"
+    },
+    {
+      "function": "mbedtls_mpi_fill_random",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:1881:mbedtls_mpi_fill_random"
+    },
+    {
+      "function": "mbedtls_mpi_random",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:1900:mbedtls_mpi_random"
+    },
+    {
+      "function": "mbedtls_mpi_inv_mod_odd",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:1927:mbedtls_mpi_inv_mod_odd"
+    },
+    {
+      "function": "mbedtls_mpi_inv_mod",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:2042:mbedtls_mpi_inv_mod"
+    },
+    {
+      "function": "mbedtls_mpi_core_lt_ct",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:133:mbedtls_mpi_core_lt_ct"
+    },
+    {
+      "function": "mbedtls_mpi_core_read_be",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:227:mbedtls_mpi_core_read_be"
+    },
+    {
+      "function": "mbedtls_mpi_core_write_be",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:292:mbedtls_mpi_core_write_be"
+    },
+    {
+      "function": "mbedtls_mpi_core_mul",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:500:mbedtls_mpi_core_mul"
+    },
+    {
+      "function": "mbedtls_ecp_mul_shortcuts",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:2739:mbedtls_ecp_mul_shortcuts"
+    },
+    {
+      "function": "ecp_normalize_jac",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:1315:ecp_normalize_jac"
+    },
+    {
+      "function": "mbedtls_ecp_gen_keypair_base",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:3135:mbedtls_ecp_gen_keypair_base"
+    },
+    {
+      "function": "mbedtls_ecp_read_key",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:3199:mbedtls_ecp_read_key"
+    },
+    {
+      "function": "ecp_sw_rhs",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:1226:ecp_sw_rhs"
+    },
+    {
+      "function": "ecp_safe_invert_jac",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:1458:ecp_safe_invert_jac"
+    },
+    {
+      "function": "mbedtls_asn1_get_bool",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1parse.c:80:mbedtls_asn1_get_bool"
+    },
+    {
+      "function": "mbedtls_asn1_get_mpi",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1parse.c:163:mbedtls_asn1_get_mpi"
+    },
+    {
+      "function": "mbedtls_asn1_get_sequence_of",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1parse.c:339:mbedtls_asn1_get_sequence_of"
+    },
+    {
+      "function": "asn1_get_sequence_of_cb",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1parse.c:307:asn1_get_sequence_of_cb"
+    },
+    {
+      "function": "mbedtls_asn1_get_alg",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1parse.c:351:mbedtls_asn1_get_alg"
+    },
+    {
+      "function": "mbedtls_asn1_get_alg_null",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1parse.c:399:mbedtls_asn1_get_alg_null"
+    },
+    {
+      "function": "mbedtls_asn1_write_mpi",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1write.c:101:mbedtls_asn1_write_mpi"
+    },
+    {
+      "function": "mbedtls_asn1_write_len_and_tag",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1write.c:69:mbedtls_asn1_write_len_and_tag"
+    },
+    {
+      "function": "mbedtls_asn1_write_algorithm_identifier_ext",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1write.c:167:mbedtls_asn1_write_algorithm_identifier_ext"
+    },
+    {
+      "function": "mbedtls_asn1_write_bitstring",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1write.c:312:mbedtls_asn1_write_bitstring"
+    },
+    {
+      "function": "mbedtls_asn1_store_named_data",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1write.c:376:mbedtls_asn1_store_named_data"
+    },
+    {
+      "function": "buffer_alloc_calloc",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/memory_buffer_alloc.c:199:buffer_alloc_calloc"
+    },
+    {
+      "function": "buffer_alloc_free",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/memory_buffer_alloc.c:360:buffer_alloc_free"
+    },
+    {
+      "function": "mbedtls_ct_memcpy_offset",
+      "bytes": 32,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/constant_time.c:215:mbedtls_ct_memcpy_offset"
+    },
+    {
+      "function": "rng",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/u2f-token-2c19a75c31096e19cbcfcedeae6bb18077eabac0/src/u2f-apdu.c:149:rng"
+    },
+    {
+      "function": "der_encode_sig",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/u2f-token-2c19a75c31096e19cbcfcedeae6bb18077eabac0/src/u2f-apdu.c:306:der_encode_sig"
+    },
+    {
+      "function": "der_encode_uint",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/u2f-token-2c19a75c31096e19cbcfcedeae6bb18077eabac0/src/u2f-apdu.c:274:der_encode_uint"
+    },
+    {
+      "function": "u2f_hid_open",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/u2f-token-2c19a75c31096e19cbcfcedeae6bb18077eabac0/src/u2f-hid.c:420:u2f_hid_open"
+    },
+    {
+      "function": "u2f_msg_append",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/u2f-token-2c19a75c31096e19cbcfcedeae6bb18077eabac0/src/u2f-hid.c:182:u2f_msg_append"
+    },
+    {
+      "function": "sha256_finish",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/u2f-token-2c19a75c31096e19cbcfcedeae6bb18077eabac0/src/sha256.c:174:sha256_finish"
+    },
+    {
+      "function": "hmac_sha256_init",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/u2f-token-2c19a75c31096e19cbcfcedeae6bb18077eabac0/src/hmac.c:100:hmac_sha256_init"
+    },
+    {
+      "function": "hmac_sha256_finish",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/u2f-token-2c19a75c31096e19cbcfcedeae6bb18077eabac0/src/hmac.c:119:hmac_sha256_finish"
+    },
+    {
+      "function": "mbedtls_mpi_free",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:191:mbedtls_mpi_free"
+    },
+    {
+      "function": "mbedtls_mpi_copy",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:307:mbedtls_mpi_copy"
+    },
+    {
+      "function": "mbedtls_mpi_lset",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:377:mbedtls_mpi_lset"
+    },
+    {
+      "function": "mbedtls_mpi_size",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:486:mbedtls_mpi_size"
+    },
+    {
+      "function": "mbedtls_mpi_add_int",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:1166:mbedtls_mpi_add_int"
+    },
+    {
+      "function": "mbedtls_mpi_read_binary_le",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:798:mbedtls_mpi_read_binary_le"
+    },
+    {
+      "function": "mbedtls_mpi_resize_clear",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:284:mbedtls_mpi_resize_clear"
+    },
+    {
+      "function": "mbedtls_mpi_read_binary",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:825:mbedtls_mpi_read_binary"
+    },
+    {
+      "function": "mbedtls_mpi_shift_l",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:866:mbedtls_mpi_shift_l"
+    },
+    {
+      "function": "mbedtls_mpi_shift_r",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:888:mbedtls_mpi_shift_r"
+    },
+    {
+      "function": "mbedtls_mpi_cmp_int",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:989:mbedtls_mpi_cmp_int"
+    },
+    {
+      "function": "mbedtls_mpi_sub_int",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:1182:mbedtls_mpi_sub_int"
+    },
+    {
+      "function": "mbedtls_mpi_div_int",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:1521:mbedtls_mpi_div_int"
+    },
+    {
+      "function": "mbedtls_mpi_mod_mpi",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:1539:mbedtls_mpi_mod_mpi"
+    },
+    {
+      "function": "mbedtls_mpi_core_uint_le_mpi",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:115:mbedtls_mpi_core_uint_le_mpi"
+    },
+    {
+      "function": "mbedtls_mpi_core_read_le",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:204:mbedtls_mpi_core_read_le"
+    },
+    {
+      "function": "mbedtls_mpi_core_write_le",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:258:mbedtls_mpi_core_write_le"
+    },
+    {
+      "function": "mbedtls_mpi_core_get_mont_r2_unsafe",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:583:mbedtls_mpi_core_get_mont_r2_unsafe"
+    },
+    {
+      "function": "mbedtls_mpi_core_from_mont_rep",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:1011:mbedtls_mpi_core_from_mont_rep"
+    },
+    {
+      "function": "mbedtls_ecp_curve_info_from_name",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:465:mbedtls_ecp_curve_info_from_name"
+    },
+    {
+      "function": "mbedtls_ecp_point_init",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:503:mbedtls_ecp_point_init"
+    },
+    {
+      "function": "mbedtls_ecp_group_init",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:513:mbedtls_ecp_group_init"
+    },
+    {
+      "function": "mbedtls_ecp_keypair_init",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:535:mbedtls_ecp_keypair_init"
+    },
+    {
+      "function": "mbedtls_ecp_point_free",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:545:mbedtls_ecp_point_free"
+    },
+    {
+      "function": "mbedtls_ecp_group_free",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:572:mbedtls_ecp_group_free"
+    },
+    {
+      "function": "mbedtls_ecp_keypair_free",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:604:mbedtls_ecp_keypair_free"
+    },
+    {
+      "function": "mbedtls_ecp_copy",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:618:mbedtls_ecp_copy"
+    },
+    {
+      "function": "mbedtls_ecp_set_zero",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:640:mbedtls_ecp_set_zero"
+    },
+    {
+      "function": "mbedtls_ecp_is_zero",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:654:mbedtls_ecp_is_zero"
+    },
+    {
+      "function": "mbedtls_ecp_point_cmp",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:662:mbedtls_ecp_point_cmp"
+    },
+    {
+      "function": "mbedtls_ecp_point_read_string",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:677:mbedtls_ecp_point_read_string"
+    },
+    {
+      "function": "mbedtls_ecp_tls_write_point",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:878:mbedtls_ecp_tls_write_point"
+    },
+    {
+      "function": "mbedtls_ecp_tls_read_group",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:912:mbedtls_ecp_tls_read_group"
+    },
+    {
+      "function": "mbedtls_ecp_tls_read_group_id",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:928:mbedtls_ecp_tls_read_group_id"
+    },
+    {
+      "function": "mbedtls_ecp_tls_write_group",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:965:mbedtls_ecp_tls_write_group"
+    },
+    {
+      "function": "mpi_init_many",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:318:mpi_init_many"
+    },
+    {
+      "function": "mpi_free_many",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:325:mpi_free_many"
+    },
+    {
+      "function": "mbedtls_ecp_check_privkey",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:3025:mbedtls_ecp_check_privkey"
+    },
+    {
+      "function": "mbedtls_ecp_gen_privkey",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:3111:mbedtls_ecp_gen_privkey"
+    },
+    {
+      "function": "mbedtls_ecp_gen_key",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:3163:mbedtls_ecp_gen_key"
+    },
+    {
+      "function": "mbedtls_ecp_set_public_key",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:3175:mbedtls_ecp_set_public_key"
+    },
+    {
+      "function": "mbedtls_ecp_export",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:3416:mbedtls_ecp_export"
+    },
+    {
+      "function": "mbedtls_mpi_mul_mod",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:1056:mbedtls_mpi_mul_mod"
+    },
+    {
+      "function": "mbedtls_mpi_add_mod",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:1100:mbedtls_mpi_add_mod"
+    },
+    {
+      "function": "mbedtls_mpi_sub_mod",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:1079:mbedtls_mpi_sub_mod"
+    },
+    {
+      "function": "mbedtls_mpi_mul_int_mod",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:1113:mbedtls_mpi_mul_int_mod"
+    },
+    {
+      "function": "mbedtls_mpi_shift_l_mod",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:1144:mbedtls_mpi_shift_l_mod"
+    },
+    {
+      "function": "mbedtls_ecp_group_load",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp_curves.c:4717:mbedtls_ecp_group_load"
+    },
+    {
+      "function": "ecp_mod_p256",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp_curves.c:5036:ecp_mod_p256"
+    },
+    {
+      "function": "derive_mpi",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecdsa.c:204:derive_mpi"
+    },
+    {
+      "function": "mbedtls_ecdsa_sign",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecdsa.c:371:mbedtls_ecdsa_sign"
+    },
+    {
+      "function": "mbedtls_ecdsa_write_signature",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecdsa.c:679:mbedtls_ecdsa_write_signature"
+    },
+    {
+      "function": "mbedtls_ecdsa_genkey",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecdsa.c:767:mbedtls_ecdsa_genkey"
+    },
+    {
+      "function": "mbedtls_ecdsa_from_keypair",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecdsa.c:784:mbedtls_ecdsa_from_keypair"
+    },
+    {
+      "function": "asn1_get_tagged_int",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1parse.c:101:asn1_get_tagged_int"
+    },
+    {
+      "function": "mbedtls_asn1_get_bitstring",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1parse.c:182:mbedtls_asn1_get_bitstring"
+    },
+    {
+      "function": "mbedtls_asn1_get_bitstring_null",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1parse.c:271:mbedtls_asn1_get_bitstring_null"
+    },
+    {
+      "function": "mbedtls_asn1_sequence_free",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1parse.c:293:mbedtls_asn1_sequence_free"
+    },
+    {
+      "function": "mbedtls_asn1_free_named_data",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1parse.c:420:mbedtls_asn1_free_named_data"
+    },
+    {
+      "function": "mbedtls_asn1_free_named_data_list",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1parse.c:433:mbedtls_asn1_free_named_data_list"
+    },
+    {
+      "function": "mbedtls_asn1_free_named_data_list_shallow",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1parse.c:445:mbedtls_asn1_free_named_data_list_shallow"
+    },
+    {
+      "function": "mbedtls_asn1_find_named_data",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1parse.c:453:mbedtls_asn1_find_named_data"
+    },
+    {
+      "function": "mbedtls_asn1_write_raw_buffer",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1write.c:82:mbedtls_asn1_write_raw_buffer"
+    },
+    {
+      "function": "mbedtls_asn1_write_oid",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1write.c:149:mbedtls_asn1_write_oid"
+    },
+    {
+      "function": "mbedtls_asn1_write_tagged_string",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1write.c:236:mbedtls_asn1_write_tagged_string"
+    },
+    {
+      "function": "mbedtls_asn1_write_octet_string",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1write.c:341:mbedtls_asn1_write_octet_string"
+    },
+    {
+      "function": "mbedtls_platform_zeroize",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/platform_util.c:94:mbedtls_platform_zeroize"
+    },
+    {
+      "function": "mbedtls_zeroize_and_free",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/platform_util.c:139:mbedtls_zeroize_and_free"
+    },
+    {
+      "function": "verify_chain",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/memory_buffer_alloc.c:153:verify_chain"
+    },
+    {
+      "function": "mbedtls_memory_buffer_alloc_init",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/memory_buffer_alloc.c:562:mbedtls_memory_buffer_alloc_init"
+    },
+    {
+      "function": "load",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/port/ecc.c:16:load"
+    },
+    {
+      "function": "entropy",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/port/ecc.c:11:entropy"
+    },
+    {
+      "function": "chopstx_create",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/port/platform.c:24:chopstx_create"
+    },
+    {
+      "function": "main",
+      "bytes": 16,
+      "kind": "static",
+      "source": "firmware/port/platform.c:25:main"
+    },
+    {
+      "function": "u2f_apdu_error",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/u2f-token-2c19a75c31096e19cbcfcedeae6bb18077eabac0/src/u2f-apdu.c:524:u2f_apdu_error"
+    },
+    {
+      "function": "append_sw",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/u2f-token-2c19a75c31096e19cbcfcedeae6bb18077eabac0/src/u2f-apdu.c:517:append_sw"
+    },
+    {
+      "function": "u2f_read_ctr",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/u2f-token-2c19a75c31096e19cbcfcedeae6bb18077eabac0/src/u2f-apdu.c:380:u2f_read_ctr"
+    },
+    {
+      "function": "sha256_start",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/u2f-token-2c19a75c31096e19cbcfcedeae6bb18077eabac0/src/sha256.c:211:sha256_start"
+    },
+    {
+      "function": "_hmac_sha256_init",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/u2f-token-2c19a75c31096e19cbcfcedeae6bb18077eabac0/src/hmac.c:34:_hmac_sha256_init"
+    },
+    {
+      "function": "_hmac_sha256_update",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/u2f-token-2c19a75c31096e19cbcfcedeae6bb18077eabac0/src/hmac.c:41:_hmac_sha256_update"
+    },
+    {
+      "function": "_hmac_sha256_finish",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/u2f-token-2c19a75c31096e19cbcfcedeae6bb18077eabac0/src/hmac.c:49:_hmac_sha256_finish"
+    },
+    {
+      "function": "hmac_sha256_update",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/u2f-token-2c19a75c31096e19cbcfcedeae6bb18077eabac0/src/hmac.c:112:hmac_sha256_update"
+    },
+    {
+      "function": "mbedtls_ct_mpi_sign_if",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:48:mbedtls_ct_mpi_sign_if"
+    },
+    {
+      "function": "mbedtls_mpi_init",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:181:mbedtls_mpi_init"
+    },
+    {
+      "function": "mbedtls_mpi_get_bit",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:395:mbedtls_mpi_get_bit"
+    },
+    {
+      "function": "mbedtls_mpi_lsb",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:462:mbedtls_mpi_lsb"
+    },
+    {
+      "function": "mbedtls_mpi_bitlen",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:478:mbedtls_mpi_bitlen"
+    },
+    {
+      "function": "mpi_get_digit",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:494:mpi_get_digit"
+    },
+    {
+      "function": "mbedtls_mpi_write_binary_le",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:848:mbedtls_mpi_write_binary_le"
+    },
+    {
+      "function": "mbedtls_mpi_write_binary",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:857:mbedtls_mpi_write_binary"
+    },
+    {
+      "function": "mbedtls_mpi_cmp_abs",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:899:mbedtls_mpi_cmp_abs"
+    },
+    {
+      "function": "mbedtls_mpi_cmp_mpi",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:940:mbedtls_mpi_cmp_mpi"
+    },
+    {
+      "function": "mbedtls_mpi_add_mpi",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:1150:mbedtls_mpi_add_mpi"
+    },
+    {
+      "function": "mbedtls_mpi_sub_mpi",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:1158:mbedtls_mpi_sub_mpi"
+    },
+    {
+      "function": "mbedtls_mpi_mod_int",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:1565:mbedtls_mpi_mod_int"
+    },
+    {
+      "function": "mbedtls_mpi_exp_mod",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:1737:mbedtls_mpi_exp_mod"
+    },
+    {
+      "function": "mbedtls_mpi_exp_mod_unsafe",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:1744:mbedtls_mpi_exp_mod_unsafe"
+    },
+    {
+      "function": "OUTLINED_FUNCTION_0",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:0:OUTLINED_FUNCTION_0"
+    },
+    {
+      "function": "OUTLINED_FUNCTION_1",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:0:OUTLINED_FUNCTION_1"
+    },
+    {
+      "function": "OUTLINED_FUNCTION_2",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:0:OUTLINED_FUNCTION_2"
+    },
+    {
+      "function": "OUTLINED_FUNCTION_3",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:0:OUTLINED_FUNCTION_3"
+    },
+    {
+      "function": "OUTLINED_FUNCTION_4",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:0:OUTLINED_FUNCTION_4"
+    },
+    {
+      "function": "OUTLINED_FUNCTION_5",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:0:OUTLINED_FUNCTION_5"
+    },
+    {
+      "function": "OUTLINED_FUNCTION_6",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:0:OUTLINED_FUNCTION_6"
+    },
+    {
+      "function": "OUTLINED_FUNCTION_7",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:0:OUTLINED_FUNCTION_7"
+    },
+    {
+      "function": "OUTLINED_FUNCTION_8",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum.c:0:OUTLINED_FUNCTION_8"
+    },
+    {
+      "function": "mbedtls_mpi_core_clz",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:25:mbedtls_mpi_core_clz"
+    },
+    {
+      "function": "mbedtls_mpi_core_bitlen",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:54:mbedtls_mpi_core_bitlen"
+    },
+    {
+      "function": "mbedtls_mpi_core_bigendian_to_host",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:83:mbedtls_mpi_core_bigendian_to_host"
+    },
+    {
+      "function": "mbedtls_ct_uint_lt",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/constant_time_impl.h:271:mbedtls_ct_uint_lt"
+    },
+    {
+      "function": "mbedtls_mpi_core_cond_assign",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:169:mbedtls_mpi_core_cond_assign"
+    },
+    {
+      "function": "mbedtls_mpi_core_cond_swap",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:188:mbedtls_mpi_core_cond_swap"
+    },
+    {
+      "function": "mbedtls_mpi_core_shift_r",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:331:mbedtls_mpi_core_shift_r"
+    },
+    {
+      "function": "mbedtls_mpi_core_shift_l",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:371:mbedtls_mpi_core_shift_l"
+    },
+    {
+      "function": "mbedtls_mpi_core_add",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:406:mbedtls_mpi_core_add"
+    },
+    {
+      "function": "mbedtls_mpi_core_add_if",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:424:mbedtls_mpi_core_add_if"
+    },
+    {
+      "function": "mbedtls_mpi_core_sub",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:445:mbedtls_mpi_core_sub"
+    },
+    {
+      "function": "mbedtls_mpi_core_montmul_init",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:514:mbedtls_mpi_core_montmul_init"
+    },
+    {
+      "function": "mbedtls_mpi_core_exp_mod_working_limbs",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:710:mbedtls_mpi_core_exp_mod_working_limbs"
+    },
+    {
+      "function": "mbedtls_mpi_core_exp_mod",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:936:mbedtls_mpi_core_exp_mod"
+    },
+    {
+      "function": "mbedtls_mpi_core_exp_mod_unsafe",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:954:mbedtls_mpi_core_exp_mod_unsafe"
+    },
+    {
+      "function": "mbedtls_mpi_core_sub_int",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:972:mbedtls_mpi_core_sub_int"
+    },
+    {
+      "function": "mbedtls_mpi_core_check_zero_ct",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:987:mbedtls_mpi_core_check_zero_ct"
+    },
+    {
+      "function": "mbedtls_mpi_core_to_mont_rep",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:1000:mbedtls_mpi_core_to_mont_rep"
+    },
+    {
+      "function": "OUTLINED_FUNCTION_0",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:0:OUTLINED_FUNCTION_0"
+    },
+    {
+      "function": "OUTLINED_FUNCTION_1",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:0:OUTLINED_FUNCTION_1"
+    },
+    {
+      "function": "OUTLINED_FUNCTION_2",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/bignum_core.c:0:OUTLINED_FUNCTION_2"
+    },
+    {
+      "function": "mbedtls_ecp_curve_list",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:397:mbedtls_ecp_curve_list"
+    },
+    {
+      "function": "mbedtls_ecp_grp_id_list",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:405:mbedtls_ecp_grp_id_list"
+    },
+    {
+      "function": "mbedtls_ecp_curve_info_from_grp_id",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:429:mbedtls_ecp_curve_info_from_grp_id"
+    },
+    {
+      "function": "mbedtls_ecp_curve_info_from_tls_id",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:447:mbedtls_ecp_curve_info_from_tls_id"
+    },
+    {
+      "function": "mbedtls_ecp_get_type",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:487:mbedtls_ecp_get_type"
+    },
+    {
+      "function": "mbedtls_ecp_group_copy",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:632:mbedtls_ecp_group_copy"
+    },
+    {
+      "function": "mbedtls_ecp_tls_read_point",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:845:mbedtls_ecp_tls_read_point"
+    },
+    {
+      "function": "mbedtls_ecp_mul_restartable",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:2671:mbedtls_ecp_mul_restartable"
+    },
+    {
+      "function": "mbedtls_ecp_mul",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:2686:mbedtls_ecp_mul"
+    },
+    {
+      "function": "mbedtls_ecp_muladd",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:2878:mbedtls_ecp_muladd"
+    },
+    {
+      "function": "mbedtls_ecp_gen_keypair",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:3152:mbedtls_ecp_gen_keypair"
+    },
+    {
+      "function": "mbedtls_ecp_write_key",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:3280:mbedtls_ecp_write_key"
+    },
+    {
+      "function": "mbedtls_ecp_write_key_ext",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:3312:mbedtls_ecp_write_key_ext"
+    },
+    {
+      "function": "mbedtls_ecp_write_public_key",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:3347:mbedtls_ecp_write_public_key"
+    },
+    {
+      "function": "mbedtls_ecp_keypair_calc_public",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:3398:mbedtls_ecp_keypair_calc_public"
+    },
+    {
+      "function": "mbedtls_ecp_keypair_get_group_id",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:3407:mbedtls_ecp_keypair_get_group_id"
+    },
+    {
+      "function": "OUTLINED_FUNCTION_0",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:0:OUTLINED_FUNCTION_0"
+    },
+    {
+      "function": "OUTLINED_FUNCTION_1",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:0:OUTLINED_FUNCTION_1"
+    },
+    {
+      "function": "OUTLINED_FUNCTION_2",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:0:OUTLINED_FUNCTION_2"
+    },
+    {
+      "function": "OUTLINED_FUNCTION_3",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecp.c:0:OUTLINED_FUNCTION_3"
+    },
+    {
+      "function": "mbedtls_ecdsa_can_do",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecdsa.c:226:mbedtls_ecdsa_can_do"
+    },
+    {
+      "function": "mbedtls_ecdsa_verify",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecdsa.c:587:mbedtls_ecdsa_verify"
+    },
+    {
+      "function": "mbedtls_ecdsa_read_signature",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecdsa.c:694:mbedtls_ecdsa_read_signature"
+    },
+    {
+      "function": "mbedtls_ecdsa_free",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecdsa.c:807:mbedtls_ecdsa_free"
+    },
+    {
+      "function": "mbedtls_ecdsa_init",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/ecdsa.c:799:mbedtls_ecdsa_init"
+    },
+    {
+      "function": "mbedtls_asn1_get_len",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1parse.c:28:mbedtls_asn1_get_len"
+    },
+    {
+      "function": "mbedtls_asn1_get_tag",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1parse.c:61:mbedtls_asn1_get_tag"
+    },
+    {
+      "function": "mbedtls_asn1_get_int",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1parse.c:148:mbedtls_asn1_get_int"
+    },
+    {
+      "function": "mbedtls_asn1_get_enum",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1parse.c:155:mbedtls_asn1_get_enum"
+    },
+    {
+      "function": "mbedtls_asn1_write_len",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1write.c:24:mbedtls_asn1_write_len"
+    },
+    {
+      "function": "mbedtls_asn1_write_tag",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1write.c:56:mbedtls_asn1_write_tag"
+    },
+    {
+      "function": "mbedtls_asn1_write_null",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1write.c:142:mbedtls_asn1_write_null"
+    },
+    {
+      "function": "mbedtls_asn1_write_algorithm_identifier",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1write.c:160:mbedtls_asn1_write_algorithm_identifier"
+    },
+    {
+      "function": "mbedtls_asn1_write_bool",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1write.c:188:mbedtls_asn1_write_bool"
+    },
+    {
+      "function": "mbedtls_asn1_write_int",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1write.c:226:mbedtls_asn1_write_int"
+    },
+    {
+      "function": "asn1_write_tagged_int",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1write.c:202:asn1_write_tagged_int"
+    },
+    {
+      "function": "mbedtls_asn1_write_enum",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1write.c:231:mbedtls_asn1_write_enum"
+    },
+    {
+      "function": "mbedtls_asn1_write_utf8_string",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1write.c:249:mbedtls_asn1_write_utf8_string"
+    },
+    {
+      "function": "mbedtls_asn1_write_printable_string",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1write.c:255:mbedtls_asn1_write_printable_string"
+    },
+    {
+      "function": "mbedtls_asn1_write_ia5_string",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1write.c:262:mbedtls_asn1_write_ia5_string"
+    },
+    {
+      "function": "mbedtls_asn1_write_named_bitstring",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1write.c:268:mbedtls_asn1_write_named_bitstring"
+    },
+    {
+      "function": "OUTLINED_FUNCTION_0",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/asn1write.c:0:OUTLINED_FUNCTION_0"
+    },
+    {
+      "function": "mbedtls_calloc",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/platform.c:47:mbedtls_calloc"
+    },
+    {
+      "function": "mbedtls_free",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/platform.c:52:mbedtls_free"
+    },
+    {
+      "function": "mbedtls_platform_set_calloc_free",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/platform.c:57:mbedtls_platform_set_calloc_free"
+    },
+    {
+      "function": "mbedtls_platform_setup",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/platform.c:386:mbedtls_platform_setup"
+    },
+    {
+      "function": "mbedtls_platform_teardown",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/platform.c:396:mbedtls_platform_teardown"
+    },
+    {
+      "function": "platform_calloc_uninit",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/platform.c:25:platform_calloc_uninit"
+    },
+    {
+      "function": "platform_free_uninit",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/platform.c:36:platform_free_uninit"
+    },
+    {
+      "function": "mbedtls_memory_buffer_set_verify",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/memory_buffer_alloc.c:481:mbedtls_memory_buffer_set_verify"
+    },
+    {
+      "function": "mbedtls_memory_buffer_alloc_verify",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/memory_buffer_alloc.c:486:mbedtls_memory_buffer_alloc_verify"
+    },
+    {
+      "function": "mbedtls_memory_buffer_alloc_free",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/memory_buffer_alloc.c:596:mbedtls_memory_buffer_alloc_free"
+    },
+    {
+      "function": "verify_header",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/memory_buffer_alloc.c:113:verify_header"
+    },
+    {
+      "function": "mbedtls_ct_memcmp",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/constant_time.c:68:mbedtls_ct_memcmp"
+    },
+    {
+      "function": "mbedtls_ct_memcpy_if",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/vendor/mbedtls-e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df/library/constant_time.c:170:mbedtls_ct_memcpy_if"
+    },
+    {
+      "function": "crypto_abort",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/port/ecc.c:15:crypto_abort"
+    },
+    {
+      "function": "memcpy",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/port/platform.c:12:memcpy"
+    },
+    {
+      "function": "memset",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/port/platform.c:13:memset"
+    },
+    {
+      "function": "memcmp",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/port/platform.c:14:memcmp"
+    },
+    {
+      "function": "random_gen",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/port/platform.c:16:random_gen"
+    },
+    {
+      "function": "random_bytes_free",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/port/platform.c:17:random_bytes_free"
+    },
+    {
+      "function": "flash_erase_page",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/port/platform.c:18:flash_erase_page"
+    },
+    {
+      "function": "halt",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/port/platform.c:15:halt"
+    },
+    {
+      "function": "flash_write",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/port/platform.c:19:flash_write"
+    },
+    {
+      "function": "user_presence_get",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/port/platform.c:20:user_presence_get"
+    },
+    {
+      "function": "user_presence_reset",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/port/platform.c:21:user_presence_reset"
+    },
+    {
+      "function": "hid_send",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/port/platform.c:22:hid_send"
+    },
+    {
+      "function": "hid_recv",
+      "bytes": 0,
+      "kind": "static",
+      "source": "firmware/port/platform.c:23:hid_recv"
+    }
+  ]
+}

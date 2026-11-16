@@ -1,0 +1,6 @@
+{
+  "/Users/zxy/OpenDonz/soc/build/firmware_rom.sv": "59ccc7556f8021f34c3ed7a7ba00fec7480f434f637881c64d27182eded79704",
+  "liberty_sha256": "c4a64618856caa93b31755d8e22acb7e7efdaaaa3b06cac4a72e3abbf17f861c",
+  "opentitan_commit": "2e20836f9c9787bad82c84b5ba704223f06c8890",
+  "command": "/nix/store/0inxmdvzndxxzsiyjrfjzslay6qllx96-yosys-0.69/bin/yosys -m /nix/store/rssz08b5s5k616wf55aqifx7ymicxwr2-yosys-slang/share/yosys/plugins/slang.so -s /Users/zxy/OpenDonz/soc/build/rom-read.ys"
+}

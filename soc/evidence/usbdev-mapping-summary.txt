@@ -1,0 +1,90 @@
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__mux2_1 cells:    17030
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__mux4_1 cells:        7
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__nand2_1 cells:     1699
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__nand3_1 cells:      191
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__nand4_1 cells:       67
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__nor2_1 cells:      574
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__nor3_1 cells:      203
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__nor4_1 cells:     1002
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__oai211_1 cells:      106
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__oai21_1 cells:      379
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__oai221_1 cells:       43
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__oai222_1 cells:      188
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__oai22_1 cells:      160
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__oai31_1 cells:       32
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__oai32_1 cells:        8
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__or2_1 cells:       79
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__or3_1 cells:       25
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__or4_1 cells:       81
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__xnor2_1 cells:       18
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__xnor3_1 cells:        8
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__xor2_1 cells:      166
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__xor3_1 cells:       98
+ABC RESULTS:        internal signals:    44361
+ABC RESULTS:           input signals:    17820
+ABC RESULTS:          output signals:    17773
+Removing temp directory.
+Removing global temp directory.
+
+6. Printing statistics.
+
+=== usbdev ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        |
+   123209        - wires
+   156471        - wire bits
+     7817        - public wires
+    40991        - public wire bits
+       50        - ports
+      244        - port bits
+    53810 1.98E+06 cells
+      142 2.49E+03   gf180mcu_fd_sc_mcu7t5v0__and2_1
+       53 1.16E+03   gf180mcu_fd_sc_mcu7t5v0__and3_1
+       49 1.18E+03   gf180mcu_fd_sc_mcu7t5v0__and4_1
+      104 2.28E+03   gf180mcu_fd_sc_mcu7t5v0__aoi211_1
+     4172 7.33E+04   gf180mcu_fd_sc_mcu7t5v0__aoi21_1
+      188 4.54E+03   gf180mcu_fd_sc_mcu7t5v0__aoi221_1
+      108 3.32E+03   gf180mcu_fd_sc_mcu7t5v0__aoi222_1
+     8656 1.71E+05   gf180mcu_fd_sc_mcu7t5v0__aoi22_1
+      421  3.7E+03   gf180mcu_fd_sc_mcu7t5v0__clkinv_1
+    16664 1.06E+06   gf180mcu_fd_sc_mcu7t5v0__dffq_1
+     1055 7.87E+04   gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+       34 2.69E+03   gf180mcu_fd_sc_mcu7t5v0__dffsnq_1
+    17030 4.86E+05   gf180mcu_fd_sc_mcu7t5v0__mux2_1
+        7  491.725   gf180mcu_fd_sc_mcu7t5v0__mux4_1
+     1699 1.86E+04   gf180mcu_fd_sc_mcu7t5v0__nand2_1
+      191 2.93E+03   gf180mcu_fd_sc_mcu7t5v0__nand3_1
+       67 1.32E+03   gf180mcu_fd_sc_mcu7t5v0__nand4_1
+      574 7.56E+03   gf180mcu_fd_sc_mcu7t5v0__nor2_1
+      203 3.57E+03   gf180mcu_fd_sc_mcu7t5v0__nor3_1
+     1002  2.2E+04   gf180mcu_fd_sc_mcu7t5v0__nor4_1
+      106 2.33E+03   gf180mcu_fd_sc_mcu7t5v0__oai211_1
+      379 6.66E+03   gf180mcu_fd_sc_mcu7t5v0__oai21_1
+       43 1.13E+03   gf180mcu_fd_sc_mcu7t5v0__oai221_1
+      188 6.19E+03   gf180mcu_fd_sc_mcu7t5v0__oai222_1
+      160  3512.32   gf180mcu_fd_sc_mcu7t5v0__oai22_1
+       32   772.71   gf180mcu_fd_sc_mcu7t5v0__oai31_1
+        8  210.739   gf180mcu_fd_sc_mcu7t5v0__oai32_1
+       79 1.39E+03   gf180mcu_fd_sc_mcu7t5v0__or2_1
+       25    548.8   gf180mcu_fd_sc_mcu7t5v0__or3_1
+       81 2.13E+03   gf180mcu_fd_sc_mcu7t5v0__or4_1
+       18  513.677   gf180mcu_fd_sc_mcu7t5v0__xnor2_1
+        8  421.478   gf180mcu_fd_sc_mcu7t5v0__xnor3_1
+      166 4.37E+03   gf180mcu_fd_sc_mcu7t5v0__xor2_1
+       98 4.95E+03   gf180mcu_fd_sc_mcu7t5v0__xor3_1
+
+   Chip area for module '\usbdev': 1982875.865600
+     of which used for sequential elements: 1142272.320000 (57.61%)
+
+7. Executing Verilog backend.
+
+7.1. Executing BMUXMAP pass.
+
+7.2. Executing DEMUXMAP pass.
+Dumping module `\usbdev'.
+
+End of script. Logfile hash: 7666ec82eb, time: 19.89s, user: 4.76s, system: 0.37s, MEM: 306.86 MB peak
+Yosys 0.69 (git sha1 9f75ca1f9834a39a863915b5dae0c7b1e33533bc, Release, Clang /nix/store/l32bv33wqwkj2l1y8dp5x6h9r3q9im77-clang-wrapper-21.1.8/bin/clang++ 21.1.8)
+Time spent: 79% 2x abc (16 sec), 5% 39x opt_clean (1 sec), ...

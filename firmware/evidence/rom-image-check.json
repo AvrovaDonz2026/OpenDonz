@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "rom_rtl_sha256": "404faf0423059ebd4011258ea49fb12aa938d2c63290f953f981bb99e3ce325d",
+  "existing_mapping_input_sha256": "404faf0423059ebd4011258ea49fb12aa938d2c63290f953f981bb99e3ce325d",
+  "note": "Rebuilt ELF ROM image identical; no ROM remap required"
+}

@@ -1,0 +1,15 @@
+CAPI=2:
+name: opendonz:measure:usbdev:0.1
+filesets:
+  rtl:
+    depend:
+      - lowrisc:prim_generic:all
+      - lowrisc:ip:usbdev
+targets:
+  default:
+    default_tool: yosys
+    filesets: [rtl]
+    toplevel: usbdev
+    tools:
+      yosys:
+        arch: xilinx

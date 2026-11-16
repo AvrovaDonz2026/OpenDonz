@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "elf_sha256": "181ef00fb70f44f1e20a0a82dc2d5afd490a2729c3545c3f3d82b86e753c897a",
+  "model": "Unicorn RV32; function tests; synthetic entropy; no cycles or USB RTL validation",
+  "results": [
+    {
+      "function": "ecc_compute_public_p256r1",
+      "stack_written_highwater": 696
+    },
+    {
+      "function": "ecdsa_sign_p256r1",
+      "stack_written_highwater": 792
+    },
+    {
+      "function": "u2f_apdu_command_do",
+      "stack_written_highwater": 40
+    }
+  ],
+  "limitations": "Written-byte watermark is a lower bound on allocated peak stack; no min-SP hook, instruction count or Ibex cycle measurement"
+}

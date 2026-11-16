@@ -1,0 +1,10 @@
+{
+  "checked_date": "2026-11-16",
+  "head": "541b3a78026420a3e369c4c9281c396b5e531113",
+  "issue": "https://github.com/kmackay/micro-ecc/issues/128",
+  "issue_state": "open",
+  "maintainer_comment": "https://github.com/kmackay/micro-ecc/issues/128#issuecomment-331600203",
+  "maintainer_quote": "It's due to the Co-Z Montgomery ladder.",
+  "related_issue": "https://github.com/kmackay/micro-ecc/issues/167",
+  "note": "Selected fields observed via gh api; not a raw API archive"
+}

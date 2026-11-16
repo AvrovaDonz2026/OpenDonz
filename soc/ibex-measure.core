@@ -1,0 +1,15 @@
+CAPI=2:
+name: opendonz:measure:ibex:0.1
+filesets:
+  rtl:
+    depend:
+      - lowrisc:prim_generic:all
+      - lowrisc:ibex:ibex_top
+targets:
+  default:
+    default_tool: yosys
+    filesets: [rtl]
+    toplevel: ibex_top
+    tools:
+      yosys:
+        arch: xilinx

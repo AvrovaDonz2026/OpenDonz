@@ -1,0 +1,96 @@
+{
+  "areas_um2": {
+    "ibex": 374272.8192,
+    "usbdev": 1982875.8656,
+    "debug": 101855.0848,
+    "dtm": 43890.8288,
+    "rom": 293006.5152,
+    "boundary": 393790.3424
+  },
+  "sram": {
+    "width_um": 301.3,
+    "height_um": 515.81,
+    "area_um2": 155413.55299999999,
+    "source_commit": "d41c7447d34d0c298158094378c8268560941724",
+    "sha256": "44d21ee74f855742bb39468b22a2ba3d0c38ca858a68332c82df800f24791fb9"
+  },
+  "slots": {
+    "slot_1x1": {
+      "core_um2": 12917424,
+      "bounds": [
+        442,
+        442,
+        3490,
+        4680
+      ]
+    },
+    "slot_1x0p5": {
+      "core_um2": 5020056,
+      "bounds": [
+        442,
+        442,
+        3490,
+        2089
+      ]
+    },
+    "slot_0p5x1": {
+      "core_um2": 4458376,
+      "bounds": [
+        442,
+        442,
+        1494,
+        4680
+      ]
+    },
+    "slot_0p5x0p5": {
+      "core_um2": 1732644,
+      "bounds": [
+        442,
+        442,
+        1494,
+        2089
+      ]
+    }
+  },
+  "scenarios": [
+    {
+      "ram_kib": 8,
+      "usb": "light",
+      "macro_um2": 1243308.4239999999,
+      "cell_um2": 855116.0128,
+      "occupied_um2": 2098424.4368,
+      "planning_core_um2_at_50pct_cells_10pct_macro": 3077871.2920000004,
+      "unmeasured": "bus, EP0/HID buffer and controller, timer, GPIO, RNG, NVM/QSPI, clocks, pad/PHY, power network"
+    },
+    {
+      "ram_kib": 8,
+      "usb": "full",
+      "macro_um2": 1243308.4239999999,
+      "cell_um2": 2795901.1136,
+      "occupied_um2": 4039209.5375999995,
+      "planning_core_um2_at_50pct_cells_10pct_macro": 6959441.4936,
+      "unmeasured": "bus, EP0/HID buffer and controller, timer, GPIO, RNG, NVM/QSPI, clocks, pad/PHY, power network"
+    },
+    {
+      "ram_kib": 16,
+      "usb": "light",
+      "macro_um2": 2486616.8479999998,
+      "cell_um2": 855116.0128,
+      "occupied_um2": 3341732.8608,
+      "planning_core_um2_at_50pct_cells_10pct_macro": 4445510.5584,
+      "unmeasured": "bus, EP0/HID buffer and controller, timer, GPIO, RNG, NVM/QSPI, clocks, pad/PHY, power network"
+    },
+    {
+      "ram_kib": 16,
+      "usb": "full",
+      "macro_um2": 2486616.8479999998,
+      "cell_um2": 2795901.1136,
+      "occupied_um2": 5282517.9616,
+      "planning_core_um2_at_50pct_cells_10pct_macro": 8327080.76,
+      "unmeasured": "bus, EP0/HID buffer and controller, timer, GPIO, RNG, NVM/QSPI, clocks, pad/PHY, power network"
+    }
+  ],
+  "note": "Arithmetic capacity screen, NOT placement, timing, DRC or signoff; excludes new USB bridge and OTBN/HMAC; generic usbdev SRAM-to-flop area does not disqualify macro-adapted OpenTitan",
+  "crypto_priority": "OpenTitan OTBN P256 + OT HMAC preferred; measured image is Mbed TLS reference/development backend only",
+  "software_reference_static_ram_bytes": 9760
+}

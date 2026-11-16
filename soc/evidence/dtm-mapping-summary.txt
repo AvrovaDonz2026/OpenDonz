@@ -1,0 +1,90 @@
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2
+ABC: + dretime
+ABC: + strash
+ABC: + &get -n
+ABC: + &dch -f
+ABC: + &nf
+ABC: + &put
+ABC: + write_blif <abc-temp-dir>/output.blif
+
+5.1.2. Re-integrating ABC results.
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__and2_1 cells:       14
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__and3_1 cells:        4
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__and4_1 cells:        2
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__aoi211_1 cells:       34
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__aoi21_1 cells:      128
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__aoi221_1 cells:       53
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__aoi22_1 cells:       50
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__clkinv_1 cells:       84
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__mux2_1 cells:      187
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__nand2_1 cells:      176
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__nand3_1 cells:       19
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__nand4_1 cells:        2
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__nor2_1 cells:       74
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__nor3_1 cells:       15
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__oai211_1 cells:       20
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__oai21_1 cells:       26
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__oai22_1 cells:        4
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__oai31_1 cells:       16
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__or2_1 cells:       13
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__or3_1 cells:        5
+ABC RESULTS:   gf180mcu_fd_sc_mcu7t5v0__xnor2_1 cells:        1
+ABC RESULTS:        internal signals:      903
+ABC RESULTS:           input signals:      418
+ABC RESULTS:          output signals:      377
+Removing temp directory.
+Removing global temp directory.
+
+6. Printing statistics.
+
+=== dmi_jtag ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        |
+     2678        - wires
+     3862        - wire bits
+      246        - public wires
+     1430        - public wire bits
+       17        - ports
+      115        - port bits
+     1312 4.39E+04 cells
+       14  245.862   gf180mcu_fd_sc_mcu7t5v0__and2_1
+        4   87.808   gf180mcu_fd_sc_mcu7t5v0__and3_1
+        2   48.294   gf180mcu_fd_sc_mcu7t5v0__and4_1
+       34  746.368   gf180mcu_fd_sc_mcu7t5v0__aoi211_1
+      128 2.25E+03   gf180mcu_fd_sc_mcu7t5v0__aoi21_1
+       53 1.28E+03   gf180mcu_fd_sc_mcu7t5v0__aoi221_1
+       50   987.84   gf180mcu_fd_sc_mcu7t5v0__aoi22_1
+       84  737.587   gf180mcu_fd_sc_mcu7t5v0__clkinv_1
+      168 1.07E+04   gf180mcu_fd_sc_mcu7t5v0__dffq_1
+      207 1.54E+04   gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+       10  790.272   gf180mcu_fd_sc_mcu7t5v0__dffsnq_1
+      187 5.34E+03   gf180mcu_fd_sc_mcu7t5v0__mux2_1
+      176 1.93E+03   gf180mcu_fd_sc_mcu7t5v0__nand2_1
+       19  291.962   gf180mcu_fd_sc_mcu7t5v0__nand3_1
+        2   39.514   gf180mcu_fd_sc_mcu7t5v0__nand4_1
+       74  974.669   gf180mcu_fd_sc_mcu7t5v0__nor2_1
+       15  263.424   gf180mcu_fd_sc_mcu7t5v0__nor3_1
+       20   439.04   gf180mcu_fd_sc_mcu7t5v0__oai211_1
+       26  456.602   gf180mcu_fd_sc_mcu7t5v0__oai21_1
+        4   87.808   gf180mcu_fd_sc_mcu7t5v0__oai22_1
+       16  386.355   gf180mcu_fd_sc_mcu7t5v0__oai31_1
+       13  228.301   gf180mcu_fd_sc_mcu7t5v0__or2_1
+        5   109.76   gf180mcu_fd_sc_mcu7t5v0__or3_1
+        1   28.538   gf180mcu_fd_sc_mcu7t5v0__xnor2_1
+
+   Chip area for module '\dmi_jtag': 43890.828800
+     of which used for sequential elements: 26935.104000 (61.37%)
+
+7. Executing Verilog backend.
+
+7.1. Executing BMUXMAP pass.
+
+7.2. Executing DEMUXMAP pass.
+Dumping module `\dmi_jtag'.
+
+End of script. Logfile hash: be9effe68b, time: 0.75s, user: 0.27s, system: 0.24s, MEM: 112.36 MB peak
+Yosys 0.69 (git sha1 9f75ca1f9834a39a863915b5dae0c7b1e33533bc, Release, Clang /nix/store/l32bv33wqwkj2l1y8dp5x6h9r3q9im77-clang-wrapper-21.1.8/bin/clang++ 21.1.8)
+Time spent: 37% 2x abc (0 sec), 33% 2x read_slang (0 sec), ...

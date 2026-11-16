@@ -1,0 +1,22 @@
+/Users/zxy/OpenDonz/firmware/build/u2f.elf  :
+section                 size        addr
+.text                  24084         128
+.data                     12   268435456
+.bss                    9748   268435472
+.device.key             1024   536870912
+.auth.ctr               1024   536871936
+.attestation.cert       1024   536872960
+.debug_loclists        36217           0
+.debug_abbrev           9765           0
+.debug_info            59903           0
+.debug_rnglists         3219           0
+.debug_str_offsets      6656           0
+.debug_str             13995           0
+.debug_addr             6260           0
+.comment                  59           0
+.riscv.attributes         54           0
+.debug_frame            9440           0
+.debug_line            40244           0
+.debug_line_str         2566           0
+.debug_aranges            32           0
+Total                 225326
