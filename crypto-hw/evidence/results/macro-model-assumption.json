@@ -1,0 +1,13 @@
+{
+  "direct_zero_delay_result": "FAIL",
+  "address": "0x9ffc",
+  "read_data": "0x34c7738a",
+  "read_integrity": "0x44",
+  "expected_integrity": "0x43",
+  "model_sampling_delay_ps": 100,
+  "simulation_input_hold_ps": 200,
+  "synthesis_adapter": "rtl/prim_ram_1p.sv",
+  "simulation_adapter": "rtl/prim_ram_1p_model_hold.sv",
+  "limitation": "Separate functional model assumption; physical hold closure and SDF signoff unproven",
+  "qualified_hold_functional_result": "PASS full IP private boundaries, wipe key change, base_mult, sign + independent oracle, verify, invalid mode"
+}

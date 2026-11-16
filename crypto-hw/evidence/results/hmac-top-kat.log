@@ -1,0 +1,7 @@
+PASS HMAC top TLUL/register/FIFO keyed=0 len=0
+PASS HMAC top TLUL/register/FIFO keyed=0 len=3
+PASS HMAC top TLUL/register/FIFO keyed=1 len=8
+- /Users/zxy/OpenDonz/crypto-hw/rtl/hmac_top_kat_tb.sv:45: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.046 2026-02-28
+- Verilator: $finish at 7us; walltime 0.001 s; speed 6.544 ms/s
+- Verilator: cpu 0.001 s on 1 threads; allocated 2 MB

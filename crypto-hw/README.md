@@ -35,3 +35,24 @@ Run from the repository root with `crypto-hw/.venv/bin/python`:
 8. `crypto-hw/audit_sram.py`: use cached pinned 512x8 views, fetching missing views only; emit area/organization manifest. Platform acceptance/GDS qualification remains external.
 
 Full OTBN top RTL simulation requires upstream Verilator >=5.048; installed 5.046 can execute the small primitive/macro tests but does not satisfy that top target. No entropy, ECC, scrambling, wipe, or reseeding logic is disabled in synthesized OTBN. The ISA harness alone bypasses startup wipe and supplies synthetic random values. Do not claim production security from these tests.
+
+
+## Isolated 8 KiB IMEM + 16 KiB total DMEM evaluation
+
+The half-DMEM configuration uses 8 KiB host-visible DMEM at internal 0x0000–0x1fff and 8 KiB private scratch at 0x2000–0x3fff. Host TL-UL exposes 0x8000–0x9fff only. The official linker derives scratch origin from the bus size; no assembly address patch is used. ECC storage is 512×312 bits. IMEM retains 10 1024×8 macros and DMEM uses 39 512×8 macros, total 49, with 5.336568353 mm² macro area. Platform acceptance is unconfirmed.
+
+Run these commands from repository root, prefixed with `crypto-hw/.venv/bin/python`:
+
+1. `crypto-hw/configure.py --half-dmem` regenerates the isolated memory map and checks hardware/software constants and unchanged security RTL.
+2. `crypto-hw/full_p256.py --half-dmem` runs eleven official modes and two negative cases in the ISA model; `crypto-hw/boundaries.py --half-dmem` checks link and ISA boundaries.
+3. `crypto-hw/rtl_tests.py` tests both macro depths and full ECC widths, including highest address and highest data bit masks.
+4. `crypto-hw/build_verilator.py` builds pinned v5.048 locally using installed Nix autoconf/Flex 2.6.4. No global install is made. Tool provenance is in evidence/results/verilator-build.json.
+5. `crypto-hw/otbn_full_rtl.py` and the same command with `--macros` build complete OTBN IP using generic RAM or pinned actual SRAM models. These functional benches preserve RTL wipe/ECC/scrambling and provide synthetic external EDN/OTP services; they do not qualify entropy or prove physical erasure.
+6. `crypto-hw/hmac_top_kat.py` tests real HMAC top TL-UL CSR/FIFO paths with SHA-256 empty/abc and RFC4231 HMAC-SHA256 Hi There.
+7. `crypto-hw/assess.py otbn --half-dmem --macros --map` asserts 10 1024×8 plus 39 512×8 cells before and after mapping; `crypto-hw/sta.py otbn8-dmem16` includes both Liberty files.
+
+The dated half-DMEM section of the assessment is authoritative for actual results and remaining gaps; older sections describe earlier checkpoints.
+
+The actual foundry-model full-IP test uses the separate simulation-only `rtl/prim_ram_1p_model_hold.sv` with `GF180_SIM_HOLD`: a 200 ps input transport delay accommodates the pinned model's 100 ps delayed live-input sampling. The synthesis adapter remains delay-free. This proves functional behavior under that explicit model assumption, not physical hold closure; direct zero-delay model hookup failed readback integrity.
+
+After successful producers, `crypto-hw/capture_half.py` persists logs and netlist identity, and `crypto-hw/evidence.py` regenerates local evidence hashes.

@@ -1,0 +1,26 @@
+[
+  {
+    "path": "rtl/prim_ram_1p.sv",
+    "sha256": "b613bc8cf86e346ce1ca174984bc5710af59ce2f697dab401eb7df801aa149b8"
+  },
+  {
+    "path": "rtl/prim_ram_1p_model_hold.sv",
+    "sha256": "80d8fac8c15ffe2cdc47c0b4bb67e3e68803cb11fe90f0bb88ce20b48d806ce1"
+  },
+  {
+    "path": "rtl/otbn_full_tb.sv",
+    "sha256": "38c736a0825384204c73f29a1e3c80c0622ffdeab72cb7fc2405869573145b14"
+  },
+  {
+    "path": "rtl/hmac_top_kat_tb.sv",
+    "sha256": "b7548b19b10bbcb4645dfc4f6de171317181f60c4c169c7c947e8e35f422cd1d"
+  },
+  {
+    "path": "otbn_full_rtl.py",
+    "sha256": "ec722a21af69ff9a8f27160d7f140951b76b2df8a1e419c9f8a20871858b2687"
+  },
+  {
+    "path": "hmac_top_kat.py",
+    "sha256": "5600a9fd4c410ae81978a9d0da52a3e8d90233914770d92d5074d7508090ca01"
+  }
+]

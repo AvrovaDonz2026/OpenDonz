@@ -1,0 +1,24 @@
+PASS actual full-IP startup internal secure wipe EDN words=12
+PASS denied host address 0000a000
+PASS denied host address 0000bffc
+PASS denied host address 0000a000
+PASS denied host address 0000bffc
+PASS execute err=00000000 EDN words=12
+PASS official vector private_boundary completion and available output checks
+PASS DMEM crypto erase changes array-wide key, including private scratch; not physical zeroization
+PASS execute err=00000000 EDN words=12
+PASS official vector base_mult completion and available output checks
+PASS execute err=00000000 EDN words=12
+SIGNATURE r 09fa3238b95a9d03e2c8959e4120193a53a5925e4fc812f7eec4cfb133a0ce84
+SIGNATURE s 5cb5d287ca179d9c731e8e83df427cc2574861dcffad402c83c2360c211b51cd
+PASS official vector sign completion and available output checks
+PASS execute err=00000000 EDN words=12
+PASS official vector verify completion and available output checks
+PASS execute err=00000008 EDN words=12
+PASS official vector invalid_mode completion and available output checks
+PASS full OTBN IP functional ECC/scrambling/wipe/reseed, synthetic external EDN; no entropy security claim
+- /Users/zxy/OpenDonz/crypto-hw/rtl/otbn_full_tb.sv:97: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.048 2026-04-26
+- Verilator: $finish at 17ms; walltime 108.545 s; speed 283.029 us/s
+- Verilator: cpu 59.717 s on 1 threads; allocated 3 MB
+PASS independent cryptography/OpenSSL verification of actual RTL signature

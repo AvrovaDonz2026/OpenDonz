@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Check isolated linker capacity and ISA exception paths (not RTL security proof)."""
 import json,os,pathlib,subprocess,sys
-R=pathlib.Path(__file__).resolve().parent;OT=pathlib.Path('/Users/zxy/opentitan');O=R/'build/imem8/otbn';U=O/'util';B=R/'build/boundaries';B.mkdir(parents=True,exist_ok=True)
+R=pathlib.Path(__file__).resolve().parent;OT=pathlib.Path('/Users/zxy/opentitan');HALF='--half-dmem' in sys.argv;O=R/'build'/('imem8-dmem16' if HALF else 'imem8')/'otbn';U=O/'util';B=R/'build'/('boundaries-half' if HALF else 'boundaries');B.mkdir(parents=True,exist_ok=True)
 paths=list(map(str,[OT,OT/'util',U,O/'dv/otbnsim']));sys.path[:0]=paths;os.environ.update(PYTHONPATH=':'.join(paths),RV32_TOOL_AS='/opt/homebrew/bin/riscv64-elf-as',RV32_TOOL_LD='/opt/homebrew/bin/riscv64-elf-ld')
 from sim.load_elf import load_elf
 from sim.standalonesim import StandaloneSim
@@ -15,6 +15,9 @@ def build(name,src,success=True):
  return elf
 elf=build('exact_8192','.text\n.globl start\nstart: ecall\n.zero 8188\n')
 build('overflow_8196','.text\n.globl start\nstart: ecall\n.zero 8192\n',False)
-for name,src,err in [('fetch_beyond_8192','li x2,8192\njalr x0,x2,0',2),('bad_dmem_addr','li x2,32768\nlw x3,0(x2)',1),('illegal_insn','unimp',8)]:
+if HALF:
+ build('public_8192','.text\n.globl start\nstart: ecall\n.data\n.zero 8192\n')
+ build('public_overflow_8196','.text\n.globl start\nstart: ecall\n.data\n.zero 8196\n',False)
+for name,src,err in [('fetch_beyond_8192','li x2,8192\njalr x0,x2,0',2),('bad_dmem_addr',f'li x2,{16384 if HALF else 32768}\nlw x3,0(x2)',1),('illegal_insn','unimp',8)]:
  elf=build(name,'.text\n.globl start\nstart: '+src+'\necall\n');sim=StandaloneSim();load_elf(sim,str(elf));sim.state.ext_regs.commit();sim.start(False);sim.run(False,None);got=sim.state.ext_regs.read('ERR_BITS',False);assert got==err,(name,got);rows[-1]['err_bits']=got
 (B/'results.json').write_text(json.dumps(dict(layer='ISA and linker only; no hardware wipe/ECC fault proof',tests=rows),indent=2)+'\n');print(rows)

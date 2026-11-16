@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Execute the complete official entrypoint with an isolated memory view."""
 import os,pathlib,subprocess,sys,json
-R=pathlib.Path(__file__).resolve().parent;OT=pathlib.Path('/Users/zxy/opentitan');B=R/'build/p256-imem8';B.mkdir(parents=True,exist_ok=True)
-O=R/'build/imem8/otbn';C=OT/'sw/otbn/crypto';U=O/'util'
+R=pathlib.Path(__file__).resolve().parent;OT=pathlib.Path('/Users/zxy/opentitan');HALF='--half-dmem' in sys.argv;B=R/'build'/('p256-imem8-dmem16' if HALF else 'p256-imem8');B.mkdir(parents=True,exist_ok=True)
+O=R/'build'/('imem8-dmem16' if HALF else 'imem8')/'otbn';C=OT/'sw/otbn/crypto';U=O/'util'
 paths=[OT,OT/'util',U,O/'dv/otbnsim']
 os.environ['PYTHONPATH']=':'.join(map(str,paths));os.environ['RV32_TOOL_AS']='/opt/homebrew/bin/riscv64-elf-as';os.environ['RV32_TOOL_LD']='/opt/homebrew/bin/riscv64-elf-ld'
 sys.path[:0]=list(map(str,paths))
@@ -15,6 +15,8 @@ from cryptography.hazmat.primitives import hashes
 N=int('ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551',16)
 def main():
  assert get_memory_layout().imem_size_bytes==8192
+ assert get_memory_layout().dmem_size_bytes==(16384 if HALF else 32768)
+ assert get_memory_layout().dmem_bus_size_bytes==(8192 if HALF else 16384)
  sources=['run_p256','p256_base','p256_b2a','p256_isoncurve','p256_isoncurve_check','p256_isoncurve_proj','p256_a2b','p256_shared_key','p256_sign','p256_verify']
  for name in sources:
   subprocess.run([sys.executable,str(U/'otbn_as.py'),'-march=rv32i_zicsr','-o',str(B/(name+'.o')),str(C/(name+'.s'))],check=True)
@@ -23,11 +25,11 @@ def main():
   e=ELFFile(f);sections={s.name:dict(address=s['sh_addr'],size=s['sh_size']) for s in e.iter_sections() if s.name in ('.text','.data','.bss','.scratchpad')}
  def execute(name,mode,values,expected_error=0):
   sim=StandaloneSim();load_elf(sim,str(elf));sim.state.wsrs.set_sideload_keys(int('deadbeef'*16,16),int('baadf00d'*16,16))
-  v={'mode':mode.to_bytes(4,'little')};v.update(values);sim.load_dmem_vars(v);sim.state.ext_regs.commit();sim.start(True);cycles=sim.run(False,None)
+  v={'mode':mode.to_bytes(4,'little')};v.update(values);(B/(name+'-inputs.json')).write_text(json.dumps({k:x.hex() for k,x in v.items()},indent=2)+'\n');sim.load_dmem_vars(v);sim.state.ext_regs.commit();sim.start(True);cycles=sim.run(False,None)
   err=sim.state.ext_regs.read('ERR_BITS',False);assert err==expected_error,(name,err)
   raw=sim.dump_data();(B/(name+'.bin')).write_bytes(raw)
   # dump_data uses a validity byte followed by each little-endian 32-bit word.
-  assert len(raw)==32768//4*5
+  assert len(raw)==(16384 if HALF else 32768)//4*5
   data=b''.join(raw[i+1:i+5] for i in range(0,len(raw),5))
   def get(label,n=32):return int.from_bytes(data[sim.symbols[label]:sim.symbols[label]+n],'little')
   result=dict(test=name,cycles=cycles,err_bits=err,source='ISA model; synthetic entropy; initial wipe bypassed by upstream standalone harness')

@@ -1,6 +1,6 @@
 `timescale 1ns/1ps
 module macro_tb #(parameter Width=39, Depth=4096);
- localparam Banks=Depth/1024, Aw=$clog2(Depth);
+ localparam MacroDepth=(Depth<=512)?512:1024, Banks=(Depth+MacroDepth-1)/MacroDepth, Aw=$clog2(Depth);
  bit clk=0; always #25 clk=~clk;
  bit req=0,we=0; logic [Aw-1:0] a=0; logic [Width-1:0] d=0,m='1,q;
  prim_ram_1p #(.Width(Width),.Depth(Depth),.DataBitsPerMask(Width)) dut(
@@ -16,13 +16,16 @@ module macro_tb #(parameter Width=39, Depth=4096);
  #200; // Allow the foundry model delayed CEN initialization to settle.
  // Prime each bank with an idle/read transition required by the macro timing model.
  for(int bank=0;bank<Banks;bank++) begin
- @(negedge clk);req=1;we=0;a=Aw'(bank*1024);
+ @(negedge clk);req=1;we=0;a=Aw'(bank*MacroDepth);
  @(negedge clk);req=0;
  end
- for(int bank=0;bank<Banks;bank++) store(bank*1024+17,(Width'(bank+1) | (Width'(1) << (Width-1))),'1);
- for(int bank=Banks-1;bank>=0;bank--) check(bank*1024+17,(Width'(bank+1) | (Width'(1) << (Width-1))));
+ for(int bank=0;bank<Banks;bank++) store(bank*MacroDepth+17,(Width'(bank+1) | (Width'(1) << (Width-1))),'1);
+ for(int bank=Banks-1;bank>=0;bank--) check(bank*MacroDepth+17,(Width'(bank+1) | (Width'(1) << (Width-1))));
  store(17,'1,Width'('hff));check(17,Width'('hff) | (Width'(1) << (Width-1)));
- if(Banks>1) check(1041,Width'(2) | (Width'(1) << (Width-1)));
+ if(Banks>1) check(MacroDepth+17,Width'(2) | (Width'(1) << (Width-1)));
+ store(Depth-1,'1,'1);check(Depth-1,'1);
+ store(Depth-1,'0,Width'(1) << (Width-1));check(Depth-1,~(Width'(1) << (Width-1)));
+ check(17,Width'('hff) | (Width'(1) << (Width-1)));
  $display("PASS macro synchronous read, bank selection, masked writes, non-clobber");$finish;
  end
 endmodule

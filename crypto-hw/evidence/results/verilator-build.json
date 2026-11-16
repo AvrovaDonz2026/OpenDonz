@@ -1,0 +1,8 @@
+{
+  "release": "v5.048",
+  "source_sha256": "006c847e8cb95de40d04d29b459c1ab26bf65c5a4d719ef9f2061b1cc494ba52",
+  "version": "Verilator 5.048 2026-04-26 rev vUNKNOWN-built20261116-33c2062 (mod)",
+  "source_root": "/Users/zxy/OpenDonz/crypto-hw/build/tools/verilator-verilator-2f2fae5",
+  "flow": "autoconf; configure; make -C src -j6 opt; Flex 2.6.4",
+  "scope": "local build; no global install"
+}

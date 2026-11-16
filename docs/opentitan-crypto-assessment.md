@@ -139,3 +139,28 @@ RTL 层已通过 SHA-256 原语 abc KAT 与 digest 零清除；IMEM 2048×39 和
 公钥/随机 keygen、普通/固定 k/sideload 签名、普通 ECDH 与分享结果有 Python cryptography 或明确数学关系独立交叉检查；sideload keygen 公钥用于独立验证 sideload signature。sideload ECDH 本次只检查正常结束/ERR_BITS=0，尚无独立共享点 oracle，不把它与完整向量认证等同。sideload 附加 seed 是上游定义的 64 B，测试最初只初始化 32 B 导致模型 DMEM integrity 错误；按上游两次 32 B 读取修正后全部执行通过，未降低模型完整性检查。
 
 仍待完成：受支持 Verilator 的完整 OTBN RTL/官方入口、reset/secure wipe/ECC 故障注入与隔离验证；HMAC 顶层官方 KAT；实际平台认可的 SRAM 交付与物理优化/多角签核；合格熵及 EDN/OTP/keymgr 等平台服务。以上不因局部 PASS 而消失。
+
+
+## 8 KiB IMEM + 16 KiB 总 DMEM 评估增补（2026-11-16）
+
+本节更新前述“尚未实施”的 DMEM 候选状态。隔离配置 `build/imem8-dmem16` 将 HJSON CPU DMEM 窗口降到 2048×32 位，同时将 `otbn_pkg.sv` 私有容量常量和软件 `mem_layout.py` 常量改为 8192 B；reggen 重新生成寄存器顶层、寄存器包和 C 头。CPU 内部可见地址为 0x0000–0x1fff，内部私有 scratch 为 0x2000–0x3fff，总逻辑容量 16 KiB，ECC 实际组织为 512×312 位。TL-UL 主机窗口仍从 0x8000 开始，末地址 0x9fff。IMEM 从 0x4000 开始、8 KiB。默认与上一轮独立目录不变。
+
+官方链接模板从 CPU 窗口大小计算 `.scratchpad` 原点，无需修改官方 P-256 汇编：text/data/bss 为 6260/352/1760 B，256 B scratch 从 0x4000 移至 0x2000。完整十一 mode 加篡改摘要、非法 mode 共十三 ISA case 全通过，周期与上一轮相同；独立 cryptography 算术/签名交叉检查保留。8 KiB public data 可链接，8196 B 被拒；IMEM 8192/8196 B 边界与取指越界通过；DMEM 总容量外 0x4000 读取触发 BAD_DATA_ADDR=1，非法指令 ERR_BITS=8。此层使用上游合成随机数和跳过启动擦除的 ISA harness，不能作为硬件擦除或熵安全结论。
+
+宏组织变为 10 个 1024×8 IMEM + 39 个 512×8 DMEM，共 49 宏。512×8 实际 LEF 面积 96985.457 µm²；宏面积合计 5.336568353 mm²，比上一轮 7.615264097 mm² 减少 2.278695744 mm²。39 byte lanes 无法随深度缩短而减少；必须使用较浅宏才能取得这项面积差。实际模型通过 512×312、1024×312、2048×39 同步读、掩码写、最高位/最高地址和 bank 不串写测试。LEF/TT Liberty/Verilog 已固定，但平台接纳、GDS、DRC/LVS 与物理供电/时序资格仍未确认。
+
+已解除 Verilator 工具版本阻塞：本地固定 v5.048 源码、autoconf 与已安装 Flex 2.6.4 构建，无全局安装。macOS 系统旧 Flex 首次生成 lexer 导致链接缺符号，使用现代 Flex 重新生成后成功。`build_verilator.py` 保存源码归档哈希及工具版本。
+
+完整 `otbn.sv` generic RAM 功能仿真已运行真实 TL-UL 装载和输出读回，保留 ECC/扰码/启动内部安全擦除/每次执行重播种。私有区首尾内部 store/load、host 越窗 read/write 拒绝、DMEM 显式擦除换钥、官方基点乘输出、签名、验签输出及非法 mode 通过；实际 RTL 签名从 CSR 窗口读出后由 cryptography/OpenSSL 独立验签。外部 EDN/OTP 是明确标识的确定性功能服务模型，不能证明真实随机性、种子资格、重播种抗攻击能力。DMEM 命令擦除采用上游全阵列换钥机制，未宣称物理逐字清零；启动和执行结束内部 wipe 也不能与清除整个 scratch 内容混为一谈。ECC 故障注入、擦除故障/生命周期锁定/RMA、真实多时钟 CDC、侧信道及物理 remanence 仍未证明。
+
+HMAC 顶层 KAT 已通过真实 TL-UL 命令与数据完整性、CSR 配置、FIFO 写与 digest 读回：SHA-256 空串、abc，以及 RFC4231 HMAC-SHA256 “Hi There”。这替代了此前只有原语 KAT/模拟 MMIO 的缺口；尚不覆盖全部 SHA 宽度、长报文压力、FIFO 背压及所有异常组合。
+
+
+本轮 GF180 最终映射：**10 个 1024×8 + 39 个 512×8**，**154,957 标准单元 + 49 宏 = 155,006 实例**，标准单元面积 **4.267047322 mm²**（时序单元 1.431176006 mm²）；加宏面积 **5.336568353 mm²**，OTBN 本体 **9.603615675 mm²**。加已测 HMAC 为 **10.535473685 mm²**，相对上一轮 OTBN+HMAC 12.815403130 mm² 减少 **2.279929445 mm²**。这些是综合网表逻辑与 LEF 宏面积之和；尚未计 CPU/USB、合格熵、平台服务、halo、路由、时钟树及布局利用率，不代表 1×1 slot 的完整 SoC 可交付。
+
+相同 TT 库与诊断约束，含两种宏 Liberty 的 OpenSTA core 最小周期 **301.74 ns / 3.31 MHz**；24 MHz setup slack **−260.08 ns**，仍失败。三个理想时钟、2 ns IO delay、无布线寄生且未完成物理优化/多角/hold/CDC 签核，不能把该周期当真实流片最高频率。
+
+实际 foundry SRAM 模型直接接零延迟同步 RTL 时，整核首次有效读回出现 ECC/data 不一致：模型在 CLK 后 100 ps 使用 live write/control 输入，而同步 RTL 已在同沿更新下一拍信号。另行提供 **仅用于仿真的** `prim_ram_1p_model_hold.sv`，输入 transport delay 200 ps，为模型提供 hold 区间；综合及局部宏 bench 仍使用无延迟 `prim_ram_1p.sv`。此分层必须保留：带模型 hold 的整核功能仿真不能证明真实 silicon hold closure，更不能替代门级 SDF/STA。没有修改上游宏模型，也没有关闭 ECC、TL 完整性或跳过 wipe。
+
+
+带上述明确 hold 假设的实际 SRAM 模型整核运行最终 **PASS**：startup wipe、EDN handshake/reseed、host 越窗读写拒绝、private scratch 首尾、DMEM 换钥、base_mult/sign/verify/invalid_mode；签名读回由 cryptography/OpenSSL 独立验签。generic 与 macro 两层的输出日志分别封存为 `evidence/results/otbn-full-generic.log` / `otbn-full-macros.log`；全部十三 ISA case 与边界最终复跑通过。十一 mode 的覆盖仅在 ISA 层；完整 RTL 只覆盖上述关键路径，不把二者合并宣称十一 mode 全部 RTL 通过。ReadLints、项目脚本语法与 diff whitespace 检查通过。

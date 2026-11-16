@@ -1,0 +1,18 @@
+{
+  "instances": 155006,
+  "standard_cells": 154957,
+  "macros": {
+    "sram1024x8m8wm1": 10,
+    "sram512x8m8wm1": 39
+  },
+  "logic_um2": 4267047.321599,
+  "sequential_um2": 1431176.0064,
+  "macro_mm2": 5.336568353,
+  "otbn_mm2": 9.603615674599,
+  "otbn_hmac_mm2": 10.535473684199,
+  "core_period_ns": 301.74,
+  "core_setup_slack_ns": -260.08,
+  "timing_scope": "TT ideal clocks, no parasitics, pre-layout diagnostic; not signoff",
+  "final_macro_count_assertions": "PASS: independent final mapped.v read, 10 sram1024x8 + 39 sram512x8",
+  "netlist_sha256": "e25224c6ab726437eab108bb8726ac5a3a02ce70a92880ea70ea84782675c966"
+}

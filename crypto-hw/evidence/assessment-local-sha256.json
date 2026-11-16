@@ -5,11 +5,11 @@
   },
   {
     "path": "crypto-hw/README.md",
-    "sha256": "3f7d5eee790212925835a4cb557eb2e03315f4d217c1e7c6ddb34b50346c5c6f"
+    "sha256": "ab54de46f25a9596a5ccd1b7cb69e49139bb2e1eff05d7ea02f317f601ce060d"
   },
   {
     "path": "crypto-hw/assess.py",
-    "sha256": "b98368de402f4587db4957e9c2a631cc2ea2c475f2d3804b06d9a4327fa843e7"
+    "sha256": "6183c64b844012b062ab0b38ae5028df2d8b0fdee5e956809fca83dcc8837230"
   },
   {
     "path": "crypto-hw/audit_sram.py",
@@ -17,11 +17,19 @@
   },
   {
     "path": "crypto-hw/boundaries.py",
-    "sha256": "0a6db8f8a4e24eda971dc91981a9ce12947af708f3caf70f5ad2324b4a6eb342"
+    "sha256": "77da74ddc03666e607a285502d855f4df3e0d6fb6ae5f3b1b095f782386a0382"
+  },
+  {
+    "path": "crypto-hw/build_verilator.py",
+    "sha256": "2c97e5341a5f0b8b0241c87401671d4f5fb6630249690eca2dc87061f468ac5e"
+  },
+  {
+    "path": "crypto-hw/capture_half.py",
+    "sha256": "2fde6007a82405723bcf21745dc1c97bab15c81b21bbe96bbe4492fa6eece04a"
   },
   {
     "path": "crypto-hw/configure.py",
-    "sha256": "f98fac1982058e753b699517ac39a2bc542c3853d0e478bd9f464b1c4c153f4b"
+    "sha256": "ee83f8e471d8100f32d12237abb24487b452e8315423f0da24ad5e9cbff2604c"
   },
   {
     "path": "crypto-hw/driver_check.py",
@@ -32,8 +40,44 @@
     "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
   },
   {
+    "path": "crypto-hw/evidence/results/boundaries-half.json",
+    "sha256": "f25d831056853733fa10909ae30e50db06e67b7e796a05ed337118439280e8dd"
+  },
+  {
     "path": "crypto-hw/evidence/results/dmem-macro-rtl.log",
     "sha256": "1bd5803da1eb6b90e653dd57c97cd0df4ea53c725207c4b8d13bbd440c8db19f"
+  },
+  {
+    "path": "crypto-hw/evidence/results/half-configuration.json",
+    "sha256": "c7fb9627de7fb8a5137180ef6af51812ad01a9b50c6d6a6a984dad159fb402a0"
+  },
+  {
+    "path": "crypto-hw/evidence/results/half-effective-inputs.json",
+    "sha256": "79ce9c4b3d640c4514429d74372f8223fea8021beac20c3ff39e7035f4ffa899"
+  },
+  {
+    "path": "crypto-hw/evidence/results/half-gf180.log",
+    "sha256": "9c5be2d53c209c8be1a294c01322dbe2ed798363badd907a1c4021acc6c46db8"
+  },
+  {
+    "path": "crypto-hw/evidence/results/half-netlist.json",
+    "sha256": "fa6b8ce3be1b0968e7d2d577d1ae928aacfe955ce868ef0a65411b6f0f67407c"
+  },
+  {
+    "path": "crypto-hw/evidence/results/half-rtl-inputs.json",
+    "sha256": "f5639a3cb0d8b68128f1c4d792790016f611c4f90e2d8449fdffcc943b7e16ed"
+  },
+  {
+    "path": "crypto-hw/evidence/results/half-summary.json",
+    "sha256": "32a4891b883243f3577cc91aa6844dfdbc3f2983fa2e40f7b81bbc8c6295ce73"
+  },
+  {
+    "path": "crypto-hw/evidence/results/half-timing.log",
+    "sha256": "7f67d01a62b85def4f4e04b1042dfece08bf46c45b2b177f0420662ad2e2dffc"
+  },
+  {
+    "path": "crypto-hw/evidence/results/half-timing.tcl",
+    "sha256": "8dd852996b07ec25fe0ec6bd03ccefeccb7c124ecc9c81d69c6f08c6c939483b"
   },
   {
     "path": "crypto-hw/evidence/results/hmac-driver.log",
@@ -54,6 +98,10 @@
   {
     "path": "crypto-hw/evidence/results/hmac-timing.tcl",
     "sha256": "0b1528367bc2a400293e53e2d68078b4abe65dc60d1ac1d88482f4fabf6a925a"
+  },
+  {
+    "path": "crypto-hw/evidence/results/hmac-top-kat.log",
+    "sha256": "b7d0e13f2defa6f7df916e6a6c6a2966f4d59e4de4ccf18bc85483a4b9d6b6c5"
   },
   {
     "path": "crypto-hw/evidence/results/imem8-boundaries.json",
@@ -100,6 +148,30 @@
     "sha256": "aeec93f31b1f08181fc16367549c70fcfc3548e3168e3b529fbdcdefe1e0878d"
   },
   {
+    "path": "crypto-hw/evidence/results/macro-dmem-half.log",
+    "sha256": "c37e5212340f3c1b504d988c35b7f2f628b322a22d7fb857487f3ef78139c0e8"
+  },
+  {
+    "path": "crypto-hw/evidence/results/macro-half-dmem-half.log",
+    "sha256": "23c9a2d39071e5ed9497ef8ec40104dec9e9a8b902bc57f5e629ba2b346a4a8e"
+  },
+  {
+    "path": "crypto-hw/evidence/results/macro-model-assumption.json",
+    "sha256": "be77b8533b8137823afa8ec36cc7ab848f16410cf2ae50095b7ad2ea547da4d6"
+  },
+  {
+    "path": "crypto-hw/evidence/results/macro8-half.log",
+    "sha256": "3d58671faa52f8f7cd860218101848c2b0403e346916e10ae4ec7932efeb30c6"
+  },
+  {
+    "path": "crypto-hw/evidence/results/otbn-full-generic.log",
+    "sha256": "748a618457b9c2ad9b5bf299f20a391af80af9a538b9a6d2ee1f9df2ab0dab14"
+  },
+  {
+    "path": "crypto-hw/evidence/results/otbn-full-macros.log",
+    "sha256": "8d3d0754a340bc48f9d516d445d365ac29804b0b2fe6dc9fd23aad0f46ee12ef"
+  },
+  {
     "path": "crypto-hw/evidence/results/otbn-gf180.log",
     "sha256": "83fe2347993c6be242dff2da3677a7e7c4ead20d908f939dc75b7005a6ef6ab7"
   },
@@ -116,12 +188,20 @@
     "sha256": "b180f6a338f46a7faa9a6f14ed58186af5cbb908c0b1030fdb7687e0e4423add"
   },
   {
+    "path": "crypto-hw/evidence/results/p256-half.json",
+    "sha256": "aa30966a6c184abff3ba74045aad2f8c94ff6950697d72c32e8836c6414a9bb8"
+  },
+  {
     "path": "crypto-hw/evidence/results/p256-imem8.json",
     "sha256": "93e0088171ed0698fa81d3ae0f664599df4ec2a0e8d822806c44b8a1485d6742"
   },
   {
     "path": "crypto-hw/evidence/results/sha256-rtl-kat.log",
     "sha256": "e085c6c5c899702f6c8e7651c5f66e9dc9200744bfea457df51b38d4ecb3324f"
+  },
+  {
+    "path": "crypto-hw/evidence/results/verilator-build.json",
+    "sha256": "7577ec47715215978e15bcbfd12b9187881ec0bd9ca263b690a5b53804171f5e"
   },
   {
     "path": "crypto-hw/evidence/rtl-license-inventory.json",
@@ -197,11 +277,15 @@
   },
   {
     "path": "crypto-hw/full_p256.py",
-    "sha256": "442bfdc5af03162661e922f5cdabff7fa4c105506492759ac028c41ce8afffd8"
+    "sha256": "096487e1c5aaf2a4413cc211ee564e32f87bca0d13b2699ff7bf8d148783202d"
   },
   {
     "path": "crypto-hw/hmac-measure.core",
     "sha256": "4de1293641dc14e32a31736276a8139caa47926eefb56341c740f416c55f0675"
+  },
+  {
+    "path": "crypto-hw/hmac_top_kat.py",
+    "sha256": "5600a9fd4c410ae81978a9d0da52a3e8d90233914770d92d5074d7508090ca01"
   },
   {
     "path": "crypto-hw/independent_check.py",
@@ -212,12 +296,24 @@
     "sha256": "99aa582ab1ad54a15dccfb5e281b5cbc9f1f05a22fb773e89d1a43e953823540"
   },
   {
+    "path": "crypto-hw/otbn_full_rtl.py",
+    "sha256": "ec722a21af69ff9a8f27160d7f140951b76b2df8a1e419c9f8a20871858b2687"
+  },
+  {
     "path": "crypto-hw/requirements.txt",
     "sha256": "63b98130b22e6907b4eba246d4c0b46faa03ae4463a77266f34a23bd11e8a749"
   },
   {
+    "path": "crypto-hw/rtl/hmac_top_kat_tb.sv",
+    "sha256": "b7548b19b10bbcb4645dfc4f6de171317181f60c4c169c7c947e8e35f422cd1d"
+  },
+  {
     "path": "crypto-hw/rtl/macro_tb.sv",
-    "sha256": "d1841d47b5b2e58d270ca07849c54664edd8099a7d367e5cf904d9dbf91ebaaf"
+    "sha256": "05c1121d69ff8a8fab7f9bee32a4d69b6b461f18017597d71ffb14754caa6b6d"
+  },
+  {
+    "path": "crypto-hw/rtl/otbn_full_tb.sv",
+    "sha256": "38c736a0825384204c73f29a1e3c80c0622ffdeab72cb7fc2405869573145b14"
   },
   {
     "path": "crypto-hw/rtl/prelude.sv",
@@ -225,7 +321,11 @@
   },
   {
     "path": "crypto-hw/rtl/prim_ram_1p.sv",
-    "sha256": "7e62f321138d62dda6c62406715c3a081113ee78391e47f3ef7f78b7bb4820b7"
+    "sha256": "b613bc8cf86e346ce1ca174984bc5710af59ce2f697dab401eb7df801aa149b8"
+  },
+  {
+    "path": "crypto-hw/rtl/prim_ram_1p_model_hold.sv",
+    "sha256": "80d8fac8c15ffe2cdc47c0b4bb67e3e68803cb11fe90f0bb88ce20b48d806ce1"
   },
   {
     "path": "crypto-hw/rtl/sha_kat_tb.sv",
@@ -233,11 +333,11 @@
   },
   {
     "path": "crypto-hw/rtl_tests.py",
-    "sha256": "05446ca9703ce8eadcd508c3e6d1e866df9fcad81fee3f8656c6253020167678"
+    "sha256": "acd83b9ad7bf18f5780cc7cb46fcb31429907d75bd48443c271a3cd33fb320b7"
   },
   {
     "path": "crypto-hw/sta.py",
-    "sha256": "7abc86d18f888ab3390f246302e5270d9f174c7d8ed5db6e9ab5140808de38f4"
+    "sha256": "a0c3ce16b6bcda525b44b8980a1c10568c8f35630c1023dd4db0c98cd92b1e67"
   },
   {
     "path": "crypto-hw/vectors.py",
@@ -245,6 +345,6 @@
   },
   {
     "path": "docs/opentitan-crypto-assessment.md",
-    "sha256": "f3adeda424fb46676c351da7378dcb54cad3a1461256abd2f5e3c6a4439b9573"
+    "sha256": "4d93e7192b165537d7553269866f3b5ad4dd4c6b2ebd063a0ee217321b017d5a"
   }
 ]

@@ -8,20 +8,29 @@ module prim_ram_1p import prim_ram_1p_pkg::*; #(
  input logic [Width-1:0] wdata_i,wmask_i,
  output logic [Width-1:0] rdata_o,
  input ram_1p_cfg_req_t cfg_i, output ram_1p_cfg_rsp_t cfg_o);
- localparam int Banks=(Depth+1023)/1024, Lanes=(Width+7)/8;
+ localparam int MacroDepth=(Depth<=512)?512:1024;
+ localparam int MacroAw=$clog2(MacroDepth);
+ localparam int Banks=(Depth+MacroDepth-1)/MacroDepth, Lanes=(Width+7)/8;
  localparam int Bw=(Banks>1)?$clog2(Banks):1;
  logic [Bw-1:0] read_bank;
  logic [Banks-1:0][Lanes*8-1:0] q;
  wire [Lanes*8-1:0] wd={{(Lanes*8-Width){1'b0}},wdata_i};
  wire [Lanes*8-1:0] wm={{(Lanes*8-Width){1'b0}},wmask_i};
  wire [31:0] addr_ext=32'(addr_i);
- always_ff @(posedge clk_i) if(req_i && !write_i) read_bank <= Bw'(addr_ext >> 10);
+ always_ff @(posedge clk_i) if(req_i && !write_i) read_bank <= Bw'(addr_ext >> MacroAw);
  for(genvar bank=0;bank<Banks;bank++) begin:g_bank
   for(genvar lane=0;lane<Lanes;lane++) begin:g_lane
+   if(MacroDepth==512) begin:g_512
+   gf180mcu_ocd_ip_sram__sram512x8m8wm1 u_macro(
+    .CLK(clk_i),.CEN(!(req_i && ((addr_ext >> MacroAw)==bank))),
+    .GWEN(!write_i),.WEN(~wm[lane*8+:8]),.A(addr_ext[8:0]),
+    .D(wd[lane*8+:8]),.Q(q[bank][lane*8+:8]));
+   end else begin:g_1024
    gf180mcu_ocd_ip_sram__sram1024x8m8wm1 u_macro(
-    .CLK(clk_i),.CEN(!(req_i && ((addr_ext >> 10)==bank))),
+    .CLK(clk_i),.CEN(!(req_i && ((addr_ext >> MacroAw)==bank))),
     .GWEN(!write_i),.WEN(~wm[lane*8+:8]),.A(addr_ext[9:0]),
     .D(wd[lane*8+:8]),.Q(q[bank][lane*8+:8]));
+   end
   end
  end
  assign rdata_o=q[read_bank][Width-1:0];
