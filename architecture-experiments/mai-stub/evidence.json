@@ -1,0 +1,38 @@
+{
+  "memory_configuration": {
+    "imem_bytes": 8192,
+    "physical_dmem_bytes": 32768,
+    "macro_1024x8_count": 49
+  },
+  "half_core_mm2": 5.020056,
+  "dmem16_plus_stub_synthesized": false,
+  "verified_snapshot_hash_count": 326,
+  "runs": {
+    "baseline": {
+      "raw_log_sha256": "568b750992beaaa47681302c24395441ccd0a243b4711d2fd4c32d6e4a8f82e2",
+      "map_script_sha256": "a27f08536a3287b0dfaddd9195c0d4ef43a981e7fc5412ee8f62f07a39ea3225",
+      "timing_log_sha256": "f2c01c0eb3af05ca78b15017c742bcc2647a0bb0fbdfcf586867300d68d40b02",
+      "timing_script_sha256": "328c11c98c08a7db38190f983a7280760b4e575be28aff7f21426eaae12eb644",
+      "synthesis_final_excerpt": "6. Printing statistics.\n\n=== otbn ===\n\n        +----------Local Count, excluding submodules.\n        |        +-Local Area, excluding submodules.\n        |        | \n   371214        - wires\n   680886        - wire bits\n    22026        - public wires\n   331247        - public wire bits\n       31        - ports\n     3871        - port bits\n   154450 4.27E+06 cells\n     2486 4.37E+04   gf180mcu_fd_sc_mcu7t5v0__and2_1\n      690 1.51E+04   gf180mcu_fd_sc_mcu7t5v0__and3_1\n      462 1.12E+04   gf180mcu_fd_sc_mcu7t5v0__and4_1\n      911    2E+04   gf180mcu_fd_sc_mcu7t5v0__aoi211_1\n     6525 1.15E+05   gf180mcu_fd_sc_mcu7t5v0__aoi21_1\n     1605 3.88E+04   gf180mcu_fd_sc_mcu7t5v0__aoi221_1\n     5975 1.84E+05   gf180mcu_fd_sc_mcu7t5v0__aoi222_1\n    10799 2.13E+05   gf180mcu_fd_sc_mcu7t5v0__aoi22_1\n     5699    5E+04   gf180mcu_fd_sc_mcu7t5v0__clkinv_1\n    16210 1.03E+06   gf180mcu_fd_sc_mcu7t5v0__dffq_1\n     4669 3.48E+05   gf180mcu_fd_sc_mcu7t5v0__dffrnq_1\n      644 5.09E+04   gf180mcu_fd_sc_mcu7t5v0__dffsnq_1\n    19058 5.44E+05   gf180mcu_fd_sc_mcu7t5v0__mux2_1\n      569    4E+04   gf180mcu_fd_sc_mcu7t5v0__mux4_1\n    23423 2.57E+05   gf180mcu_fd_sc_mcu7t5v0__nand2_1\n     3590 5.52E+04   gf180mcu_fd_sc_mcu7t5v0__nand3_1\n     1321 2.61E+04   gf180mcu_fd_sc_mcu7t5v0__nand4_1\n     9041 1.19E+05   gf180mcu_fd_sc_mcu7t5v0__nor2_1\n     1109 1.95E+04   gf180mcu_fd_sc_mcu7t5v0__nor3_1\n      465 1.02E+04   gf180mcu_fd_sc_mcu7t5v0__nor4_1\n     2259 4.96E+04   gf180mcu_fd_sc_mcu7t5v0__oai211_1\n     9626 1.69E+05   gf180mcu_fd_sc_mcu7t5v0__oai21_1\n      717 1.89E+04   gf180mcu_fd_sc_mcu7t5v0__oai221_1\n      113 3.72E+03   gf180mcu_fd_sc_mcu7t5v0__oai222_1\n     1678 3.68E+04   gf180mcu_fd_sc_mcu7t5v0__oai22_1\n      429 1.04E+04   gf180mcu_fd_sc_mcu7t5v0__oai31_1\n      330 8.69E+03   gf180mcu_fd_sc_mcu7t5v0__oai32_1\n       16  526.848   gf180mcu_fd_sc_mcu7t5v0__oai33_1\n     2115 3.71E+04   gf180mcu_fd_sc_mcu7t5v0__or2_1\n      398 8.74E+03   gf180mcu_fd_sc_mcu7t5v0__or3_1\n      132 3.48E+03   gf180mcu_fd_sc_mcu7t5v0__or4_1\n     3514    1E+05   gf180mcu_fd_sc_mcu7t5v0__xnor2_1\n     1574 8.29E+04   gf180mcu_fd_sc_mcu7t5v0__xnor3_1\n    11280 2.97E+05   gf180mcu_fd_sc_mcu7t5v0__xor2_1\n     4969 2.51E+05   gf180mcu_fd_sc_mcu7t5v0__xor3_1\n       49        -   gf180mcu_ocd_ip_sram__sram1024x8m8wm1\n\n   Area for cell type \\gf180mcu_ocd_ip_sram__sram1024x8m8wm1 is unknown!\n\n   Chip area for module '\\otbn': 4270851.603199\n     of which used for sequential elements: 1431314.304000 (33.51%)\n\n7. Executing Verilog backend.\n\n7.1. Executing BMUXMAP pass.\n\n7.2. Executing DEMUXMAP pass.\nDumping module `\\otbn'.\n\nEnd of script. Logfile hash: 352dda3133, time: 1422.56s, user: 124.82s, system: 8.93s, MEM: 728.09 MB peak\nYosys 0.69 (git sha1 9f75ca1f9834a39a863915b5dae0c7b1e33533bc, Release, Clang /nix/store/l32bv33wqwkj2l1y8dp5x6h9r3q9im77-clang-wrapper-21.1.8/bin/clang++ 21.1.8)\nTime spent: 89% 2x abc (1134 sec), 3% 48x opt_clean (42 sec), ...\n",
+      "timing_summary": [
+        "core period_min = 312.46 fmax = 3.20",
+        "edn period_min = 1.71 fmax = 585.85",
+        "otp period_min = 1.71 fmax = 585.85"
+      ]
+    },
+    "stub": {
+      "raw_log_sha256": "452685e48a78bb8c1da56f046e449d4dfb559be0a4da727faa7d4d3a911e3604",
+      "map_script_sha256": "eb95185aacedea53b10128a9475c1cee16cf392a4720f6d86b7b131c099cbd34",
+      "timing_log_sha256": "5d420acab81b39466d72636bb6c99ed5c6e8622bbfe9f0f65ff9d0ca8e31be72",
+      "timing_script_sha256": "e4d9bae65f35fa2db91ef01cf95d4ce8caace86f581106e104d506e33f74bffe",
+      "synthesis_final_excerpt": "6. Printing statistics.\n\n=== otbn ===\n\n        +----------Local Count, excluding submodules.\n        |        +-Local Area, excluding submodules.\n        |        | \n   323807        - wires\n   620577        - wire bits\n     9795        - public wires\n   306114        - public wire bits\n       31        - ports\n     3871        - port bits\n   137057 3.68E+06 cells\n     2409 4.23E+04   gf180mcu_fd_sc_mcu7t5v0__and2_1\n      696 1.53E+04   gf180mcu_fd_sc_mcu7t5v0__and3_1\n      417 1.01E+04   gf180mcu_fd_sc_mcu7t5v0__and4_1\n     1018 2.23E+04   gf180mcu_fd_sc_mcu7t5v0__aoi211_1\n     5739 1.01E+05   gf180mcu_fd_sc_mcu7t5v0__aoi21_1\n     1684 4.07E+04   gf180mcu_fd_sc_mcu7t5v0__aoi221_1\n     5206  1.6E+05   gf180mcu_fd_sc_mcu7t5v0__aoi222_1\n     9097  1.8E+05   gf180mcu_fd_sc_mcu7t5v0__aoi22_1\n     5649 4.96E+04   gf180mcu_fd_sc_mcu7t5v0__clkinv_1\n    14005 8.92E+05   gf180mcu_fd_sc_mcu7t5v0__dffq_1\n     2612 1.95E+05   gf180mcu_fd_sc_mcu7t5v0__dffrnq_1\n      623 4.92E+04   gf180mcu_fd_sc_mcu7t5v0__dffsnq_1\n    15082  4.3E+05   gf180mcu_fd_sc_mcu7t5v0__mux2_1\n      663 4.66E+04   gf180mcu_fd_sc_mcu7t5v0__mux4_1\n    20891 2.29E+05   gf180mcu_fd_sc_mcu7t5v0__nand2_1\n     3633 5.58E+04   gf180mcu_fd_sc_mcu7t5v0__nand3_1\n     1298 2.56E+04   gf180mcu_fd_sc_mcu7t5v0__nand4_1\n     8781 1.16E+05   gf180mcu_fd_sc_mcu7t5v0__nor2_1\n     1021 1.79E+04   gf180mcu_fd_sc_mcu7t5v0__nor3_1\n      469 1.03E+04   gf180mcu_fd_sc_mcu7t5v0__nor4_1\n     1272 2.79E+04   gf180mcu_fd_sc_mcu7t5v0__oai211_1\n     8959 1.57E+05   gf180mcu_fd_sc_mcu7t5v0__oai21_1\n      554 1.46E+04   gf180mcu_fd_sc_mcu7t5v0__oai221_1\n      132 4.35E+03   gf180mcu_fd_sc_mcu7t5v0__oai222_1\n     1932 4.24E+04   gf180mcu_fd_sc_mcu7t5v0__oai22_1\n      471 1.14E+04   gf180mcu_fd_sc_mcu7t5v0__oai31_1\n      324 8.53E+03   gf180mcu_fd_sc_mcu7t5v0__oai32_1\n       12  395.136   gf180mcu_fd_sc_mcu7t5v0__oai33_1\n     1592  2.8E+04   gf180mcu_fd_sc_mcu7t5v0__or2_1\n      320  7024.64   gf180mcu_fd_sc_mcu7t5v0__or3_1\n      158 4.16E+03   gf180mcu_fd_sc_mcu7t5v0__or4_1\n     3453 9.85E+04   gf180mcu_fd_sc_mcu7t5v0__xnor2_1\n     1204 6.34E+04   gf180mcu_fd_sc_mcu7t5v0__xnor3_1\n    10859 2.86E+05   gf180mcu_fd_sc_mcu7t5v0__xor2_1\n     4773 2.41E+05   gf180mcu_fd_sc_mcu7t5v0__xor3_1\n       49        -   gf180mcu_ocd_ip_sram__sram1024x8m8wm1\n\n   Area for cell type \\gf180mcu_ocd_ip_sram__sram1024x8m8wm1 is unknown!\n\n   Chip area for module '\\otbn': 3683229.491200\n     of which used for sequential elements: 1135754.771200 (30.84%)\n\n7. Executing Verilog backend.\n\n7.1. Executing BMUXMAP pass.\n\n7.2. Executing DEMUXMAP pass.\nDumping module `\\otbn'.\n\nWarnings: 1 unique messages, 1 total\nEnd of script. Logfile hash: 2029da2d4a, time: 1361.31s, user: 99.52s, system: 7.02s, MEM: 681.92 MB peak\nYosys 0.69 (git sha1 9f75ca1f9834a39a863915b5dae0c7b1e33533bc, Release, Clang /nix/store/l32bv33wqwkj2l1y8dp5x6h9r3q9im77-clang-wrapper-21.1.8/bin/clang++ 21.1.8)\nTime spent: 91% 2x abc (1089 sec), 2% 81x opt_expr (32 sec), ...\n",
+      "timing_summary": [
+        "core period_min = 308.43 fmax = 3.24",
+        "edn period_min = 1.71 fmax = 585.85",
+        "otp period_min = 1.71 fmax = 585.85"
+      ]
+    }
+  },
+  "p256_elf_sha256": "50ea881c3196baa7d6a5c29a2c96b1882dcffeac21734a568f7c3014279910f5",
+  "p256_raw_log_sha256": "383c8045d1abe3429de9aee28f4babbfa0e02c7d5b8f46b679b1735313bdc556"
+}

@@ -1,0 +1,28 @@
+{
+  "baseline": {
+    "cell_area_um2": 4270851.603199,
+    "macro_count": 49,
+    "macro_area_mm2": 7.615264096999999,
+    "cell_area_mm2": 4.270851603199,
+    "otbn_raw_mm2": 11.886115700199,
+    "soc_lower_bound_mm2": 13.673089700199,
+    "excess_over_half_core_mm2": 8.653033700199,
+    "diagnostic_core_min_period_ns": 312.46,
+    "diagnostic_core_fmax_mhz": 3.2
+  },
+  "stub": {
+    "cell_area_um2": 3683229.4912,
+    "macro_count": 49,
+    "macro_area_mm2": 7.615264096999999,
+    "cell_area_mm2": 3.6832294912,
+    "otbn_raw_mm2": 11.2984935882,
+    "soc_lower_bound_mm2": 13.0854675882,
+    "excess_over_half_core_mm2": 8.0654115882,
+    "diagnostic_core_min_period_ns": 308.43,
+    "diagnostic_core_fmax_mhz": 3.24
+  },
+  "cell_saving_mm2": 0.5876221119989995,
+  "cell_saving_percent": 13.758897910638066,
+  "historical_baseline_cell_mm2": 4.268281024,
+  "half_core_mm2": 5.020056
+}

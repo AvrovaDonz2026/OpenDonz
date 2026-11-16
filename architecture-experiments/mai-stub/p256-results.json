@@ -1,0 +1,152 @@
+{
+  "complete": true,
+  "sections": {
+    ".text": {
+      "address": 0,
+      "size": 6260
+    },
+    ".data": {
+      "address": 0,
+      "size": 352
+    },
+    ".bss": {
+      "address": 352,
+      "size": 1760
+    },
+    ".scratchpad": {
+      "address": 16384,
+      "size": 256
+    }
+  },
+  "results": [
+    {
+      "test": "base_mult",
+      "cycles": 595790,
+      "err_bits": 0,
+      "source": "ISA model; synthetic entropy; initial wipe bypassed by upstream standalone harness"
+    },
+    {
+      "test": "sign",
+      "cycles": 630738,
+      "err_bits": 0,
+      "source": "ISA model; synthetic entropy; initial wipe bypassed by upstream standalone harness"
+    },
+    {
+      "test": "verify",
+      "cycles": 418579,
+      "err_bits": 0,
+      "source": "ISA model; synthetic entropy; initial wipe bypassed by upstream standalone harness"
+    },
+    {
+      "test": "verify_changed_digest",
+      "cycles": 362442,
+      "err_bits": 0,
+      "source": "ISA model; synthetic entropy; initial wipe bypassed by upstream standalone harness"
+    },
+    {
+      "test": "invalid_mode",
+      "cycles": 323,
+      "err_bits": 8,
+      "source": "ISA model; synthetic entropy; initial wipe bypassed by upstream standalone harness"
+    },
+    {
+      "test": "keygen",
+      "cycles": 595969,
+      "err_bits": 0,
+      "source": "ISA model; synthetic entropy; initial wipe bypassed by upstream standalone harness"
+    },
+    {
+      "test": "sideload_keygen",
+      "cycles": 595846,
+      "err_bits": 0,
+      "source": "ISA model; synthetic entropy; initial wipe bypassed by upstream standalone harness"
+    },
+    {
+      "test": "sideload_sign",
+      "cycles": 630803,
+      "err_bits": 0,
+      "source": "ISA model; synthetic entropy; initial wipe bypassed by upstream standalone harness"
+    },
+    {
+      "test": "sideload_ecdh",
+      "cycles": 611127,
+      "err_bits": 0,
+      "source": "ISA model; synthetic entropy; initial wipe bypassed by upstream standalone harness"
+    },
+    {
+      "test": "ecdh",
+      "cycles": 611060,
+      "err_bits": 0,
+      "source": "ISA model; synthetic entropy; initial wipe bypassed by upstream standalone harness"
+    },
+    {
+      "test": "point_on_curve",
+      "cycles": 484,
+      "err_bits": 0,
+      "source": "ISA model; synthetic entropy; initial wipe bypassed by upstream standalone harness"
+    },
+    {
+      "test": "arith_share",
+      "cycles": 399,
+      "err_bits": 0,
+      "source": "ISA model; synthetic entropy; initial wipe bypassed by upstream standalone harness"
+    },
+    {
+      "test": "sign_config_k",
+      "cycles": 630583,
+      "err_bits": 0,
+      "source": "ISA model; synthetic entropy; initial wipe bypassed by upstream standalone harness"
+    }
+  ],
+  "instruction_audit": {
+    "elf_sha256": "50ea881c3196baa7d6a5c29a2c96b1882dcffeac21734a568f7c3014279910f5",
+    "text_bytes": 6260,
+    "instruction_count": 1565,
+    "mnemonics": {
+      "lui": 102,
+      "addi": 209,
+      "lw": 1,
+      "beq": 20,
+      "jal": 176,
+      "csrrw": 13,
+      "bn.wsrr": 70,
+      "bn.lid": 78,
+      "bn.sid": 34,
+      "jalr": 30,
+      "ecall": 10,
+      "sw": 4,
+      "bn.xor": 71,
+      "bn.rshi": 60,
+      "andi": 24,
+      "xori": 1,
+      "bn.mulqacc": 68,
+      "bn.mulqacc.so": 21,
+      "bn.add": 26,
+      "bn.addc": 11,
+      "bn.sub": 34,
+      "bn.subb": 14,
+      "bn.sel": 38,
+      "bn.addm": 47,
+      "bn.mulqacc.wo": 6,
+      "bn.subm": 26,
+      "bn.wsrw": 6,
+      "bn.mov": 246,
+      "loopi": 14,
+      "bn.subi": 1,
+      "bn.addi": 13,
+      "csrrs": 21,
+      "bn.or": 12,
+      "bn.cmp": 24,
+      "bne": 10,
+      "srli": 1,
+      "and": 6,
+      "xor": 3,
+      "sub": 1,
+      "bn.and": 11,
+      "srl": 1,
+      "add": 1
+    },
+    "mai_accesses": 0,
+    "method": "Decode every linked .text word with official OTBN decoder; reject MAI CSR/WSR addresses"
+  }
+}
